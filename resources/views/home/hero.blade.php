@@ -1,0 +1,91 @@
+{{-- Home page: Hero section (included from pages/home.blade.php) --}}
+@php
+    $slides = [
+        ['image' => 'images/home/hero-slide-popular.webp', 'alt' => 'Popular courses at European IT'],
+        ['image' => 'images/home/hero-slide-1.webp',       'alt' => 'Students at European IT Institute'],
+        ['image' => 'images/home/hero-slide-2.webp',       'alt' => 'European IT Institute classroom'],
+    ];
+
+    // count = number the counter animates to, suffix = text after it
+    $stats = [
+        ['icon' => 'bi-journal-bookmark-fill', 'count' => 50, 'suffix' => '+',  'label' => 'Courses'],
+        ['icon' => 'bi-mortarboard-fill',      'count' => 80, 'suffix' => 'K+', 'label' => 'Students'],
+        ['icon' => 'bi-patch-check-fill',      'count' => 80, 'suffix' => '%',  'label' => 'Success Ratio'],
+    ];
+@endphp
+
+<section class="bg-white bg-cover bg-center bg-no-repeat px-5"
+         style="background-image: url('{{ asset('images/home/hero-bg.webp') }}')">
+    <div class="max-w-[1330px] mx-auto pt-10 pb-12 lg:pt-[60px] lg:pb-[74px]
+                grid gap-10 lg:grid-cols-2 lg:gap-x-20 lg:gap-y-[74px]">
+
+        {{-- Row 1, left: text --}}
+        <div class="self-center order-2 lg:order-1">
+            <p class="flex items-center gap-[5px] font-heading text-[22px] leading-[22px] font-bold text-heading">
+                <i class="bi bi-arrow-up-right-circle-fill text-[22px] text-primary"></i> Lead the Future
+            </p>
+
+            <h1 class="mt-[17px] font-heading text-[32px] leading-10 lg:text-[44px] lg:leading-[52px] font-extrabold text-heading">
+                From Learning <span class="text-[#00ADEE]">To Earning</span><br class="hidden lg:block">
+                Start Your IT Journey Today
+            </h1>
+
+            <p class="mt-[30px] max-w-[590px] text-base leading-6 text-black">
+                Unlock your potential with hands-on IT training, expert mentorship, and real-world projects.
+                Gain the skills, build your portfolio, and step into a high-demand career with confidence!
+            </p>
+
+            <div class="mt-[35px] flex flex-wrap gap-4 lg:gap-7">
+                <a href="{{ url('/european-it-courses') }}" class="hero-btn">Our Courses</a>
+                <a href="{{ url('/discount') }}" class="hero-btn">Click for Discount</a>
+            </div>
+        </div>
+
+        {{-- Row 1, right: image slider (JavaScript in resources/js/app.js) --}}
+        <div class="relative self-center order-1 lg:order-2" data-slider>
+            <div class="overflow-hidden rounded-[20px] border-[6px] border-white shadow-[0_0_3px_rgba(0,0,0,0.25)]">
+                <div class="flex transition-transform duration-500" data-slider-track>
+                    @foreach ($slides as $slide)
+                        <img src="{{ asset($slide['image']) }}" alt="{{ $slide['alt'] }}"
+                             class="w-full shrink-0 aspect-[613/357] object-cover">
+                    @endforeach
+                </div>
+            </div>
+
+            <button data-slider-prev aria-label="Previous slide" class="slider-arrow -left-5">
+                <i class="bi bi-arrow-left"></i>
+            </button>
+            <button data-slider-next aria-label="Next slide" class="slider-arrow -right-5">
+                <i class="bi bi-arrow-right"></i>
+            </button>
+        </div>
+
+        {{-- Row 2 (spans both columns): stat boxes on the left, certificates on the right --}}
+        <div class="order-3 lg:col-span-2 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10">
+
+        {{-- 3 stat boxes (numbers count up, JavaScript in app.js) --}}
+        <div class="grid gap-[15px] sm:grid-cols-3 lg:grid-cols-[repeat(3,246px)]">
+            @foreach ($stats as $stat)
+                <div class="flex items-center gap-[25px] rounded-[10px] bg-primary-hover px-5 py-[11px] min-h-[97px]">
+                    <span class="flex h-[35px] w-[35px] shrink-0 items-center justify-center rounded-md bg-white text-xl text-[#00ADEE]">
+                        <i class="bi {{ $stat['icon'] }}"></i>
+                    </span>
+                    <div class="text-[#FFFF00]">
+                        <p class="font-heading text-[44px] leading-[45px] font-bold">
+                            <span data-count="{{ $stat['count'] }}">0</span>{{ $stat['suffix'] }}
+                        </p>
+                        <p class="mt-2 font-roboto-slab text-[22px] leading-[22px]">{{ $stat['label'] }}</p>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+
+        {{-- Authorized and Certified By --}}
+        <div class="mx-auto lg:mx-0 w-full max-w-[390px] text-center">
+            <h2 class="font-heading text-[22px] leading-[22px] font-bold text-[#3C3636]">Authorized and Certified By</h2>
+            <img src="{{ asset('images/home/certified-by.webp') }}" alt="ISO, BCS and BASIS certified"
+                 class="mt-1.5 w-full">
+        </div>
+        </div>
+    </div>
+</section>

@@ -10,6 +10,7 @@
     --font-bangla: 'Hind Siliguri', ui-sans-serif, system-ui, sans-serif;
     --font-menu: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
     --font-roboto: 'Roboto', ui-sans-serif, system-ui, sans-serif;
+    --font-roboto-slab: 'Roboto Slab', ui-serif, Georgia, serif;
 
     /* ===== Brand colors (europeanit-inst.com theke) ===== */
     --color-primary: #00AEEF;
@@ -29,5 +30,17 @@
     /* Footer contact icons: white circle outline */
     .footer-icon {
         @apply inline-flex h-8 w-8 items-center justify-center rounded-full border border-white text-base;
+    }
+
+    /* Home hero: "Our Courses" / "Click for Discount" pill buttons */
+    .hero-btn {
+        @apply inline-block rounded-[32px] border border-[#00AAFF] bg-[#00ADEE] px-[27px] py-[14px]
+               font-heading text-sm leading-[14px] font-bold uppercase text-white transition hover:bg-primary-hover;
+    }
+
+    /* Round white prev/next buttons on sliders */
+    .slider-arrow {
+        @apply absolute top-1/2 -translate-y-1/2 z-10 flex h-10 w-10 items-center justify-center
+               rounded-full bg-white text-xl text-[#6EC1E4] shadow-[0_0_3px_rgba(0,0,0,0.25)] transition hover:text-primary;
     }
 }
