@@ -1,80 +1,82 @@
 @php
-    // Data of Dropdown menu data (pore eta database theke ashbe)
+    // Dropdown menu er data (pore eta database theke ashbe)
     $successLinks = [
-        ['label' => "Student's Success", 'url' => '/students-success', 'icon' => 'bi-trophy'],
-        ['label' => 'Video Feedback',    'url' => '/video-feedback',   'icon' => 'bi-play-circle'],
+        ['label' => "Student's Success", 'url' => '/students-success'],
+        ['label' => 'Video Feedback',    'url' => '/video-feedback'],
     ];
 
     $mediaLinks = [
-        ['label' => 'Office Gallery',              'url' => '/office-environment',          'icon' => 'bi-images'],
-        ['label' => 'Orientation Programme',       'url' => '/orientation-programme',       'icon' => 'bi-flag'],
-        ['label' => 'MoU Signing Ceremony',        'url' => '/mou-signing-ceremony',        'icon' => 'bi-file-earmark-text'],
-        ['label' => 'Teacher Training',            'url' => '/teachers-training',           'icon' => 'bi-person-workspace'],
-        ['label' => 'Office Event',                'url' => '/event-gallery',               'icon' => 'bi-building'],
-        ['label' => 'Seminar',                     'url' => '/seminar',                     'icon' => 'bi-mic'],
-        ['label' => 'Job Fair',                    'url' => '/job-fair',                    'icon' => 'bi-briefcase'],
-        ['label' => 'Certificate Giving Ceremony', 'url' => '/certificate-giving-ceremony', 'icon' => 'bi-award'],
+        ['label' => 'Office Gallery',              'url' => '/office-environment'],
+        ['label' => 'Orientation Programme',       'url' => '/orientation-programme'],
+        ['label' => 'MoU Signing Ceremony',        'url' => '/mou-signing-ceremony'],
+        ['label' => 'Teacher Training',            'url' => '/teachers-training'],
+        ['label' => 'Office Event',                'url' => '/event-gallery'],
+        ['label' => 'Seminar',                     'url' => '/seminar'],
+        ['label' => 'Job Fair',                    'url' => '/job-fair'],
+        ['label' => 'Certificate Giving Ceremony', 'url' => '/certificate-giving-ceremony'],
+    ];
+
+    $dropdowns = [
+        'Success Stories' => $successLinks,
+        'Media'           => $mediaLinks,
     ];
 @endphp
 
-<nav class="sticky top-0 z-50 bg-white shadow-sm">
-    <div class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
+<nav class="sticky top-0 z-50 bg-white">
+    <div class="max-w-[1386px] mx-auto px-7 h-24 flex items-center justify-between">
 
         {{-- Logo --}}
-        <a href="{{ url('/') }}">
-            <img src="{{ asset('images/logo.webp') }}" alt="European IT Institute" class="w-52">
+        <a href="{{ url('/') }}" class="shrink-0">
+            <img src="{{ asset('images/logo.webp') }}" alt="European IT Institute" class="w-[210px]">
         </a>
 
         {{-- Desktop menu --}}
-        <div class="hidden lg:flex items-center gap-6 font-medium text-heading">
+        <div class="hidden lg:flex items-center h-full text-[15px] font-medium text-black">
 
-            <a href="{{ url('/european-it-courses') }}" class="flex items-center gap-1 hover:text-primary">
-                All Course <i class="bi bi-chevron-down text-xs"></i>
+            <a href="{{ url('/european-it-courses') }}" class="flex items-center gap-1 px-4 hover:text-primary">
+                All Course <i class="bi bi-chevron-down text-[13px]"></i>
             </a>
-            <a href="#" class="flex items-center gap-1 hover:text-primary">
-                Popular Courses <i class="bi bi-chevron-down text-xs"></i>
+            <a href="#" class="flex items-center gap-1 px-4 hover:text-primary">
+                Popular Courses <i class="bi bi-chevron-down text-[13px]"></i>
             </a>
-            <a href="{{ url('/freelancing') }}" class="hover:text-primary">Freelancing</a>
+            <a href="{{ url('/freelancing') }}" class="px-4 hover:text-primary">Freelancing</a>
 
-            {{-- Dropdown: Success Stories --}}
-            <div class="relative group">
-                <button class="flex items-center gap-1 py-7 hover:text-primary">
-                    Success Stories <i class="bi bi-chevron-down text-xs"></i>
-                </button>
-                <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition
-                            absolute left-0 top-full w-60 bg-white rounded-lg shadow-lg py-2">
-                    @foreach ($successLinks as $link)
-                        <a href="{{ url($link['url']) }}" class="flex items-center gap-2 px-4 py-2 hover:bg-light hover:text-primary">
-                            <i class="bi {{ $link['icon'] }}"></i> {{ $link['label'] }}
-                        </a>
-                    @endforeach
+            {{-- Dropdowns: Success Stories, Media --}}
+            @foreach ($dropdowns as $title => $links)
+                <div class="relative group h-full flex items-center">
+                    <button class="flex items-center gap-1 px-4 group-hover:text-[#00ADEE]">
+                        {{ $title }}
+                        <i class="bi bi-chevron-down text-[13px] transition group-hover:rotate-180"></i>
+                    </button>
+
+                    <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition
+                                absolute left-1/2 -translate-x-1/2 top-full w-80
+                                bg-white border-t-[3px] border-primary shadow-[0_11px_20px_rgba(0,0,0,0.05)]
+                                py-[30px] px-[25px]">
+                        <ul class="space-y-2">
+                            @foreach ($links as $link)
+                                <li>
+                                    <a href="{{ url($link['url']) }}"
+                                       class="block border border-[#EDEDED] p-2.5 font-menu text-sm leading-5 text-[#707070]
+                                              hover:border-primary hover:text-primary transition">
+                                        {{ $link['label'] }}
+                                    </a>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            @endforeach
 
-            {{-- Dropdown: Media --}}
-            <div class="relative group">
-                <button class="flex items-center gap-1 py-7 hover:text-primary">
-                    Media <i class="bi bi-chevron-down text-xs"></i>
-                </button>
-                <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition
-                            absolute left-0 top-full w-72 bg-white rounded-lg shadow-lg py-2">
-                    @foreach ($mediaLinks as $link)
-                        <a href="{{ url($link['url']) }}" class="flex items-center gap-2 px-4 py-2 hover:bg-light hover:text-primary">
-                            <i class="bi {{ $link['icon'] }}"></i> {{ $link['label'] }}
-                        </a>
-                    @endforeach
-                </div>
-            </div>
-
-            <a href="{{ url('/about-european-it-institute') }}" class="hover:text-primary">About</a>
-            <a href="{{ url('/career') }}" class="hover:text-primary">Career</a>
-            <a href="{{ url('/contact-us') }}" class="hover:text-primary">Contact</a>
+            <a href="{{ url('/about-european-it-institute') }}" class="px-4 hover:text-primary">About</a>
+            <a href="{{ url('/career') }}" class="px-4 hover:text-primary">Career</a>
+            <a href="{{ url('/contact-us') }}" class="px-4 hover:text-primary">Contact</a>
         </div>
 
         {{-- Admission button + mobile menu button --}}
         <div class="flex items-center gap-3">
             <a href="{{ url('/admission-now') }}"
-               class="rounded-full bg-primary-btn px-6 py-3 text-xs font-bold uppercase text-white hover:bg-primary-hover transition">
+               class="rounded-full border border-[#00AAFF] bg-primary-btn px-5 py-3.5 text-[13px] leading-none font-bold uppercase text-white hover:bg-primary-hover transition">
                 Admission Now
             </a>
             <button class="lg:hidden text-3xl text-heading" aria-label="Open menu">
