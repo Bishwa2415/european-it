@@ -95,7 +95,7 @@
                     </h3>
                 </div>
                 <ul class="mt-10 space-y-[31px] pl-8">
-                    @foreach ($footer['popular_courses'] as $link)
+                    @foreach ($footerCourses as $link)
                         <li class="leading-4"><a href="{{ url($link['url']) }}" class="pl-[5px] hover:text-primary">{{ $link['label'] }}</a></li>
                     @endforeach
                 </ul>

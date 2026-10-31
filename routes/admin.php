@@ -25,7 +25,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
     // Only for logged-in admins
     Route::middleware(['auth', 'admin'])->group(function () {
         Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
-        Route::get('courses', [CourseController::class, 'index'])->name('courses.index');
+        // One line = 7 routes: index, create, store, show, edit, update, destroy (we don't need show)
+        Route::resource('courses', CourseController::class)->except('show');
 
         Route::post('logout', [AuthController::class, 'destroy'])->name('logout');
     });

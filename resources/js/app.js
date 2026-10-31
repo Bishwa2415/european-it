@@ -1,5 +1,6 @@
 // ===== Sliders / carousels (Swiper) — code lives in resources/js/slider.js =====
 import './slider';
+import './team';
 
 // ===== Mobile menu: open / close =====
 const mobileMenu = document.getElementById('mobile-menu');

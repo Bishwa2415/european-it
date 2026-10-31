@@ -20,7 +20,7 @@
                             absolute left-7 right-7 max-w-[1310px] top-full
                             bg-white border-t-[3px] border-primary shadow-[0_11px_20px_rgba(0,0,0,0.05)]
                             py-[30px] px-[15px] grid grid-cols-4">
-                    @foreach (config('menu.courses') as $column)
+                    @foreach ($courseMenu as $column)
                         <div class="px-2.5 space-y-5">
                             @foreach ($column as $group => $links)
                                 <div>

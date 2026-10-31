@@ -56,14 +56,6 @@ return [
                 ['label' => 'Certificate Verify', 'url' => '#'],
             ],
         ],
-        'popular_courses' => [
-            ['label' => 'Web Development',                'url' => '/course/web-design-development-with-wordpress'],
-            ['label' => 'Graphic Design',                 'url' => '/course/income-and-ai-focus-graphic-design'],
-            ['label' => 'Digital Marketing',              'url' => '/course/ai-and-data-driven-digital-marketing'],
-            ['label' => 'UI/UX Design',                   'url' => '/course/income-and-ai-focus-ui-ux-design'],
-            ['label' => 'Video Editing & Motion Graphics', 'url' => '/course/video-editing-motion-graphics-with-ai-certificate'],
-            ['label' => 'Basic Computer',                 'url' => '/course/basic-computer-with-ai-mastery-course'],
-        ],
         'payments' => [
             ['image' => 'images/footer/bkash.webp',      'alt' => 'bKash',      'text' => '+8801889977951', 'class' => 'w-[115px]'],
             ['image' => 'images/footer/nagad.webp',      'alt' => 'Nagad',      'text' => '+8801889977951', 'class' => 'w-[115px]'],

@@ -5,17 +5,17 @@
     $range = $course->priceRange();   // [lowest, highest] or null
 @endphp
 
-<div {{ $attributes->merge(['class' => 'group flex h-full lg:h-[415px] flex-col rounded-[11px] border border-[#D8D6D6] bg-white px-[11px] pt-3 pb-[34px]']) }}>
+<div {{ $attributes->merge(['class' => 'group flex h-full lg:h-[452px] flex-col rounded-[11px] border border-[#D8D6D6] bg-white px-[11px] pt-[11px] pb-[36px]']) }}>
 
     {{-- Thumbnail --}}
     <a href="{{ $course->url() }}" class="block overflow-hidden rounded-t-[11px]">
-        <img src="{{ asset($course->thumbnail ?? 'images/fsv.webp') }}" alt="{{ $course->title }}" loading="lazy"
-             class="h-[200px] w-full object-cover transition duration-500 group-hover:scale-105">
+        <img src="{{ $course->thumbnailUrl() }}" alt="{{ $course->title }}" loading="lazy"
+             class="h-[239px] w-full object-cover transition duration-500 group-hover:scale-105">
     </a>
 
     <div class="flex flex-1 flex-col px-[5px]">
         {{-- Title --}}
-        <h3 class="mt-[31px] text-base leading-[17px] font-bold text-black">
+        <h3 class="mt-[30px] text-base leading-[17px] font-bold text-black">
             <a href="{{ $course->url() }}" class="hover:text-primary">{{ $course->title }}</a>
         </h3>
 

@@ -93,7 +93,7 @@ class CourseSeeder extends Seeder
     }
 
     /**
-     * Home page "Popular Courses": order, review/student counts and Online/Offline prices
+     * Home page "Popular Courses" + "4th Industrial Courses": order, review/student counts and Online/Offline prices
      * (numbers taken from the live site's course cards).
      */
     private function seedPopularCourses(): void
@@ -111,19 +111,45 @@ class CourseSeeder extends Seeder
             'ai-and-data-driven-digital-marketing'              => [2125, 3534, 4999, 15000],
         ];
 
-        $position = 0;
-        foreach ($popular as $slug => [$reviews, $students, $online, $offline]) {
-            $course = Course::where('slug', $slug)->firstOrFail();
+        // Home page "4th Industrial Courses"
+        $fourthIr = [
+            'iot-internet-of-things'                      => [113, 219, 18000, 26000],
+            'cloudcomputing'                              => [127, 312, 18000, 26000],
+            'blockchain-development'                      => [89, 169, 16000, 26000],
+            'data-analytics-machine-learning-with-python' => [77, 135, 15000, 22500],
+            'cyber-security'                              => [153, 307, 18000, 26000],
+            'python-development'                          => [289, 701, 15000, 22500],
+        ];
 
-            $course->update([
-                'is_popular'    => true,
-                'review_count'  => $reviews,
-                'student_count' => $students,
-                'sort_order'    => $position++,
-            ]);
+        foreach (['is_popular' => $popular, 'is_fourth_ir' => $fourthIr] as $flag => $courses) {
+            $position = 0;
+            foreach ($courses as $slug => [$reviews, $students, $online, $offline]) {
+                $course = Course::where('slug', $slug)->firstOrFail();
 
-            $course->plans()->updateOrCreate(['type' => 'online'], ['regular_price' => $online]);
-            $course->plans()->updateOrCreate(['type' => 'offline'], ['regular_price' => $offline]);
+                $course->update([
+                    $flag           => true,
+                    'review_count'  => $reviews,
+                    'student_count' => $students,
+                    'home_order'    => $position++,
+                ]);
+
+                $course->plans()->updateOrCreate(['type' => 'online'], ['regular_price' => $online]);
+                $course->plans()->updateOrCreate(['type' => 'offline'], ['regular_price' => $offline]);
+            }
+        }
+
+        // Full title on cards, short name in the footer "Popular Courses" list
+        Course::where('slug', 'blockchain-development')->update(['title' => 'Blockchain Development', 'short_title' => 'Blockchain']);
+        $footer = [
+            'web-design-development-with-wordpress'             => 'Web Development',
+            'income-and-ai-focus-graphic-design'                => 'Graphic Design',
+            'ai-and-data-driven-digital-marketing'              => 'Digital Marketing',
+            'income-and-ai-focus-ui-ux-design'                  => 'UI/UX Design',
+            'video-editing-motion-graphics-with-ai-certificate' => 'Video Editing & Motion Graphics',
+            'basic-computer-with-ai-mastery-course'             => 'Basic Computer',
+        ];
+        foreach ($footer as $slug => $shortTitle) {
+            Course::where('slug', $slug)->update(['short_title' => $shortTitle, 'in_footer' => true]);
         }
 
         // WordPress course: full plan details from its detail page (others get filled in the course detail step)

@@ -15,12 +15,13 @@
 // ============================================================
 
 import Swiper from 'swiper';
-import { Navigation, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/pagination';
 
 // Rules every slider must follow: drag, smooth, seamless loop, autoplay
 const defaults = {
-    modules: [Navigation, Autoplay],
+    modules: [Navigation, Pagination, Autoplay],
     loop: true,                  // after the last slide comes the first, without jumping back
     speed: 700,                  // smooth slide animation (ms)
     grabCursor: true,            // hand cursor -> shows it can be dragged with the mouse
@@ -38,12 +39,24 @@ document.querySelectorAll('[data-slider]').forEach((wrapper) => {
     // Per-slider options from the HTML, e.g. data-slider='{"slidesPerView": 3}'
     const custom = wrapper.dataset.slider ? JSON.parse(wrapper.dataset.slider) : {};
 
+    const pagination = wrapper.querySelector('[data-slider-pagination]');
+
     new Swiper(wrapper.querySelector('.swiper'), {
         ...defaults,
         ...custom,
         navigation: {
             prevEl: wrapper.querySelector('[data-slider-prev]'),
             nextEl: wrapper.querySelector('[data-slider-next]'),
+        },
+        // Dots under the slider, only if the HTML has a [data-slider-pagination] element
+        pagination: pagination ? { el: pagination, clickable: true } : false,
+        on: {
+            // Tell other scripts which slide is active now (used by resources/js/team.js)
+            slideChange(swiper) {
+                wrapper.dispatchEvent(new CustomEvent('slider:change', {
+                    detail: { slide: swiper.slides[swiper.activeIndex] },
+                }));
+            },
         },
     });
 });

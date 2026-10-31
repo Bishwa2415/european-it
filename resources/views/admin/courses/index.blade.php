@@ -21,6 +21,10 @@
         @endif
 
         <span class="ml-auto text-sm text-gray-500">{{ $courses->total() }} courses</span>
+        <a href="{{ route('admin.courses.create') }}"
+           class="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white hover:bg-primary-hover">
+            <i class="bi bi-plus-lg"></i> Add course
+        </a>
     </form>
 
     <div class="overflow-x-auto rounded-xl bg-white shadow-sm">
@@ -33,6 +37,7 @@
                     <th class="px-4 py-3">Badge</th>
                     <th class="px-4 py-3 text-center">Popular</th>
                     <th class="px-4 py-3 text-center">Status</th>
+                    <th class="px-4 py-3 text-right">Actions</th>
                 </tr>
             </thead>
             <tbody class="divide-y divide-gray-100">
@@ -41,7 +46,7 @@
                     <tr class="hover:bg-gray-50">
                         <td class="px-4 py-3">
                             <div class="flex items-center gap-3">
-                                <img src="{{ asset($course->thumbnail ?? 'images/fsv.webp') }}" alt="" class="h-10 w-16 shrink-0 rounded object-cover">
+                                <img src="{{ $course->thumbnailUrl() }}" alt="" class="h-10 w-16 shrink-0 rounded object-cover">
                                 <div>
                                     <p class="font-medium">{{ $course->title }}</p>
                                     <p class="text-xs text-gray-400">/course/{{ $course->slug }}</p>
@@ -74,9 +79,25 @@
                                 'bg-gray-100 text-gray-500' => ! $course->is_active,
                             ])>{{ $course->is_active ? 'Active' : 'Hidden' }}</span>
                         </td>
+                        <td class="px-4 py-3">
+                            <div class="flex items-center justify-end gap-1">
+                                <a href="{{ route('admin.courses.edit', $course) }}" title="Edit"
+                                   class="rounded-lg p-2 text-gray-500 hover:bg-primary/10 hover:text-primary">
+                                    <i class="bi bi-pencil-square"></i>
+                                </a>
+                                <form method="POST" action="{{ route('admin.courses.destroy', $course) }}"
+                                      data-confirm="Delete “{{ $course->title }}”? This cannot be undone.">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button title="Delete" class="rounded-lg p-2 text-gray-500 hover:bg-red-50 hover:text-red-600">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </td>
                     </tr>
                 @empty
-                    <tr><td colspan="6" class="px-4 py-10 text-center text-gray-400">No course found.</td></tr>
+                    <tr><td colspan="7" class="px-4 py-10 text-center text-gray-400">No course found.</td></tr>
                 @endforelse
             </tbody>
         </table>

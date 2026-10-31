@@ -12,7 +12,7 @@
     <link rel="icon" href="{{ asset('images/fsv.webp') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
 
-    @vite(['resources/css/app.css'])
+    @vite(['resources/css/app.css', 'resources/js/admin.js'])
 </head>
 <body class="bg-[#F4F6F9] text-heading antialiased">
 

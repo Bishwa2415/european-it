@@ -11,6 +11,7 @@
     --font-menu: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
     --font-roboto: 'Roboto', ui-sans-serif, system-ui, sans-serif;
     --font-roboto-slab: 'Roboto Slab', ui-serif, Georgia, serif;
+    --font-opensans: 'Open Sans', ui-sans-serif, system-ui, sans-serif;
 
     /* ===== Brand colors (europeanit-inst.com theke) ===== */
     --color-primary: #00AEEF;
@@ -54,3 +55,16 @@
                rounded-full bg-white text-xl text-[#6EC1E4] shadow-[0_0_3px_rgba(0,0,0,0.25)] transition hover:text-primary;
     }
 }
+
+/* ===== Home: "Why choose" card text (HTML written in the dashboard) ===== */
+.feature-body p + p { margin-top: 26px; }
+.feature-body ul { list-style: disc; padding-left: 51px; margin-top: 25px; margin-bottom: 26px; }
+
+/* ===== Sliders ===== */
+/* Logo marquee: move at a steady speed instead of speeding up / slowing down */
+.marquee .swiper-wrapper { transition-timing-function: linear !important; }
+/* Dots under sliders in brand blue */
+.swiper-pagination-bullet-active { background: var(--color-primary) !important; }
+/* Team slider: the active photo is a little bigger */
+[data-team-slider] .swiper-slide .team-card { transition: transform .5s; }
+[data-team-slider] .swiper-slide-active .team-card { transform: scale(1.3); }

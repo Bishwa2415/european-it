@@ -26,7 +26,7 @@
                 All Course <i class="bi bi-chevron-down text-xs transition"></i>
             </button>
             <div class="hidden pb-3 space-y-4">
-                @foreach (config('menu.courses') as $column)
+                @foreach ($courseMenu as $column)
                     @foreach ($column as $group => $links)
                         <div>
                             <h2 class="mb-2 px-2.5 font-menu text-sm font-bold uppercase text-steel">{{ $group }}</h2>
