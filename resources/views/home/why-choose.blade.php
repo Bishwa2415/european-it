@@ -1,6 +1,7 @@
 {{-- Home page: "কেন ইউরোপিয়ান আইটিকে বেছে নেবেন?" — cards stack on top of each other while scrolling (position: sticky) --}}
 @if ($features->isNotEmpty())
-<section class="px-5 pt-[42px] pb-20 font-bangla">
+<section class="px-5 pt-[42px] pb-20 font-bangla relative >
+    <div class="bg-blue-grid-pattern z-[-1] absolute inset-0 pointer-events-none"></div>
     <h2 class="text-center text-[30px] lg:text-[44px] leading-[45px] font-bold text-black">কেন ইউরোপিয়ান আইটিকে বেছে নেবেন?</h2>
 
     <div class="mx-auto mt-[65px] max-w-[1153px]">

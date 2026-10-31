@@ -48,6 +48,13 @@
         background-size: 26.5px 25.5px;
         background-position: 12px 11px;
     }
+    .bg-blue-grid-pattern {
+        background-image:
+            linear-gradient(#f2fafe 2px, transparent 2px),
+            linear-gradient(90deg, #f2fafe 2px, transparent 2px);
+        background-size: 26.5px 25.5px;
+        background-position: 12px 11px;
+    }
 
     /* Round white prev/next buttons on sliders */
     .slider-arrow {

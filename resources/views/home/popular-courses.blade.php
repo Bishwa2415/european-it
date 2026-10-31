@@ -6,7 +6,7 @@
             your future with <strong>European IT™</strong> Solutions Bangladesh.
         </x-section-title>
 
-        <div class="mt-[43px] grid gap-5 gap-y-8 lg:gap-y-9 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="mt-[75px] grid gap-5 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
             @foreach ($popularCourses as $course)
                 <x-course-card :course="$course" />
             @endforeach

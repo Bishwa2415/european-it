@@ -5,12 +5,12 @@
     $range = $course->priceRange();   // [lowest, highest] or null
 @endphp
 
-<div {{ $attributes->merge(['class' => 'group flex h-full lg:h-[452px] flex-col rounded-[11px] border border-[#D8D6D6] bg-white px-[11px] pt-[11px] pb-[36px]']) }}>
+<div {{ $attributes->merge(['class' => 'group flex h-full lg:h-[414px] flex-col rounded-[11px] border border-[#D8D6D6] bg-white px-[11px] pt-0 pb-[36px]']) }}>
 
     {{-- Thumbnail --}}
-    <a href="{{ $course->url() }}" class="block overflow-hidden rounded-t-[11px]">
+    <a href="{{ $course->url() }}" class="block overflow-hidden rounded-t-[11px] group-hover:scale-x-105 transition duration-500 mt-[-35px]">
         <img src="{{ $course->thumbnailUrl() }}" alt="{{ $course->title }}" loading="lazy"
-             class="h-[239px] w-full object-cover transition duration-500 group-hover:scale-105">
+             class="h-[239px] w-full object-fill transition duration-500">
     </a>
 
     <div class="flex flex-1 flex-col px-[5px]">
