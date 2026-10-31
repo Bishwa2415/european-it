@@ -11,12 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <link rel="icon" href="{{ asset('images/fsv.webp') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+
     {{-- Tailwind CSS + JS (Vite) --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-white text-body antialiased">
 
-    {{-- Header ekhane ashbe (Part 2) --}}
+    {{-- Header --}}
+    @include('partials.topbar')
+    @include('partials.navbar')
 
     <main>
         @yield('content')
