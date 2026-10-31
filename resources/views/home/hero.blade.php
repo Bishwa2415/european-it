@@ -14,15 +14,31 @@
     ];
 @endphp
 
-<section class="bg-white bg-cover bg-center bg-no-repeat px-5"
+<section class="relative bg-white bg-cover bg-center bg-no-repeat px-5"
          style="background-image: url('{{ asset('images/home/hero-bg.webp') }}')">
-    <div class="max-w-[1330px] mx-auto pt-10 pb-12 lg:pt-[60px] lg:pb-[74px]
+
+    {{-- Soft grid-line pattern on top of the background (class in app.css) --}}
+    <div class="bg-grid-pattern absolute inset-0 pointer-events-none"></div>
+
+    <div class="relative max-w-[1330px] mx-auto pt-10 pb-12 lg:pt-[60px] lg:pb-[74px]
                 grid gap-10 lg:grid-cols-2 lg:gap-x-20 lg:gap-y-[74px]">
 
         {{-- Row 1, left: text --}}
         <div class="self-center order-2 lg:order-1">
             <p class="flex items-center gap-[5px] font-heading text-[22px] leading-[22px] font-bold text-heading">
-                <i class="bi bi-arrow-up-right-circle-fill text-[22px] text-primary"></i> Lead the Future
+                {{-- Gradient circle arrow icon (same SVG as the original site) --}}
+                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+                    <circle cx="12.55" cy="12.55" r="10.84" fill="url(#lead-gradient)" />
+                    <path d="M7.8 17.2L16.98 8.11" stroke="#BFF5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M17.21 15.16L17.24 7.85L9.94 7.82" stroke="#BFF5FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <defs>
+                        <linearGradient id="lead-gradient" x1="5.46" y1="24.23" x2="18.39" y2="4.21" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.02" stop-color="#096FAB" />
+                            <stop offset="1" stop-color="#01ADEE" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                Lead the Future
             </p>
 
             <h1 class="mt-[17px] font-heading text-[32px] leading-10 lg:text-[44px] lg:leading-[52px] font-extrabold text-heading">
@@ -41,13 +57,15 @@
             </div>
         </div>
 
-        {{-- Row 1, right: image slider (JavaScript in resources/js/app.js) --}}
-        <div class="relative self-center order-1 lg:order-2" data-slider>
-            <div class="overflow-hidden rounded-[20px] border-[6px] border-white shadow-[0_0_3px_rgba(0,0,0,0.25)]">
-                <div class="flex transition-transform duration-500" data-slider-track>
+        {{-- Row 1, right: image slider (Swiper, JavaScript in resources/js/slider.js) --}}
+        <div class="relative self-center order-1 lg:order-2" data-slider='{"spaceBetween": 0}'>
+            <div class="swiper rounded-[20px]">
+                <div class="swiper-wrapper">
                     @foreach ($slides as $slide)
-                        <img src="{{ asset($slide['image']) }}" alt="{{ $slide['alt'] }}"
-                             class="w-full shrink-0 aspect-[613/357] object-cover">
+                        <div class="swiper-slide">
+                            <img src="{{ asset($slide['image']) }}" alt="{{ $slide['alt'] }}" draggable="false"
+                                 class="w-full aspect-[625/369] object-cover rounded-[20px] border-[6px] border-white shadow-[0_0_3px_rgba(0,0,0,0.25)]">
+                        </div>
                     @endforeach
                 </div>
             </div>

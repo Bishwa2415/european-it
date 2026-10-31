@@ -2,12 +2,12 @@
 
 {{-- Desktop: vertical "Demo Class" tab on the left, "Get Discount" on the right --}}
 <a href="#" class="hidden lg:block fixed left-0 top-1/2 -translate-y-1/2 z-40
-                   rounded-r-[20px] bg-primary-hover px-2.5 py-[30px] font-heading font-bold uppercase tracking-[1.3px] text-white
+                   rounded-l-[20px] bg-primary-hover px-5 py-[10px] min-h-[195px] text-center font-heading font-bold uppercase tracking-[1.3px] text-white
                    [writing-mode:vertical-rl] rotate-180 hover:bg-primary transition">
     Demo Class
 </a>
 <a href="#" class="hidden lg:block fixed right-0 top-1/2 -translate-y-1/2 z-40
-                   rounded-l-[20px] bg-primary-hover px-2.5 py-[30px] font-heading font-bold uppercase tracking-[1.3px] text-white
+                   rounded-l-[20px] bg-primary-hover px-5 py-[10px] min-h-[195px] text-center font-heading font-bold uppercase tracking-[1.3px] text-white
                    [writing-mode:vertical-rl] hover:bg-primary transition">
     Get Discount
 </a>

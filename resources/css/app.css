@@ -38,6 +38,16 @@
                font-heading text-sm leading-[14px] font-bold uppercase text-white transition hover:bg-primary-hover;
     }
 
+    /* Soft blue grid lines (home hero). Same as the original's BG-Pattern-image:
+       2px lines every ~26px, very light blue */
+    .bg-grid-pattern {
+        background-image:
+            linear-gradient(rgba(0, 160, 221, 0.04) 2px, transparent 2px),
+            linear-gradient(90deg, rgba(0, 160, 221, 0.04) 2px, transparent 2px);
+        background-size: 26.5px 25.5px;
+        background-position: 12px 11px;
+    }
+
     /* Round white prev/next buttons on sliders */
     .slider-arrow {
         @apply absolute top-1/2 -translate-y-1/2 z-10 flex h-10 w-10 items-center justify-center

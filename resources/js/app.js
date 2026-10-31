@@ -1,3 +1,6 @@
+// ===== Sliders / carousels (Swiper) — code lives in resources/js/slider.js =====
+import './slider';
+
 // ===== Mobile menu: open / close =====
 const mobileMenu = document.getElementById('mobile-menu');
 
@@ -26,24 +29,6 @@ document.querySelectorAll('[data-accordion-toggle]').forEach((button) => {
         button.classList.toggle('text-white', willOpen);
         button.querySelector('i').classList.toggle('rotate-180', willOpen);
     });
-});
-
-// ===== Image slider (home hero) =====
-// HTML needs: [data-slider] > [data-slider-track] with images, plus [data-slider-prev] / [data-slider-next] buttons
-document.querySelectorAll('[data-slider]').forEach((slider) => {
-    const track = slider.querySelector('[data-slider-track]');
-    const total = track.children.length;
-    let current = 0;
-
-    const goTo = (index) => {
-        current = (index + total) % total;                  // wrap around: after the last comes the first
-        track.style.transform = `translateX(-${current * 100}%)`;
-    };
-
-    slider.querySelector('[data-slider-prev]').addEventListener('click', () => goTo(current - 1));
-    slider.querySelector('[data-slider-next]').addEventListener('click', () => goTo(current + 1));
-
-    setInterval(() => goTo(current + 1), 5000);             // auto-play every 5 seconds
 });
 
 // ===== Number counter: 0 → data-count when it scrolls into view =====
