@@ -4,6 +4,21 @@
 @source '../../storage/framework/views/*.php';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    /* ===== Fonts ===== */
+    --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+    --font-heading: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-bangla: 'Hind Siliguri', ui-sans-serif, system-ui, sans-serif;
+
+    /* ===== Brand colors (europeanit-inst.com theke) ===== */
+    --color-primary: #00AEEF;
+    --color-primary-btn: #05ACFC;
+    --color-primary-hover: #058FC3;
+    --color-primary-dark: #00608D;
+    --color-navy: #1E3A8A;
+    --color-steel: #3C6382;
+    --color-heading: #212121;
+    --color-body: #7A7A7A;
+    --color-muted: #54595F;
+    --color-success: #23A455;
+    --color-light: #F9FAFA;
 }
