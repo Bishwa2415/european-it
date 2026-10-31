@@ -21,7 +21,7 @@
     <div class="bg-grid-pattern absolute inset-0 pointer-events-none"></div>
 
     <div class="relative max-w-[1330px] mx-auto pt-10 pb-12 lg:pt-[60px] lg:pb-[74px]
-                grid gap-10 lg:grid-cols-2 lg:gap-x-20 lg:gap-y-[74px]">
+                grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-x-20 lg:gap-y-[74px]">
 
         {{-- Row 1, left: text --}}
         <div class="self-center order-2 lg:order-1">
@@ -58,7 +58,7 @@
         </div>
 
         {{-- Row 1, right: image slider (Swiper, JavaScript in resources/js/slider.js) --}}
-        <div class="relative self-center order-1 lg:order-2" data-slider='{"spaceBetween": 0}'>
+        <div class="relative min-w-0 self-center order-1 lg:order-2" data-slider='{"spaceBetween": 0}'>
             <div class="swiper rounded-[20px]">
                 <div class="swiper-wrapper">
                     @foreach ($slides as $slide)

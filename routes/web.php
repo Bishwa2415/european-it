@@ -1,8 +1,7 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::view('/', 'pages.home')->name('home');
+// Home page: HomeController reads courses from the database, then shows pages/home.blade.php
+Route::get('/', [HomeController::class, 'index'])->name('home');
