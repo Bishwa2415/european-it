@@ -1,6 +1,6 @@
 {{-- Site footer. Data comes from config/site.php --}}
 @php
-    $site   = config('site');
+    $site   = $siteData;
     $footer = $site['footer'];
 
     // Same style is used by every footer box, so keep it in one variable
@@ -14,9 +14,9 @@
         {{-- 1. Contact card (pulled 125px up so it overlaps the section above) --}}
         <div class="relative -top-[125px] -mb-[125px] max-w-[1184px] mx-auto rounded-[20px] bg-[#374151] px-[30px] py-[50px]">
             <div class="text-center">
-                <a href="{{ url('/contact-us') }}"
-                   class="inline-block rounded-[3px] border-2 border-white px-6 py-3 font-heading text-[22px] leading-[22px] font-bold">
-                    Contact Us
+                <a href="{{ url($site['contact_url']) }}"
+                    class="inline-block rounded-[3px] border-2 border-white px-6 py-3 font-heading text-[22px] leading-[22px] font-bold">
+                    {{ $footer['contact_label'] }}
                 </a>
             </div>
 
@@ -50,13 +50,13 @@
 
         {{-- 2. Footer logo --}}
         <a href="{{ url('/') }}" class="mt-10 block w-fit mx-auto">
-            <img src="{{ asset('images/footer/footer-logo.svg') }}" alt="European IT Institute" class="w-[300px]">
+            <img src="{{ asset($footer['logo']) }}" alt="{{ $footer['logo_alt'] }}" class="w-[300px]">
         </a>
 
         {{-- 3. Follow Us bar --}}
         <div class="{{ $box }} mt-5 max-w-[798px] mx-auto p-[30px] flex flex-wrap items-center justify-center gap-[13px]">
             <span class="flex items-center gap-1.5 font-heading text-xl">
-                <i class="bi bi-lightning-charge-fill text-primary"></i> Follow Us:
+                <i class="bi bi-lightning-charge-fill text-primary"></i> {{ $footer['follow_label'] }}
             </span>
             @foreach ($site['socials'] as $social)
                 <a href="{{ $social['url'] }}" target="_blank" rel="noopener" aria-label="{{ $social['label'] }}"
@@ -73,7 +73,7 @@
             <div class="{{ $box }} px-5 py-[30px]">
                 <div class="text-center">
                     <h3 class="{{ $pill }} font-roboto text-xl font-medium">
-                        <i class="bi bi-box-arrow-up-right text-primary text-base"></i> Quick Links
+                        <i class="bi bi-box-arrow-up-right text-primary text-base"></i> {{ $footer['quick_links_title'] }}
                     </h3>
                 </div>
                 <div class="mt-10 grid grid-cols-2 pl-8">
@@ -91,7 +91,7 @@
             <div class="{{ $box }} p-[30px]">
                 <div class="text-center">
                     <h3 class="{{ $pill }} font-roboto text-xl font-medium">
-                        <i class="bi bi-pencil-fill text-primary text-base"></i> Popular Courses
+                        <i class="bi bi-pencil-fill text-primary text-base"></i> {{ $footer['popular_courses_title'] }}
                     </h3>
                 </div>
                 <ul class="mt-10 space-y-[31px] pl-8">
@@ -105,7 +105,7 @@
             <div class="{{ $box }} p-[30px]">
                 <div class="text-center">
                     <h3 class="{{ $pill }} font-roboto text-xl font-medium">
-                        <i class="bi bi-geo-alt-fill text-primary text-base"></i> Google map
+                        <i class="bi bi-geo-alt-fill text-primary text-base"></i> {{ $footer['map_title'] }}
                     </h3>
                 </div>
                 <a href="{{ $site['map_url'] }}" target="_blank" rel="noopener" class="mt-[50px] block">
@@ -114,7 +114,7 @@
                 </a>
                 <a href="{{ $site['map_url'] }}" target="_blank" rel="noopener"
                    class="mt-[30px] mx-auto flex max-w-[346px] items-center justify-center gap-2 rounded-lg bg-[#00ADEE] py-0.5 leading-6 font-semibold uppercase hover:bg-primary-hover transition">
-                    <i class="bi bi-geo-alt-fill"></i> Click here
+                    <i class="bi bi-geo-alt-fill"></i> {{ $footer['map_button_label'] }}
                 </a>
             </div>
         </div>
@@ -122,11 +122,11 @@
         {{-- 5. Payment merchants --}}
         <div class="{{ $box }} mt-10 px-[30px] py-10 text-center">
             <h3 class="inline-block rounded-[30px] bg-[#4B5563] px-[30px] py-2 font-heading text-xl leading-10 font-medium lg:text-[26px]">
-                Our Payment Merchant
+                {{ $footer['payment_title'] }}
             </h3>
             <div class="mt-[30px] flex flex-wrap justify-center gap-6">
                 @foreach ($footer['payments'] as $payment)
-                    <a href="{{ url('/admission-now') }}"
+                    <a href="{{ url($site['admission_url']) }}"
                        class="flex w-[253px] flex-col items-center justify-center rounded-xl border-2 border-[#374151] bg-white p-5 shadow-[0_0_8px_#374151]">
                         <img src="{{ asset($payment['image']) }}" alt="{{ $payment['alt'] }}" class="{{ $payment['class'] }}">
                         <span class="font-roboto text-2xl text-heading">{{ $payment['text'] }}</span>

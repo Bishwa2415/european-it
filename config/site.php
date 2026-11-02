@@ -18,6 +18,10 @@ return [
     'emails' => ['help@europeanit-inst.com', 'admission@europeanit-inst.com'],
 
     'address' => 'Noor Mansion (3rd Floor), Plot#04, Main Road#01, Mirpur-10, Dhaka-1216',
+    'contact_url' => '/contact-us',
+    'admission_url' => '/admission-now',
+    'contact_url' => '/contact-us',
+    'admission_url' => '/admission-now',
 
     'hours' => ['Monday - Sunday', '10AM - 09PM'],
 
@@ -28,6 +32,10 @@ return [
     'reviews_url' => 'https://www.google.com/search?q=european+it',
 
     'tin' => '190905613413',
+    'demo_class_label' => 'Demo Class',
+    'demo_class_url' => '/contact-us',
+    'discount_label' => 'Get Discount',
+    'discount_url' => '/discount',
 
     // icon = Bootstrap Icons name
     'socials' => [
@@ -41,6 +49,15 @@ return [
 
     // Footer link lists
     'footer' => [
+        'logo' => 'images/footer/footer-logo.svg',
+        'logo_alt' => 'European IT Institute',
+        'contact_label' => 'Contact Us',
+        'follow_label' => 'Follow Us:',
+        'quick_links_title' => 'Quick Links',
+        'popular_courses_title' => 'Popular Courses',
+        'map_title' => 'Google map',
+        'map_button_label' => 'Click here',
+        'payment_title' => 'Our Payment Merchant',
         'quick_links' => [
             [
                 ['label' => 'Mentors',       'url' => '/mentors'],

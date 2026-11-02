@@ -6,7 +6,7 @@
     <div class="bg-grid-pattern absolute inset-0 pointer-events-none"></div>
 
     <div class="relative max-w-[1188px] mx-auto">
-        <x-section-title title="Student's Feedback" />
+        <x-section-title :title="$homeTitles['testimonials_title']" />
 
         <div class="mt-[110px] min-w-0" data-reveal
              data-slider='{"spaceBetween": 10, "speed": 500, "autoplay": false, "breakpoints": {"1024": {"slidesPerView": 2, "spaceBetween": 7}}}'>

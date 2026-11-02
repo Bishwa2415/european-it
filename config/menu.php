@@ -11,6 +11,24 @@
 
 return [
 
+    'logo' => 'images/logo.webp',
+    'logo_alt' => 'European IT Institute',
+    'admission_label' => 'Admission Now',
+    'admission_url' => '/admission-now',
+    'all_courses_label' => 'All Course',
+    'all_courses_url' => '/european-it-courses',
+    'popular_courses_label' => 'Popular Courses',
+    'all_courses_label' => 'All Course',
+    'popular_courses_label' => 'Popular Courses',
+
+    // Simple header links are editable from Admin > Menus (menu key: header).
+    'links' => [
+        ['label' => 'Freelancing', 'url' => '/freelancing'],
+        ['label' => 'About', 'url' => '/about-european-it-institute'],
+        ['label' => 'Career', 'url' => '/career'],
+        ['label' => 'Contact', 'url' => '/contact-us'],
+    ],
+
     // "Popular Courses" mega menu: 2 columns
     'popular' => [
         'Online Course' => [

@@ -32,6 +32,7 @@
 
     {{-- Fixed buttons: Demo Class, Get Discount, Google reviews, WhatsApp --}}
     @include('partials.floating-buttons')
+    @include('partials.popup')
 
 </body>
 </html>

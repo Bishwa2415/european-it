@@ -1,19 +1,4 @@
 {{-- Home page: Hero section (included from pages/home.blade.php) --}}
-@php
-    $slides = [
-        ['image' => 'images/home/hero-slide-popular.webp', 'alt' => 'Popular courses at European IT'],
-        ['image' => 'images/home/hero-slide-1.webp',       'alt' => 'Students at European IT Institute'],
-        ['image' => 'images/home/hero-slide-2.webp',       'alt' => 'European IT Institute classroom'],
-    ];
-
-    // count = number the counter animates to, suffix = text after it
-    $stats = [
-        ['icon' => 'bi-journal-bookmark-fill', 'count' => 50, 'suffix' => '+',  'label' => 'Courses'],
-        ['icon' => 'bi-mortarboard-fill',      'count' => 80, 'suffix' => 'K+', 'label' => 'Students'],
-        ['icon' => 'bi-patch-check-fill',      'count' => 80, 'suffix' => '%',  'label' => 'Success Ratio'],
-    ];
-@endphp
-
 <section class="relative bg-white bg-cover bg-center bg-no-repeat px-5"
          style="background-image: url('{{ asset('images/home/hero-bg.webp') }}')">
 
@@ -38,22 +23,22 @@
                         </linearGradient>
                     </defs>
                 </svg>
-                Lead the Future
+                {{ $hero['eyebrow'] }}
             </p>
 
             <h1 class="mt-[17px] font-heading text-[32px] leading-10 lg:text-[44px] lg:leading-[52px] font-extrabold text-heading">
-                From Learning <span class="text-[#00ADEE]">To Earning</span><br class="hidden lg:block">
-                Start Your IT Journey Today
+                {{ $hero['title_before'] }} <span class="text-[#00ADEE]">{{ $hero['title_highlight'] }}</span><br class="hidden lg:block">
+                {{ $hero['title_after'] }}
             </h1>
 
             <p class="mt-[30px] max-w-[590px] text-base leading-6 text-black">
-                Unlock your potential with hands-on IT training, expert mentorship, and real-world projects.
-                Gain the skills, build your portfolio, and step into a high-demand career with confidence!
+                {{ $hero['description'] }}
             </p>
 
             <div class="mt-[35px] flex flex-wrap gap-4 lg:gap-7">
-                <a href="{{ url('/european-it-courses') }}" class="hero-btn">Our Courses</a>
-                <a href="{{ url('/discount') }}" class="hero-btn">Click for Discount</a>
+                @foreach ($hero['buttons'] as $button)
+                    <a href="{{ url($button['url']) }}" class="hero-btn">{{ $button['label'] }}</a>
+                @endforeach
             </div>
         </div>
 
@@ -61,7 +46,7 @@
         <div class="relative min-w-0 self-center order-1 lg:order-2" data-slider='{"spaceBetween": 0}'>
             <div class="swiper rounded-[20px]">
                 <div class="swiper-wrapper">
-                    @foreach ($slides as $slide)
+                    @foreach ($hero['slides'] as $slide)
                         <div class="swiper-slide">
                             <img src="{{ asset($slide['image']) }}" alt="{{ $slide['alt'] }}" draggable="false"
                                  class="w-full aspect-[625/369] object-cover rounded-[20px] border-[6px] border-white shadow-[0_0_3px_rgba(0,0,0,0.25)]">
@@ -83,7 +68,7 @@
 
         {{-- 3 stat boxes (numbers count up, JavaScript in app.js) --}}
         <div class="grid gap-[15px] sm:grid-cols-3 lg:grid-cols-[repeat(3,246px)]">
-            @foreach ($stats as $stat)
+            @foreach ($hero['stats'] as $stat)
                 <div class="flex items-center gap-[25px] rounded-[10px] bg-primary-hover px-5 py-[11px] min-h-[97px]">
                     <span class="flex h-[35px] w-[35px] shrink-0 items-center justify-center rounded-md bg-white text-xl text-[#00ADEE]">
                         <i class="bi {{ $stat['icon'] }}"></i>

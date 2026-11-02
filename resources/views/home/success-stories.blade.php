@@ -4,7 +4,7 @@
     <div class="bg-grid-pattern absolute inset-0 pointer-events-none"></div>
 
     <div class="relative max-w-[1330px] mx-auto">
-        <x-section-title title="Success Stories" />
+        <x-section-title :title="$homeTitles['success_stories_title']" />
 
         <div class="mt-[62px] grid gap-[31px] sm:grid-cols-2 lg:grid-cols-3">
             @foreach ($successVideos as $video)
@@ -19,7 +19,7 @@
         </div>
 
         <div class="mt-[43px] text-center">
-            <a href="https://www.youtube.com/@EuropeanIT" target="_blank" rel="noopener" class="hero-btn min-w-[158px]">See More</a>
+            <a href="https://www.youtube.com/@EuropeanIT" target="_blank" rel="noopener" class="hero-btn min-w-[158px]">{{ $homeTitles['success_stories_button'] }}</a>
         </div>
     </div>
 </section>

@@ -8,7 +8,7 @@
     $stickyTops = [100, 125, 150, 175, 200, 260];
 @endphp
 <section class="px-5 pt-[42px] pb-20 font-bangla">
-    <h2 class="text-center text-[26px] md:text-[44px] leading-[45px] font-bold text-black">কেন ইউরোপিয়ান আইটিকে বেছে নেবেন?</h2>
+    <h2 class="text-center text-[26px] md:text-[44px] leading-[45px] font-bold text-black">{{ $homeTitles['why_choose_title'] }}</h2>
 
     <div class="mx-auto mt-[65px] flex max-w-[1310px] flex-col items-center">
         @foreach ($features as $feature)

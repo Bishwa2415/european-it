@@ -5,7 +5,7 @@
 @if ($teamMembers->isNotEmpty())
 @php $first = $teamMembers->first(); @endphp
 <section class="overflow-hidden bg-[rgba(110,193,228,0.22)] px-5 pt-[70px] pb-[90px]" data-team>
-    <x-section-title title="Our Support Team" />
+    <x-section-title :title="$homeTitles['team_title']" />
 
     <div class="relative mx-auto mt-[50px] grid max-w-[1310px] items-center gap-10 lg:grid-cols-[586px_1fr] lg:gap-5 lg:pl-[59px]">
 

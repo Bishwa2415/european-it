@@ -1,15 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-    {{-- Each home page section lives in its own file in resources/views/home/.
-         Their data comes from HomeController@index (database). --}}
-    @include('home.hero')
-    @include('home.popular-courses')
-    @include('home.fourth-ir')
-    @include('home.why-choose')
-    @include('home.specialty')
-    @include('home.success-stories')
-    @include('home.testimonials')
-    @include('home.team')
-    @include('home.partners')
+    @foreach ($homeLayout as $layoutItem)
+        @if (str_starts_with($layoutItem, 'builtin:'))
+            @includeIf('home.'.substr($layoutItem, strlen('builtin:')))
+        @elseif (str_starts_with($layoutItem, 'common:'))
+            @php($section = $commonSections->get((int) substr($layoutItem, strlen('common:'))))
+            @if ($section)
+                @include('home.common-section', ['section' => $section])
+            @endif
+        @endif
+    @endforeach
 @endsection

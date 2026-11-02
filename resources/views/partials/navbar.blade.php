@@ -4,7 +4,7 @@
 
         {{-- Logo --}}
         <a href="{{ url('/') }}" class="shrink-0">
-            <img src="{{ asset('images/logo.webp') }}" alt="European IT Institute" class="w-[190px] lg:w-[210px]">
+            <img src="{{ asset($headerMenu['logo']) }}" alt="{{ $headerMenu['logo_alt'] }}" class="w-[190px] lg:w-[210px]">
         </a>
 
         {{-- Desktop menu --}}
@@ -12,8 +12,8 @@
 
             {{-- Mega menu: All Course (positioned against the whole container) --}}
             <div class="group h-full flex items-center">
-                <a href="{{ url('/european-it-courses') }}" class="flex items-center gap-1 px-4 group-hover:text-[#00ADEE]">
-                    All Course <i class="bi bi-chevron-down text-[13px] transition group-hover:rotate-180"></i>
+                <a href="{{ url($headerMenu['all_courses_url']) }}" class="flex items-center gap-1 px-4 group-hover:text-[#00ADEE]">
+                    {{ $headerMenu['all_courses_label'] }} <i class="bi bi-chevron-down text-[13px] transition group-hover:rotate-180"></i>
                 </a>
 
                 <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition
@@ -40,14 +40,14 @@
             {{-- Mega menu: Popular Courses --}}
             <div class="group h-full flex items-center">
                 <button class="flex items-center gap-1 px-4 group-hover:text-[#00ADEE]">
-                    Popular Courses <i class="bi bi-chevron-down text-[13px] transition group-hover:rotate-180"></i>
+                    {{ $headerMenu['popular_courses_label'] }} <i class="bi bi-chevron-down text-[13px] transition group-hover:rotate-180"></i>
                 </button>
 
                 <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition
                             absolute left-[267px] top-full w-[852px]
                             bg-white border-t-[3px] border-primary shadow-[0_11px_20px_rgba(0,0,0,0.05)]
                             py-[30px] px-[15px] grid grid-cols-2">
-                    @foreach (config('menu.popular') as $group => $links)
+                    @foreach ($headerMenu['popular'] as $group => $links)
                         <div class="px-2.5">
                             <h2 class="mb-5 font-menu text-lg leading-6 font-bold uppercase text-steel">{{ $group }}</h2>
                             <ul class="space-y-2">
@@ -60,10 +60,14 @@
                 </div>
             </div>
 
-            <a href="{{ url('/freelancing') }}" class="px-4 hover:text-primary">Freelancing</a>
+            @foreach (($headerMenu['links'] ?? []) as $link)
+                @if (($link['placement'] ?? 'main') === 'main')
+                    <a href="{{ url($link['url']) }}" class="px-4 hover:text-primary">{{ $link['label'] }}</a>
+                @endif
+            @endforeach
 
             {{-- Dropdowns: Success Stories, Media --}}
-            @foreach (config('menu.dropdowns') as $title => $links)
+            @foreach ($headerMenu['dropdowns'] as $title => $links)
                 <div class="relative group h-full flex items-center">
                     <button class="flex items-center gap-1 px-4 group-hover:text-[#00ADEE]">
                         {{ $title }}
@@ -89,16 +93,13 @@
                 </div>
             @endforeach
 
-            <a href="{{ url('/about-european-it-institute') }}" class="px-4 hover:text-primary">About</a>
-            <a href="{{ url('/career') }}" class="px-4 hover:text-primary">Career</a>
-            <a href="{{ url('/contact-us') }}" class="px-4 hover:text-primary">Contact</a>
         </div>
 
         {{-- Admission button (desktop) + mobile menu button --}}
         <div class="flex items-center gap-3">
-            <a href="{{ url('/admission-now') }}"
+            <a href="{{ url($headerMenu['admission_url']) }}"
                class="hidden lg:inline-block rounded-full border border-[#00AAFF] bg-primary-btn px-5 py-3.5 text-[13px] leading-none font-bold uppercase text-white hover:bg-primary-hover transition">
-                Admission Now
+                {{ $headerMenu['admission_label'] }}
             </a>
             <button data-mobile-menu-open class="lg:hidden text-4xl text-primary" aria-label="Open menu">
                 <i class="bi bi-list"></i>

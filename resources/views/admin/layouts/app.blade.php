@@ -20,7 +20,20 @@
     // Sidebar menu. 'route' = null means the module is not built yet
     $menu = [
         ['label' => 'Dashboard',   'icon' => 'bi-speedometer2',     'route' => 'admin.dashboard',     'active' => 'admin.dashboard'],
+        ['label' => 'Home Page',   'icon' => 'bi-house',            'route' => 'admin.home-page.edit', 'active' => 'admin.home-page.*'],
+        ['label' => 'Why choose us', 'icon' => 'bi-stars',           'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'features'],
+        ['label' => 'Specialty blocks', 'icon' => 'bi-card-text',    'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'content-blocks'],
+        ['label' => 'Success videos', 'icon' => 'bi-play-btn',       'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'success-videos'],
+        ['label' => 'Testimonials', 'icon' => 'bi-chat-quote',      'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'testimonials'],
+        ['label' => 'Support team', 'icon' => 'bi-people',           'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'team-members'],
+        ['label' => 'Partners',     'icon' => 'bi-building',         'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'partners'],
         ['label' => 'Courses',     'icon' => 'bi-journal-bookmark', 'route' => 'admin.courses.index', 'active' => 'admin.courses.*'],
+        ['label' => 'Pages',       'icon' => 'bi-file-earmark',     'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'page'],
+        ['label' => 'Posts',       'icon' => 'bi-pencil-square',    'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'post'],
+        ['label' => 'Page sections','icon' => 'bi-columns-gap',     'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'section'],
+        ['label' => 'Popups / modals','icon' => 'bi-window',        'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'popup'],
+        ['label' => 'Menus',       'icon' => 'bi-list',             'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'menu'],
+        ['label' => 'Site settings','icon' => 'bi-sliders',          'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'setting'],
         ['label' => 'Categories',  'icon' => 'bi-grid',             'route' => null],
         ['label' => 'Mentors',     'icon' => 'bi-person-badge',     'route' => null],
         ['label' => 'Orders',      'icon' => 'bi-bag-check',        'route' => null],
@@ -42,11 +55,11 @@
         <nav class="flex-1 space-y-1 p-3 text-sm">
             @foreach ($menu as $item)
                 @if ($item['route'])
-                    <a href="{{ route($item['route']) }}"
+                    <a href="{{ route($item['route'], isset($item['type']) ? ['type' => $item['type']] : (isset($item['collection']) ? ['collection' => $item['collection']] : [])) }}"
                        @class([
                            'flex items-center gap-3 rounded-lg px-3 py-2.5 transition',
-                           'bg-primary text-white' => request()->routeIs($item['active']),
-                           'text-white/70 hover:bg-white/10 hover:text-white' => ! request()->routeIs($item['active']),
+                           'bg-primary text-white' => request()->routeIs($item['active']) && (! isset($item['type']) || request()->route('type') === $item['type']) && (! isset($item['collection']) || request()->route('collection') === $item['collection']),
+                           'text-white/70 hover:bg-white/10 hover:text-white' => ! (request()->routeIs($item['active']) && (! isset($item['type']) || request()->route('type') === $item['type']) && (! isset($item['collection']) || request()->route('collection') === $item['collection'])),
                        ])>
                         <i class="bi {{ $item['icon'] }} text-base"></i> {{ $item['label'] }}
                     </a>
