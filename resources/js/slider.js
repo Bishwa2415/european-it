@@ -41,7 +41,8 @@ document.querySelectorAll('[data-slider]').forEach((wrapper) => {
 
     const pagination = wrapper.querySelector('[data-slider-pagination]');
 
-    new Swiper(wrapper.querySelector('.swiper'), {
+    // Keep the instance on the element so other scripts can control it: wrapper.swiper.slideToLoop(3)
+    wrapper.swiper = new Swiper(wrapper.querySelector('.swiper'), {
         ...defaults,
         ...custom,
         navigation: {
@@ -53,8 +54,16 @@ document.querySelectorAll('[data-slider]').forEach((wrapper) => {
         on: {
             // Tell other scripts which slide is active now (used by resources/js/team.js)
             slideChange(swiper) {
+                const total = swiper.slides.length;
+                // Going forward or back? (in a loop, last → first also counts as forward)
+                const step = (swiper.realIndex - swiper.previousRealIndex + total) % total;
+
                 wrapper.dispatchEvent(new CustomEvent('slider:change', {
-                    detail: { slide: swiper.slides[swiper.activeIndex] },
+                    detail: {
+                        slide: swiper.slides[swiper.activeIndex],
+                        index: swiper.realIndex,          // 0, 1, 2 ... in the original order
+                        direction: step <= total / 2 ? 'next' : 'prev',
+                    },
                 }));
             },
         },

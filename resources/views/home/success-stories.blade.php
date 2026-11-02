@@ -8,7 +8,8 @@
 
         <div class="mt-[62px] grid gap-[31px] sm:grid-cols-2 lg:grid-cols-3">
             @foreach ($successVideos as $video)
-                <div class="aspect-video overflow-hidden bg-black">
+                {{-- Same as live: 16px round corners + 2px black border --}}
+                <div class="aspect-video overflow-hidden rounded-2xl border-2 border-black bg-black">
                     {{-- loading="lazy": the video loads only when the visitor scrolls near it --}}
                     <iframe src="{{ $video->embedUrl() }}" title="{{ $video->title ?? 'Student success story' }}" loading="lazy"
                             class="h-full w-full" allowfullscreen

@@ -62,16 +62,43 @@
                rounded-full bg-white text-xl text-[#6EC1E4] shadow-[0_0_3px_rgba(0,0,0,0.25)] transition hover:text-primary;
     }
 }
-
+.border-clip{
+	border-left: 6px solid #00B6F3;
+	border-right: 6px solid #00B6F3;
+	border-bottom: 1px solid #00B6F3;
+}
 /* ===== Home: "Why choose" card text (HTML written in the dashboard) ===== */
-.feature-body p + p { margin-top: 26px; }
-.feature-body ul { list-style: disc; padding-left: 51px; margin-top: 25px; margin-bottom: 26px; }
+.feature-body p,
+.feature-body ul { margin-bottom: 26px; }
+.feature-body ul { list-style: disc; padding-left: 51px; }
+.feature-body strong { font-weight: 700; }
 
 /* ===== Sliders ===== */
 /* Logo marquee: move at a steady speed instead of speeding up / slowing down */
 .marquee .swiper-wrapper { transition-timing-function: linear !important; }
 /* Dots under sliders in brand blue */
 .swiper-pagination-bullet-active { background: var(--color-primary) !important; }
-/* Team slider: the active photo is a little bigger */
-[data-team-slider] .swiper-slide .team-card { transition: transform .5s; }
-[data-team-slider] .swiper-slide-active .team-card { transform: scale(1.3); }
+
+/* ===== Home: Our Support Team ===== */
+/* Photo cards: the active (first visible) one gets taller, the others stay 320px — no overlap */
+[data-team-slider] .team-card { height: 320px; transition: height .5s ease-in-out; }
+[data-team-slider] .swiper-slide-active .team-card { height: 410px; }
+
+/* Left progress bar: 21 small dots, the active one grows and turns blue */
+.team-dot { width: 12px; height: 12px; border-radius: 9999px; background: #fff; transform: scale(.3); transition: .3s ease-in-out; }
+.team-dot.is-active { transform: scale(1); background: #00AEEF; }
+
+/* Name / designation / bio slide in: old text leaves, new text arrives (direction depends on next/prev) */
+.team-text { display: block; }
+.team-text.leave-up    { animation: team-leave-up   .35s ease-in forwards; }
+.team-text.leave-down  { animation: team-leave-down .35s ease-in forwards; }
+.team-text.enter-up    { animation: team-enter-up   .45s ease-out; }
+.team-text.enter-down  { animation: team-enter-down .45s ease-out; }
+@keyframes team-leave-up   { to   { transform: translateY(-100%); opacity: 0; } }
+@keyframes team-leave-down { to   { transform: translateY(100%);  opacity: 0; } }
+@keyframes team-enter-up   { from { transform: translateY(100%);  opacity: 0; } }
+@keyframes team-enter-down { from { transform: translateY(-100%); opacity: 0; } }
+
+/* ===== Fade in when scrolled into view: add data-reveal to any element (JS in resources/js/reveal.js) ===== */
+[data-reveal] { opacity: 0; transition: opacity 1.2s ease; }
+[data-reveal].is-visible { opacity: 1; }

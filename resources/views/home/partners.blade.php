@@ -1,6 +1,7 @@
 {{-- Home page: Our Partner and Collaboration — logos move non-stop (marquee) --}}
 @if ($partners->isNotEmpty())
-<section class="px-5 pt-[50px] pb-[86px]">
+<section class="relative px-5 pt-[50px] pb-[210px]">
+    <div class="bg-grid-pattern absolute inset-0 pointer-events-none"></div>
     <div class="max-w-[1330px] mx-auto">
         <x-section-title title="Our Partner and Collaboration" />
 

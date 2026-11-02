@@ -8,7 +8,7 @@
     $pill = 'inline-flex items-center gap-1.5 rounded-[30px] bg-[#4B5563] px-5 py-2 shadow-[0_0_10px_#374151]';
 @endphp
 
-<footer class="mt-[125px] bg-[#202A38] px-5 text-white">
+<footer class="mt-0 bg-[#202A38] px-5 text-white">
     <div class="max-w-[1330px] mx-auto">
 
         {{-- 1. Contact card (pulled 125px up so it overlaps the section above) --}}
