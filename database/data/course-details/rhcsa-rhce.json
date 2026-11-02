@@ -1,0 +1,170 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/03/RHCSARHCE-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "RHCSA / RHCE – It’s a Red Hat Certification System Administration. It’s the most popular among the certifications of Red Hat. RHCSA / RHCE –is ready to automate Red Hat Enterprise Linux tasks, integrate Red Hat emerging technologies, and apply automation for efficiency and innovation.\nEuropean IT Solutions Institute offers official RHCE training on the latest Red Hat Enterprise Linux 7. RHCE is an advanced-level Red Hat certification. RHCSA is a subset of RHCE and you will also earn both RHCE and RHCSA certifications. Apart from high-quality training with expert instructors, the European IT Solutions Institute provides an in-house testing facility for the RHCE certification exam which is scheduled at our training center after completing RHCE training.",
+    "curriculum": [
+        {
+            "title": "Network Configuration and Troubleshooting",
+            "details": ""
+        },
+        {
+            "title": "Managing User Accounts",
+            "details": ""
+        },
+        {
+            "title": "Command-Line Process Management",
+            "details": ""
+        },
+        {
+            "title": "Manage System Resources",
+            "details": ""
+        },
+        {
+            "title": "Installing and Managing Software",
+            "details": ""
+        },
+        {
+            "title": "Administer Remote Systems",
+            "details": ""
+        },
+        {
+            "title": "Deploy and Secure File-Sharing Services",
+            "details": ""
+        },
+        {
+            "title": "Managing SELinux",
+            "details": ""
+        },
+        {
+            "title": "Managing Simple Partitions and Filesystems",
+            "details": ""
+        },
+        {
+            "title": "Using Filesystem Access Control Lists",
+            "details": ""
+        },
+        {
+            "title": "Logical Volume Management",
+            "details": ""
+        },
+        {
+            "title": "Control the Boot Process",
+            "details": ""
+        },
+        {
+            "title": "Tune and Maintain the Kernel",
+            "details": ""
+        },
+        {
+            "title": "System Configuration and Management",
+            "details": ""
+        },
+        {
+            "title": "Network Services Management",
+            "details": ""
+        },
+        {
+            "title": "HTTP/HTTPS Server",
+            "details": ""
+        },
+        {
+            "title": "DNS Server",
+            "details": ""
+        },
+        {
+            "title": "FTP Server",
+            "details": ""
+        },
+        {
+            "title": "NFS Server",
+            "details": ""
+        },
+        {
+            "title": "SMB Server",
+            "details": ""
+        },
+        {
+            "title": "SMTP Server",
+            "details": ""
+        },
+        {
+            "title": "SSH Server",
+            "details": ""
+        },
+        {
+            "title": "NTP Server",
+            "details": ""
+        }
+    ],
+    "careers": [],
+    "reasons": [
+        {
+            "icon": "",
+            "title": "Linux Administrator",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Configure, manage, troubleshooting of a Linux based Server",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Firewalls like Cyberoam & Other Security Firewalls",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Network and Wireless Security",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Infrastructure Management & Virtualization",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Data Sync & Backups Management",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "AD DS or Domain Controller",
+            "text": ""
+        }
+    ],
+    "mentors": [],
+    "projects": [],
+    "tools": [],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                15000,
+                11000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                20000,
+                15000
+            ]
+        }
+    }
+}

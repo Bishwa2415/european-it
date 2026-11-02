@@ -1,0 +1,434 @@
+{
+    "tagline": "Master Modern SEO with Artificial Intelligence",
+    "intro": "Learn AI-Driven SEO to Rank #1 on Google in 2026",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/03/SEO-scaled.jpg",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 2552,
+    "review_count": 1835,
+    "overview": "Search Engine Optimization (SEO) has evolved from traditional methods to AI-Powered SEO. With Google’s AI Overviews, Generative Engine Optimization (GEO), and advanced algorithms, traditional SEO is no longer enough. This comprehensive course will teach you how to combine traditional SEO strategies with modern AI tools to dominate search results, drive organic traffic, and build a successful freelancing career in SEO. You will learn everything from website setup to technical SEO, content strategy, link building, YouTube SEO, and marketplace freelancing (Fiverr & Upwork).",
+    "curriculum": [
+        {
+            "title": "Module-01: Digital Marketing Fundamentals & AI Search Evolution",
+            "details": "Class-01:\n- Definition and scope of SEO in the AI era.\n- How Search Engines Work (Crawling, Indexing, Ranking).\n- Search engine vs Answer engine: The future of SEO.\n- Customer avatar, search intent, and buyer's journey.\nClass 02:\n- Google Algorithm Updates & History (Panda, Penguin, Core Updates).\n- Understanding Google AI Overviews (SGE).\n- E-E-A-T and YMYL principles in SEO.\n- Find a perfect niche using “Google Trends” & Brainstorming."
+        },
+        {
+            "title": "Module-02: Website Foundation & Architecture",
+            "details": "Class-03:\n- Find a perfect domain name & purchase a domain and hosting.\n- What is cPanel? Connect the domain to your hosting.\n- Install WordPress (step-by-step) & Essential setup.\n- Install an SEO-structured theme & useful plugins.\nClass-04:\n- Website UI & UX best practices.\n- Creating proper website architecture and silo structure.\n- Website security (HTTPS) & Indexability check.\n- Mobile-first indexing and responsiveness test."
+        },
+        {
+            "title": "Module-03: Advanced Data-Driven Keyword Research",
+            "details": "Class-05:\n- What is keyword research?\n- Type of keywords (Informational, Navigational, Commercial, Transactional).\n- Free keyword research tools & extension list.\n- Keyword research using Mangools & Moz.\n- Create a spreadsheet for building a keyword database.\nClass-06:\n- Advance Keyword research using SEMrush & Ahrefs.\n- Competitor analysis factors & mapping keyword gaps.\n- Finding low competition, high-volume keywords & KEI analysis.\n- Mapping keywords to the buyer’s journey."
+        },
+        {
+            "title": "Module-04: AI Content Strategy & Topical Authority",
+            "details": "Class-07:\n- SEO-friendly content structure & Keyword insertion guide.\n- Understanding Topical Authority and Entity-Based SEO.\n- Creating Topic Clusters and Pillar Pages.\n- Generative Engine Optimization (GEO) basics for content.\nClass-08:\n- Using AI Tools (ChatGPT, Gemini) for content outlines and drafting.\n- Prompt engineering for SEO & Humanizing AI content.\n- Embed FAQ, Table of Contents, and Data tables for better navigation.\n- Embed infographics (Canva) and YouTube videos."
+        },
+        {
+            "title": "Module-05: On-Page Optimization Mastery & AEO",
+            "details": "Class-09:\n- What is On-Page optimization?\n- Meta title, Meta description & URL Structure optimization.\n- Proper use of Heading Tags (H1 to H6) & LSI Keywords.\n- Image SEO (Alt text, compression, WebP format).\nClass-10:\n- Optimize an article using the Yoast/RankMath SEO plugin.\n- Internal linking, External linking & Subheading optimization.\n- Answer Engine Optimization (AEO) to win Featured Snippets.\n- What is CTR? Tips to improve website CTR."
+        },
+        {
+            "title": "Module-06: Technical SEO Mastery",
+            "details": "Class-11:\n- Technical SEO foundation: Robots.txt & XML sitemaps.\n- How to include/exclude items from the XML sitemap.\n- Canonical Tags & fixing duplicate content.\n- 404 errors, fix broken pages, and 301/302 redirects.\nClass-12:\n- What is schema markup? Types of schema markup.\n- How to add schema markup (JSON-LD) for rich results.\n- Fixing Orphan Pages and Crawl Budget Optimization.\n- Is Breadcrumbs good for SEO?\nClass-13:\n- PageSpeed Insights and Core Web Vitals optimization.\n- How to improve website loading time.\n- Website audit checklist & analyze your full website.\n- Create an SEO audit report for your client (using Canva, Google Docs)."
+        },
+        {
+            "title": "Module-07: Off-Page Optimization & Link Building",
+            "details": "Class-14:\n- What is Off-Page optimization, and why are backlinks important?\n- Different types of backlinks (Dofollow vs Nofollow).\n- What are PA, DA, DR, and Spam Score?\n- Link Building vs Link Earning strategies.\nClass-15:\n- Find your competitors' backlinks & create a list.\n- Foundation Links (Web 2.0, Profile, Social Bookmarking, Directory submission).\n- Create backlinks from PDF submission & forum sites.\nClass-16:\n- Digital PR and HARO (Connectively) method.\n- Create backlinks from guest posting & Broken Link Building.\n- Blog outreach, Comment outreach & Email outreach.\n- Identifying Toxic Links and using the Disavow Tool."
+        },
+        {
+            "title": "Module-08: E-Commerce & Local SEO Domination",
+            "details": "Class-17:\n- E-commerce Website audit checklist & architecture\n- Products page optimization & proper keyword insertion.\n- Optimize product categories, tags, and archive pages.\n- Handling out-of-stock products for SEO.\nClass-18:\n- What is Local SEO and why is it important for businesses?\n- Find competitors' local online presence & opportunities.\n- What is NAP? Add your business to Google Business Profile (GBP).\n- Add your business to Bing Maps & Yelp.\nClass-19:\n- Local Keyword Research & optimizing the company website.\n- Creating City Landing Pages for Service Businesses.\n- Bring more positive reviews & manage local Q&A.\n- Increase the ranking on local search."
+        },
+        {
+            "title": "Module-09: YouTube SEO & Video Marketing",
+            "details": "Class-20:\n- Set up and optimize a YouTube channel.\n- Keyword research for YouTube videos.\n- Insert the main keywords list into the channel’s keywords.\n- YouTube video optimization & ranking factors."
+        },
+        {
+            "title": "Module-10: Web Analytics & Reporting",
+            "details": "Class-21:\n- Set up Google Search Console & Bing Search Console.\n- Fixing Indexing issues and Page Experience errors in GSC.\n- Introduction to Google Tag Manager (GTM).\nClass-22:\n- Google Analytics 4 (GA4) Setup via Google Tag Manager.\n- Tracking user behavior and important SEO metrics.\n- User tracking using MS Clarity.\n- Share your SEO problems & Rank tracking tips"
+        },
+        {
+            "title": "Module-11: Fiverr Marketplace Mastery",
+            "details": "Class-23:\n- Introduction of Fiverr, rules, regulations, and levels.\n- How to create an account & set up a profile.\n- How to create a gig & proper SEO of a gig.\nClass-24:\n- Gig image and video optimization (Canva).\n- Skill Test preparation & passing strategy.\n- Gig Marketing (Organic and paid).\nClass-25:\n- Order delivery system & Warning issues.\n- Positive links and negative words in Fiverr.\n- Strategies to get the first client & payment system."
+        },
+        {
+            "title": "Module-12: Upwork Marketplace Mastery",
+            "details": "Class-26:\n- Introduction to upwork.com & How to sign up.\n- How to get an Upwork profile approved & verify yourself.\n- How to set up a 100% profile.\nClass-27:\n- How to write a winning cover letter.\n- Understanding the Connects system & Bidding strategies.\n- How to create a project or catalogue.\nClass-28:\n- How can you justify the buyer? Order and delivery.\n- Top-Rated Freelancer or Rising Talent guidelines.\n- Client communication best practices."
+        },
+        {
+            "title": "Module-13: Out of Marketplace Client Hunting & Local Jobs",
+            "details": "Class-29:\n- Why you should not depend solely on Marketplaces.\n- Introduction to Bangladeshi Local Job Sites.\n- Creating an Effective Profile, Job Searching, and Bidding.\nClass-30:\n- Setting up a LinkedIn Profile for Professional Branding.\n- Client searching through social media (Facebook, LinkedIn).\n- Cold Email Marketing for direct client hunting.\n- Showcasing Local Expertise and Cultural Sensitivity."
+        },
+        {
+            "title": "Module-14: Payment Systems & Career Setup",
+            "details": "Class-31:\n- Payoneer: Signing up, Account Set up, and Account verification.\n- Address Verification & Transfer dollars.\n- bKash: Add bKash account to Payoneer, per-day limit, bKash Charges and fees.\nClass-32:\n- Bank Account: Payment policies, Minimum and maximum transactions, and currency selection.\n- CV Making with Canva and ChatGPT.\n- Job Preparation, Full Course Summary & Farewell."
+        }
+    ],
+    "careers": [
+        {
+            "title": "AI SEO Specialist",
+            "text": "Use artificial intelligence and modern tools to optimize websites for Google’s AI-driven search results and rank higher."
+        },
+        {
+            "title": "Freelance SEO Expert (Fiverr & Upwork)",
+            "text": "Offer professional SEO services to international clients and earn attractive income through freelance marketplaces."
+        },
+        {
+            "title": "Digital Marketing Executive",
+            "text": "Manage complete SEO and digital marketing campaigns for companies and brands."
+        },
+        {
+            "title": "Local SEO Consultant",
+            "text": "Help local businesses rank on Google Maps and local search results to increase footfall and sales."
+        },
+        {
+            "title": "E-commerce SEO Manager",
+            "text": "Optimize online stores to improve product visibility, traffic, and sales on platforms like Shopify and WooCommerce."
+        },
+        {
+            "title": "YouTube SEO Expert",
+            "text": "Specialize in optimizing YouTube channels and videos to grow subscribers and views organically."
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "AI-Powered Modern SEO Curriculum",
+            "text": "Learn the latest AI-driven SEO strategies including Generative Engine Optimization (GEO), Google AI Overviews, and E-E-A-T that traditional courses don’t cover."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Complete Practical Training",
+            "text": "From website setup to advanced technical SEO, content strategy, link building, YouTube SEO, and marketplace freelancing - everything is covered with hands-on practice."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "32 Classes with Real Projects",
+            "text": "Work on live projects including full website SEO, e-commerce optimization, local SEO, and client audit reports to build a strong professional portfolio."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Fiverr & Upwork Mastery",
+            "text": "Dedicated modules on creating high-converting gigs, proposals, and client acquisition so you can start earning from day one."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Latest Tools & Techniques",
+            "text": "Master powerful tools like SEMrush, Ahrefs, ChatGPT, Gemini, RankMath, Google Analytics 4, and Schema Markup."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Expert Mentorship",
+            "text": "Learn from experienced SEO professionals who are actively working with clients and know current marketplace demands."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Job & Freelancing Support",
+            "text": "Get guidance on CV making, portfolio building, client hunting, and interview preparation."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Lifetime Access & Community",
+            "text": "Enjoy lifetime access to all materials and join an active SEO community for continuous support and updates."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2026/01/Rahmat_Ullah_Digital-Marketer-Trainer-scaled-e1783922372988-212x300.jpg",
+            "name": "Rahmat Ullah",
+            "designation": "Digital Marketer & Trainer",
+            "badges": "NSDA Certified, 100+ Freelance Project, Fiverr Verified Freelancer, Upwork Verified Freelancer",
+            "url": "https://europeanit-inst.com/"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/unsplash_sxeFMlcId1I-300x165.png",
+            "title": "Facebook Instant Experience",
+            "text": "Conduct a full SEO audit for a real business and develop an actionable strategy to improve their search rankings.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Facebook-Ads-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-canva.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-234-300x166.png",
+            "title": "Facebook Pixel Setup on WordPress",
+            "text": "Design and implement a complete social media marketing campaign across multiple platforms.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/meta_pixel_logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/08/skill-icons_wordpress.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Tag-Manager-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Pixelyoursite.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2341-300x165.png",
+            "title": "Google Ads Conversion Tracking",
+            "text": "Set up, optimize and manage paid advertising campaigns on Google and Facebook platforms",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/meta_pixel_logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Meta-Ads-Manger.png, https://europeanit-inst.com/wp-content/uploads/2025/08/skill-icons_wordpress.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/stape-Logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Logo_Google_Analytics-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2345-300x166.png",
+            "title": "Practical On-Page SEO",
+            "text": "Set up analytics tracking and create comprehensive reports to measure campaign performance.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Mailchimp-1-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Gmail_icon_-150x150.png"
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/simple-icons_semrush.svg",
+            "name": "SEMrush"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Ahrefs.png",
+            "name": "Ahrefs"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/ChatGPT.png",
+            "name": "ChatGPT"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Gemini.png",
+            "name": "Gemini"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/logos_google-search-console.svg",
+            "name": "Google Search Console"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Analytics.png",
+            "name": "GA4"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Tag-Manager.png",
+            "name": "GTM"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/06/RankMath-Logo-300x180.jpeg",
+            "name": "RankMath"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/06/YoastSEO_Logo-300x300.png",
+            "name": "Yoast SEO"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-canva.svg",
+            "name": "Canva"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Trends.png",
+            "name": "Google Trends"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Fiverr-1.png",
+            "name": "Fiverr"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Upwork-1.png",
+            "name": "Upwork"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=3QxkZCFNBW4",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=wRh9o32Gk0Q",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=Y7JlcNIq2_0",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=nJ7iW35_yP4",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "32 টি লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fa6-solid_diagram-project.svg",
+            "text": "০4 টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৩ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

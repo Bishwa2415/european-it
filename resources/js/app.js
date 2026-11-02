@@ -3,6 +3,7 @@ import './slider';
 import './team';
 import './reveal';
 import './popup';
+import './countdown';   // landing pages: offer countdown + click-to-play videos
 
 // ===== Mobile menu: open / close =====
 const mobileMenu = document.getElementById('mobile-menu');

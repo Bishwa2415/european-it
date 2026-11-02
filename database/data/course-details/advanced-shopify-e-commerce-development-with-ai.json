@@ -1,0 +1,446 @@
+{
+    "tagline": "Modern E-commerce & Shopify Development.",
+    "intro": "Build High-Converting Shopify Stores with AI in 2026.",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2026/05/Advanced-Shopify-E-commerce-Development-with-AI.webp",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 2414,
+    "review_count": 514,
+    "overview": "This professional course is designed to help students build modern, high-converting Shopify e-commerce stores using the latest AI tools, automation systems, conversion optimization strategies, and real-world client workflows. The course starts from Shopify fundamentals and gradually moves into advanced store development, dropshipping operations, AI-assisted design systems, Shopify SEO, speed optimization, tracking setup, and freelancing/client projects. Students will work on multiple live projects and learn industry-standard workflows used by modern Shopify developers and agencies.",
+    "curriculum": [
+        {
+            "title": "Module-01: Foundation of Modern E-commerce & Shopify Development",
+            "details": "Class 01 - Introduction to E-commerce & Shopify Ecosystem\n- Introduction to modern e-commerce industry\n- Understanding Shopify business models\n- Shopify ecosystem & opportunities\n- Marketplace vs standalone store\n- Overview of AI in modern e-commerce\nClass 02 - Web Design Fundamentals for Shopify Developers\n- Introduction to HTML5 & CSS3\n- Understanding responsive design\n- Layout structure & spacing concepts\n- Shopify theme editing basics\n- Understanding UI/UX fundamentals\nClass 03 - Shopify Partner Account & Store Setup\n- Creating Shopify Partner account\n- Shopify dashboard overview\n- Store settings configuration\n- Currency, payment & region setup\n- Store branding fundamentals\nClass 04 - Shopify Theme Architecture & Customization\n- Shopify theme structure\n- Free vs premium themes\n- Theme customization workflow\n- Header, footer & homepage editing\n- Mobile responsiveness optimization"
+        },
+        {
+            "title": "Module-02: Product Management & Store Structure",
+            "details": "Class 05 - Product Upload & Store Organization\n- Product upload workflow\n- Product title & SEO description\n- Product image optimization\n- Product type, tags & vendor setup\n- Variant & inventory management\nClass 06 - Collections, Catalog & Navigation System\n- Manual & automated collections\n- Smart filtering system\n- Product catalog management\n- Navigation menu structure\n- Store architecture planning\nClass 07 - Shopify Pages, Blogs & Content Management\n- Creating pages & blog sections\n- SEO-friendly content writing\n- Contact & policy pages setup\n- Blog optimization strategies\n- Internal linking fundamentals\nClass 08 - Shopify Sales Channels Integration\n- Facebook Shop integration\n- Instagram shopping setup\n- TikTok sales channel overview\n- Shopify POS introduction\n- Multi-channel commerce basics"
+        },
+        {
+            "title": "Module-03: Shopify Dropshipping Business System",
+            "details": "Class 09 - Introduction to Shopify Dropshipping\n- Understanding dropshipping business model\n- Supplier sourcing fundamentals\n- Product validation strategies\n- Market research fundamentals\n- Building scalable dropshipping stores\nClass 10 - Product Research Using AI, Dropispy & AdSpy\n- Winning product research techniques\n- Competitor ad analysis\n- AI-assisted product research\n- TikTok trend analysis\n- Product demand validation\nClass 11 - Product Import & Fulfillment Workflow\n- DSers & CJ Dropshipping integration\n- Product import system\n- Order fulfillment process\n- Inventory synchronization\n- Supplier management\nClass 12 - Shipping, Pricing & Tax Configuration\n- Shipping zone configuration\n- Shipping profiles setup\n- Product pricing strategy\n- Profit margin calculation\n- Tax & checkout configuration"
+        },
+        {
+            "title": "Module-04: Shopify Store Design & Real Client Projects",
+            "details": "Class 13 - Complete Dropshipping Store Development (Project 01)\n- Homepage structure design\n- Conversion-focused layout\n- Trust-building sections\n- Product page optimization\n- Mobile-first design strategy\nClass 14 - Landing Page Development with PageFly (Project 02)\n- PageFly builder workflow\n- High-converting landing page design\n- CTA optimization\n- Funnel-based design structure\n- Conversion principles\nClass 15 - Professional Client Store Development (Project 03)\n- Client requirement analysis\n- Homepage customization\n- Product & blog page design\n- Professional workflow management\n- Real client project handling\nClass 16 - Advanced Store Design with GemPages (Project 04)\n- GemPages builder system\n- Custom section development\n- Advanced responsive design\n- Conversion optimization techniques\n- Store UI/UX improvement"
+        },
+        {
+            "title": "Module-05: Shopify Apps, Automation & Customer Experience",
+            "details": "Class 17 - Payment Gateway & Discount System\n- Shopify Payments setup\n- Payment gateway integration\n- Coupon & discount configuration\n- Promotional campaign setup\n- Cart recovery concepts\nClass 18 - Shopify Inbox, Sticky Cart & Customer Support\n- Shopify Inbox setup\n- Sticky add-to-cart implementation\n- WhatsApp & Messenger integration\n- Customer communication workflow\n- AI chatbot introduction\nClass 19 - Review Management & Trust Building\n- Judge.me setup\n- ReviewXpo integration\n- Product review management\n- Google review import\n- Trust badge implementation\nClass 20 - Social Media Integration & Conversion Elements\n- Facebook chat integration\n- Instagram feed embedding\n- Social proof implementation\n- Engagement optimization\n- Customer retention techniques"
+        },
+        {
+            "title": "Module-06: Advanced Shopify Functionalities",
+            "details": "Class 21 - Mega Menu & Advanced Navigation Design\n- Mega menu development\n- Navigation optimization\n- Mobile menu enhancement\n- User journey improvement\n- Store usability optimization\nClass 22 - Multi-Step Forms & Lead Generation System\n- G:Form Builder setup\n- Advanced contact forms\n- Multi-step lead forms\n- Lead capture workflow\n- Customer inquiry automation\nClass 23 - Upsell System & Promotional Features\n- Sticky offer bars\n- Countdown timer setup\n- Free shipping strategies\n- Upsell & cross-sell techniques\n- Conversion improvement methods\nClass 24 - Subscription & Booking Functionality\n- Subscription product setup\n- Appointment booking systems\n- Membership workflow\n- Customer scheduling system\n- Recurring payment concepts"
+        },
+        {
+            "title": "Module-07: Shopify SEO, Speed Optimization & Security",
+            "details": "Class 25 - Shopify SEO & Search Optimization\n- Shopify SEO fundamentals\n- Smart SEO applications\n- Keyword research strategy\n- Meta title & description optimization\n- On-page SEO workflow\nClass 26 - Shopify Speed Optimization\n- Image compression & optimization\n- Lazy loading implementation\n- App optimization techniques\n- Core Web Vitals overview\n- GTmetrix & PageSpeed analysis\nClass 27 - Store Security & Legal Configuration\n- Shopify security fundamentals\n- Spam protection system\n- Legal page generation\n- Privacy & refund policy setup\n- Store protection strategies\nClass 28 - Store Backup, Migration & Domain Management\n- Store backup system\n- Store cloning process\n- Domain connection & transfer\n- DNS configuration\n- Recovery workflow basics"
+        },
+        {
+            "title": "Module-08: AI Integration, Tracking & Freelancing Career",
+            "details": "Class 29 - Facebook Pixel & Conversion Tracking\n- Facebook Pixel setup\n- Conversion event tracking\n- Add-to-cart & checkout tracking\n- Meta Conversion API overview\n- Analytics fundamentals\nClass 30 - AI Tools for Shopify Developers\n- ChatGPT for Shopify workflow\n- AI content generation\n- AI-assisted design system\n- AI product description creation\n- AI banner & marketing tools\nClass 31 - Replo Builder & Conversion Optimization\n- Replo builder overview\n- Conversion-focused layouts\n- Funnel optimization concepts\n- A/B testing fundamentals\n- CRO implementation workflow\nClass 32 - Freelancing, Client Acquisition & Final Project\n- Fiverr & Upwork optimization\n- Portfolio building\n- Client communication\n- Proposal writing strategies\n- Final project presentation"
+        }
+    ],
+    "careers": [
+        {
+            "title": "Shopify Developer",
+            "text": "Specialize in custom Shopify store development and theme customization."
+        },
+        {
+            "title": "Shopify Store Designer",
+            "text": "Design visually stunning and user-friendly Shopify stores."
+        },
+        {
+            "title": "Shopify Virtual Assistant",
+            "text": "Provide store management, maintenance, and optimization services to merchants."
+        },
+        {
+            "title": "Shopify Dropshipping Expert",
+            "text": "Help clients set up and scale profitable dropshipping businesses."
+        },
+        {
+            "title": "E-commerce Manager",
+            "text": "Manage full e-commerce operations for online businesses."
+        },
+        {
+            "title": "Shopify SEO Specialist",
+            "text": "Optimize Shopify stores for better search engine rankings and organic traffic."
+        },
+        {
+            "title": "Shopify Freelancer",
+            "text": "Work independently on international platforms like Upwork and Fiverr."
+        },
+        {
+            "title": "AI-Assisted E-commerce Specialist",
+            "text": "Use AI tools to build and optimize modern e-commerce stores efficiently."
+        },
+        {
+            "title": "Conversion Optimization Expert",
+            "text": "Improve store conversion rates through design, UX, and testing strategies."
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/100-Practical-Training.svg",
+            "title": "Build Complete Shopify E-commerce Stores",
+            "text": "Design, develop, and launch professional, high-converting Shopify stores from scratch."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/AI-Powered-Facebook-Ads.svg",
+            "title": "Design High-Converting Landing Pages",
+            "text": "Create beautiful, fast, and conversion-focused landing pages using advanced Liquid and AI tools."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Freelancing-Income-Focus.svg",
+            "title": "Manage Dropshipping Businesses Professionally",
+            "text": "Set up and run profitable dropshipping or print-on-demand stores with proper automation."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Advanced-Tracking-System.svg",
+            "title": "Optimize Shopify Stores for SEO & Speed",
+            "text": "Improve store ranking on Google and achieve excellent Core Web Vitals scores."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Complete-Marketing-Funnel.svg",
+            "title": "Integrate AI Tools into Shopify Workflow",
+            "text": "Use modern AI tools for product description, image generation, design, and automation."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Portfolio-Real-Projects.svg",
+            "title": "Handle Real Client Projects Confidently",
+            "text": "Work on live client projects and deliver production-ready Shopify stores."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Offline-Class-Expert-Mentor.svg",
+            "title": "Work as a Shopify Freelancer or Agency Developer",
+            "text": "Start freelancing on Fiverr & Upwork or join a Shopify agency with confidence."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Job-Business-Ready.svg",
+            "title": "Launch and Manage Scalable Online Stores",
+            "text": "Build stores that can handle high traffic and support business growth."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2026/05/toabur-214x300.png",
+            "name": "Toabur Rahman",
+            "designation": "Senior Web Developer",
+            "badges": "NSDA Certified, TVET Instructor, CBT&AM",
+            "url": "https://share.google/IcFPchiNGrHIU9cwB"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/unsplash_sxeFMlcId1I-300x165.png",
+            "title": "Complete Dropshipping Store Development",
+            "text": "Build a full conversion-optimized dropshipping store with professional homepage, product pages, and trust elements.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/shopify-1-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/Shopify-Partner--150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-234-300x166.png",
+            "title": "High-Converting Landing Page with PageFly",
+            "text": "Design high-performance landing pages using PageFly with advanced funnel structure and CTA optimization.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/PageFly-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2341-300x165.png",
+            "title": "Real Client Store Development",
+            "text": "Work on a live client project - from requirement gathering to final delivery.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/Replo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/GemPages-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/shopify-1-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/CJ-Dropshipping-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2342-300x166.png",
+            "title": "Advanced Design with GemPages",
+            "text": "Create premium store designs using GemPages with custom sections and superior user experience.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/Facebook-Pixel-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/AdSpy-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/Dropispy-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/GemPages-150x150.png"
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/shopify-1-300x300.png",
+            "name": "Shopify"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Shopify-Partner--300x192.png",
+            "name": "Shopify Partner"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/PageFly.png",
+            "name": "PageFly"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/GemPages-300x300.png",
+            "name": "GemPages"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Replo-300x300.png",
+            "name": "Replo"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/DSers-300x300.png",
+            "name": "DSers"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/CJ-Dropshipping.png",
+            "name": "CJ Dropshipping"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Judge.me_-300x157.png",
+            "name": "Judge.me"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/hugeicons_chat-gpt.svg",
+            "name": "ChatGPT"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Canva-1-300x300.png",
+            "name": "Canva AI"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Dropispy.png",
+            "name": "Dropispy"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/AdSpy-300x225.png",
+            "name": "AdSpy"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Logo_Google_Analytics-258x300.png",
+            "name": "Google Analytics"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Facebook-Pixel.png",
+            "name": "Facebook Pixel"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Meta-Business-Manager.png",
+            "name": "Meta Business Suite"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=iCZ4Szzc6Rg",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=lx_0Xt0J4DI",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=qt4S9rSggpo",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=BMpnRo7IrjA",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=tkolzPBXD_s",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=H89dWEL3Lnc",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "১৩ টি কোর্স"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fa6-solid_diagram-project.svg",
+            "text": "১০ টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৪ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/grommet-icons_resources.svg",
+            "text": "৬০০০ টাকা সমমূল্যের মার্কেটিং রিসোর্স"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

@@ -1,0 +1,84 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2023/02/Data-Analytics-Machine-Learning-with-Python-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "Every minute, enormous amounts of data are produced. On the other side, organizations are attempting to investigate every possibility to make sense of this data. Here is where data analytics has become essential to successfully running a firm. It is frequently employed in businesses to promote profitability and expansion. We’ll learn Python-based data analytics in this course.",
+    "curriculum": [
+        {
+            "title": "Course Objective",
+            "details": ""
+        },
+        {
+            "title": "Career Opportunity",
+            "details": ""
+        },
+        {
+            "title": "Course Outline",
+            "details": ""
+        }
+    ],
+    "careers": [
+        {
+            "title": "Data Analyst",
+            "text": ""
+        },
+        {
+            "title": "Data Engineer",
+            "text": ""
+        },
+        {
+            "title": "Machine Learning Engineer",
+            "text": ""
+        }
+    ],
+    "reasons": [],
+    "mentors": [],
+    "projects": [],
+    "tools": [
+        {
+            "icon": "",
+            "name": "VS Code"
+        },
+        {
+            "icon": "",
+            "name": "Jupyter Notebook"
+        },
+        {
+            "icon": "",
+            "name": "Pycharm"
+        },
+        {
+            "icon": "",
+            "name": "Xampp Control Pane"
+        }
+    ],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                22500,
+                15000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                30000,
+                22500
+            ]
+        }
+    }
+}

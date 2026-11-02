@@ -1,0 +1,394 @@
+{
+    "tagline": "Bring Your Imagination to Life with Cinema 4D",
+    "intro": "Master Professional 3D Animation & Modeling – From Concept to Final Render",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/03/3D-Animation-scaled.jpg",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 2110,
+    "review_count": 1351,
+    "overview": "Animation is a method in which figures are manipulated to appear like moving images. The Internet has grown a lot since the 20th century. Animation has also become very popular. Among them, the most popular is 3D Animation. 3D is nothing but the processing of an image in a digital 3-dimensional environment. 3D animation is created through a computer environment. Animation is more perversive than many people realize. Apart from short films, feature films, animated gifs, and other media dedicated to the display of moving images, and motion graphics, Animation is also used in video games. The characters we see in a game are created through Animation. 3D animation is also a powerful way to tell a brand story, present innovative and creative ideas, engage with your audience on an emotional level, and entertain them.",
+    "curriculum": [
+        {
+            "title": "Module 1: Foundations & Abstract Art (Class 1-4)",
+            "details": "Class 01:\n- Introduction to Cinema 4D, UI Navigation, and Layout Customization.\nClass 02:\n- Working with Parametric Primitives and Basic Transformation Tools.\nClass 03:\n- Understanding the Object Manager, Attribute Manager, and Layer System.\nClass 04:\n- [PROJECT 01]: Abstract 3D Background. (Creating a professional technology-themed background using basic 3D shapes)."
+        },
+        {
+            "title": "Module 2: 3D Modeling Mastery (Class 5-9)",
+            "details": "Class 05:\n- Spline Modeling – Mastering Extrude, Lathe, Loft, and Sweep generators.\nClass 06:\n- Using Deformers – Bend, Twist, Taper, and Bulge for organic shapes.\nClass 07:\n- Polygon Modeling – Introduction to Editable Objects and Selection tools.\nClass 08:\n- Essential Modeling Tools – Mastering Extrude Inner, Bevel, Bridge, and Knife tools.\nClass 09:\n- [PROJECT 02]: Stylized 3D Product Modeling. (Modeling a realistic 3D prop such as a coffee mug or a soda can)."
+        },
+        {
+            "title": "Module 3: Texturing & Shading (Class 10-14)",
+            "details": "Class 10:\n- Introduction to Material Manager, Color Channels, and Reflectance.\nClass 11:\n- Advanced Shaders – Working with Bump, Normal, and Displacement maps.\nClass 12:\n- Creating Transparency – Designing realistic Glass, Water, and Plastic materials.\nClass 13:\n- UV Mapping Basics – Understanding Cubic, Spherical, and Flat projections.\nClass 14:\n- [PROJECT 03]: Realistic Material Branding. (Applying high-quality textures, labels, and logos to the previously modeled products)."
+        },
+        {
+            "title": "Module 4: Lighting & Cinematic Rendering (Class 15-18)",
+            "details": "Class 15:\n- Mastering Light Types – 3-Point Lighting setup and Studio environments.\nClass 16:\n- Environment Lighting – Using HDRI maps for realistic reflections and Global Illumination.\nClass 17:\n- Render Engines – Exploring Physical vs. Standard Render settings and Ambient Occlusion.\nClass 18:\n- [PROJECT 04]: Professional Product Shot. (Creating a high-end studio render for a smartphone or a watch)."
+        },
+        {
+            "title": "Module 5: Keyframe Animation (Class 19-22)",
+            "details": "Class 19:\n- Animation Principles – Timeline navigation, Keyframes, and Interpolation.\nClass 20:\n- Working with F-Curves – Controlling animation speed and easing for smooth movement.\nClass 21:\n- Camera Animation – Mastering Camera Morph, Crane, and Align to Spline tags.\nClass 22:\n- [PROJECT 05]: Cinematic Camera Fly-through. (Creating a dynamic camera sequence through an architectural or scenic environment)."
+        },
+        {
+            "title": "Module 6: MoGraph & Motion Graphics (Class 23-26)",
+            "details": "Class 23:\n- The Power of MoGraph – Using Cloner, Matrix, and Fracture objects.\nClass 24:\n- MoGraph Effectors – Using Plain, Random, Step, and Delay effectors for animation.\nClass 25:\n- Advanced MoGraph – Implementing Linear, Spherical, and Box Fields for precise control.\nClass 26:\n- [PROJECT 06]: 3D Logo Intro Animation. (Creating a professional corporate logo animation using MoGraph tools)."
+        },
+        {
+            "title": "Module 7: Dynamics & Simulation (Class 27-29)",
+            "details": "Class 27:\n- Rigid Body Dynamics – Simulating realistic gravity, collisions, and friction.\nClass 28:\n- Soft Body & Cloth Simulation – Creating realistic fabric and flexible object movements.\nClass 29:\n- [PROJECT 07]: Satisfying Loop Animation. (Creating a physics-based seamless looping video for social media)."
+        },
+        {
+            "title": "Module 8: Advanced Workflow & Final Project (Class 30-32)",
+            "details": "Class 30:\n- Introduction to XPresso – Using node-based logic to automate 3D workflows.\nClass 31:\n- Composition & Export – Rendering Multi-passes and importing them into After Effects.\nClass 32:\n- [FINAL PROJECT]: Commercial Motion Poster. (Developing a full 30-second professional product commercial or high-end motion banner)."
+        }
+    ],
+    "careers": [
+        {
+            "title": "3D Animator",
+            "text": "Create character and scene animations for films, ads, and games."
+        },
+        {
+            "title": "3D Model Artist",
+            "text": "Design and model 3D objects and characters for various industries."
+        },
+        {
+            "title": "Rigging Artist",
+            "text": "Create digital skeletons for characters to enable realistic movement."
+        },
+        {
+            "title": "Texture Artist",
+            "text": "Develop realistic textures and materials for 3D models."
+        },
+        {
+            "title": "Game Design Animator",
+            "text": "Work in the video game industry creating animated characters and environments."
+        },
+        {
+            "title": "Motion Graphics Designer",
+            "text": "Produce high-quality 3D motion graphics and visual effects."
+        },
+        {
+            "title": "Freelance 3D Artist",
+            "text": "Offer 3D modeling and animation services on Fiverr, Upwork, and international platforms."
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Industry-relevant syllabus",
+            "text": "This course covers the complete 3D animation production pipeline - from modeling and texturing to rigging, animation, lighting, rendering, and special effects using Cinema 4D. The curriculum is designed according to current industry demands in film, gaming, advertising, and motion graphics."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Hands-on Practical Projects",
+            "text": "You will work on multiple real-world projects including character modeling, product animation, environment creation, motion graphics, and a final demo reel. Every project helps you build a professional portfolio."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Expert Mentor",
+            "text": "Learn from experienced 3D artists and animators who have worked on real commercial projects. They will give you personal feedback, industry tips, and guidance on building a successful career."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Job placement and freelancing support",
+            "text": "Our team will help you prepare for jobs in animation studios, game companies, and production houses. You will also learn how to find clients on Fiverr, Upwork, and other freelance platforms."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Lifetime access and community support",
+            "text": "Get lifetime access to all course materials, project files, and recordings. You will also join an active community of 3D artists for ongoing support, feedback, and networking."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Certificates and Career Value",
+            "text": "Upon completion, you will receive a recognized certificate. This will significantly increase your credibility when applying for jobs or freelancing opportunities."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2025/07/Rauful-230x300.png",
+            "name": "Rauful Islam",
+            "designation": "Senior Video Editor",
+            "badges": "NSDA Certified, Adobe Certified, 150+ Freelance Projects, Branding & Visual Design Expert",
+            "url": "https://europeanit-inst.com/mentors/rauful-islam/"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/OVC-300x165.jpg",
+            "title": "OVC",
+            "text": "",
+            "icons": ""
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/3D-Camera-Tracking-300x165.jpg",
+            "title": "3D Camera Tracking",
+            "text": "",
+            "icons": ""
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/Product-Animation-300x165.jpg",
+            "title": "Product Animation",
+            "text": "",
+            "icons": ""
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/Curve-Animation-300x165.jpg",
+            "title": "Curve Animation",
+            "text": "",
+            "icons": ""
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/06/Cinema-4D.webp",
+            "name": "Cinema 4D"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/06/Adobe_Premiere_Pro_CC_icon.svg-300x293.png",
+            "name": "Adobe Premiere Pro"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/06/Adobe_After_Effects_CC_icon.svg-300x293.png",
+            "name": "Adobe After Effects"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/06/Octane-Render.webp",
+            "name": "Octane Render"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/06/Redshift-Render.jpg",
+            "name": "Redshift Render"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/06/ZBrush.png",
+            "name": "ZBrush"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/06/Substance-Painter-300x300.webp",
+            "name": "Substance Painter"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/06/Blender-300x300.webp",
+            "name": "Blender"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/06/Marvelous-Designer-300x300.png",
+            "name": "Marvelous Designer"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=op_8wxwdWJ0",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=w17w4k2430Y",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=iEYlAguQIzM",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=8mF3I9KOV7k",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=6ohflPi_ccQ",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "36 টি লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fa6-solid_diagram-project.svg",
+            "text": "০৬ টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৩ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

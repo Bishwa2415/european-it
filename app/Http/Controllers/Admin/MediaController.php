@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -33,7 +34,7 @@ class MediaController extends Controller
     public function store(Request $request): RedirectResponse
     {
         $request->validate([
-            'files'   => ['required', 'array', 'max:20'],
+            'files' => ['required', 'array', 'max:20'],
             'files.*' => ['image', 'mimes:jpg,jpeg,png,webp,gif', 'max:4096'],   // 4 MB each, no SVG (it can contain scripts)
         ]);
 
@@ -42,6 +43,24 @@ class MediaController extends Controller
         }
 
         return back()->with('success', count($request->file('files')).' file(s) uploaded.');
+    }
+
+    /**
+     * One file from an "Upload" button inside a form (repeater rows, image fields). admin.js sends it with fetch()
+     * and gets JSON back: {"path": "media/2026/11/x.webp", "url": "http://.../storage/media/2026/11/x.webp"}
+     * kind=image → pictures (4 MB). kind=video → mp4 / webm (100 MB; php.ini upload_max_filesize must allow it).
+     */
+    public function upload(Request $request): JsonResponse
+    {
+        $rules = $request->input('kind') === 'video'
+            ? ['file', 'mimetypes:video/mp4,video/webm', 'max:102400']
+            : ['image', 'mimes:jpg,jpeg,png,webp,gif', 'max:4096'];
+
+        $request->validate(['file' => ['required', ...$rules]]);
+
+        $path = $request->file('file')->store(self::FOLDER.'/'.now()->format('Y/m'), 'public');
+
+        return response()->json(['path' => $path, 'url' => media_url($path)]);
     }
 
     public function destroy(Request $request): RedirectResponse

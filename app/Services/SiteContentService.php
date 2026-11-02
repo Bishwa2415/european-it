@@ -25,7 +25,16 @@ class SiteContentService
         'site-content.menu.footer',
         'site-content.home',
         'site-content.popup',
+        'site-content.course-page',
     ];
+
+    /** Parts of the course detail page shared by every course (Dashboard → Course page) */
+    public function coursePage(): array
+    {
+        $saved = Cache::rememberForever('site-content.course-page', fn () => $this->data('setting', 'course-page'));
+
+        return $this->merge(config('course-page'), $saved);
+    }
 
     /** Contact info, social links, floating buttons ... (Dashboard → Site settings, key "site") */
     public function settings(): array
@@ -41,8 +50,17 @@ class SiteContentService
     public function headerMenu(): array
     {
         $saved = Cache::rememberForever('site-content.menu.header', fn () => $this->data('menu', 'header'));
+        $menu = $this->merge(config('menu'), $saved);
 
-        return $this->merge(config('menu'), $saved);
+        // "Title => links" groups: the saved version replaces the defaults completely,
+        // otherwise a group deleted in the dashboard would come back from config/menu.php
+        foreach (['popular', 'dropdowns'] as $key) {
+            if (isset($saved[$key])) {
+                $menu[$key] = $saved[$key];
+            }
+        }
+
+        return $menu;
     }
 
     /** Footer texts and link lists (Dashboard → Menus, key "footer") */
@@ -60,7 +78,7 @@ class SiteContentService
 
         return [
             'layout' => $saved['layout'] ?? array_map(fn ($key) => 'builtin:'.$key, array_keys(config('home.sections'))),
-            'hero'   => array_replace(config('home.hero'), $saved['hero'] ?? []),
+            'hero' => array_replace(config('home.hero'), $saved['hero'] ?? []),
             'titles' => array_replace(config('home.titles'), $saved['titles'] ?? []),
         ];
     }

@@ -1,0 +1,512 @@
+{
+    "tagline": "Unlock opportunities with digital skills.",
+    "intro": "From social media to search engines, from clicks to conversions Learn Digital Marketing and take control of the online world.",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2025/09/Ai-and-data-driven-digital-marketing.webp",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 3534,
+    "review_count": 2125,
+    "overview": "Digital Marketing – In a significant twist in marketing strategy, the online business has taken the place of offline to a great extent. People are too busy to visit shops in person for buying expected products. So, owner of shop flooded with quality products will miss out the customers seeking their in-person visit for ages.",
+    "curriculum": [
+        {
+            "title": "Module-01: Digital Marketing Fundamentals",
+            "details": "Class-01:\n- Definition and scope of Digital Marketing.\n- Digital marketing VS Traditional marketing.\n- Digital marketing career opportunity.\n- Customer avatar and journey"
+        },
+        {
+            "title": "Module-02: Content and Youtube Marketing",
+            "details": "Class-02:\n- Definition, Importance and type of content marketing.\n- YouTube Channel Setup.\n- YouTube SEO & Monetization process.\n- Creating Image and Video content with Canva."
+        },
+        {
+            "title": "Module-03: E-commerce Website and Affiliate Marketing",
+            "details": "Class-03:\n- What is domain, hosting and WordPress.\n- Installing WordPress and setting up eCommerce theme.\n- Installing essential plugins and WP dashboard overview.\n- Understanding affiliate marketing concepts.\n- Setting up affiliate accounts and programs."
+        },
+        {
+            "title": "Module-04: Marketing and Sales Funnel",
+            "details": "Class-04:\n- Understanding Marketing Funnel.\n- Understanding Sales Funnel.\n- AIDA Funnel, Value Ladder Funnel."
+        },
+        {
+            "title": "Module-05: Facebook Marketing",
+            "details": "Class-05:\n- Creating Facebook Page, Business Portfolio and ads Account.\n- Meta Business Suite Overview.\n- Facebook Ads Library and Competitor’s ads Spy.\nClass-06:\n- Type of Facebook Ad Objective and How Auction works.\n- Running Facebook Ads: Campaign setup and targeting.\n- Facebook Instant Experience Template Setup.\nClass-07:\n- Facebook Pixel Setup.\n- Conversion API Setup ( Server-Side Tracking ).\n- Sales Campaign Setup.\n- Custom and Lookalike Audience Create.\nClass-08:\n- Facebook Lead Campaign Setup.\n- Catalog Create and setup.\n- Facebook Like Campaign Setup.\nClass-09:\n- A/B Testing.\n- Understanding important matrix for Ads Analysis.\n- AI-Based Optimization (Advantage+ Placements, Campaigns)."
+        },
+        {
+            "title": "Module-06: Instagram Marketing",
+            "details": "Class-10:\n- Creating and optimizing Instagram business accounts.\n- Running Instagram Ads: Campaign Setup and best strategies.\n- Understanding Instagram Insights."
+        },
+        {
+            "title": "Module-07: Applying AI Tools in Marketing",
+            "details": "Class-11:\n- Write marketing plan and article with ChatGPT or Gemini.\n- Generate Video Content with Sora, Veo or Flow.\n- Generate Image Content with ChatGPT, Freepik or Canva ai."
+        },
+        {
+            "title": "Module-08: Pinterest Marketing",
+            "details": "Class-12:\n- Setting up a Pinterest Business Account.\n- Pin Types (Standard, Video, Carousel, Idea Pins).\n- Pinterest Trends & Predicts Tool use and Rich Pins Setup."
+        },
+        {
+            "title": "Module-09: Web Analytics and Reporting",
+            "details": "Class-13:\n- Introduction to Google Tag Manager (GTM) and its benefits.\n- Setting up a Google Tag Manager account and container.\n- Uses of Tags, Triggers, Variables and Templates.\nClass-14:\n- Setting up Google Analytics for a website with GTM.\n- Important metrics analysis and report Check."
+        },
+        {
+            "title": "Module-10: Portfolio and CV Making",
+            "details": "Class-15:\n- Identify low competition high demanding niche.\n- Portfolio website making and project showcase.\n- CV Making with Canva and ChatGPT"
+        },
+        {
+            "title": "Module-11: Freelancing Marketplace",
+            "details": "Class-16:\n- Overview of freelancing marketplaces.\n- Creating a Fiverr account and optimizing profile.\n- Strategies to get client from Fiverr.\nClass-17:\n- Creating a Upwork account and optimizing profile\n- Strategies to get client from Upwork\nClass-18:\n- Client communication best practices\n- Fiverr and Upwork Profile Marketing"
+        },
+        {
+            "title": "Module-12: Linkedin Marketing",
+            "details": "Class-19:\n- Creating a LinkedIn Account and optimizing it.\n- Setting up a LinkedIn Company Page and optimizing it.\n- Strategies to get client from Linkedin."
+        },
+        {
+            "title": "Module-13: Copywriting",
+            "details": "Class-20:\n- What is Copywriting?\n- Copywriting vs. Content Writing.\n- Importance of Copywriting in Marketing & Business Growth\n- Best Copywriting Formulas."
+        },
+        {
+            "title": "Module-14: Email Marketing",
+            "details": "Class-21:\n- What is email marketing?\n- Lead collection process.\n- Use of email Marketing Tools.\n- Email Automation and Designing email templates."
+        },
+        {
+            "title": "Module-15: Search Engine Optimization (SEO)",
+            "details": "Class-22:\n- What is SEO? Types of SEO.\n- Keyword research.\n- On Page SEO.\n- GEO (Generative Engine Optimization).\nClass-23:\n- Off Page SEO and Backlink.\n- Google Search Console Setup.\n- AEO (Answer Engine Optimization).\nClass-24:\n- Site Audit.\n- Competitors Research for SEO.\n- Schema markup in seo.\nClass-25:\n- EEAT\n- Topical Authority.\n- Entity-Based SEO."
+        },
+        {
+            "title": "Module-16: Google Ads",
+            "details": "Class-26:\n- Definition and importance of Google ads.\n- Setting up a Google Ads account.\n- Types of campaigns in Google Ads.\n- Creating Google Search campaign.\nClass-27:\n- Google Ads Conversion Tracking Setup.\n- Youtube Ads (Video Ads).\n- Creating Google Display campaign.\nClass-28:\n- Keyword Research For Google Ads.\n- Keyword Match Type.\n- Google ads bidding strategies\nClass-29:\n- Understanding Google Ad matrix for Ads Analysis\n- Call Ads Campaign Setup.\n- Demand Gen Campaign Setup.\nClass-30:\n- Ad extensions in google ads.\n- Audience Create.\n- Remarketing Campaign Setup."
+        },
+        {
+            "title": "Module-17: Out of Marketplace Client Hunting",
+            "details": "Class-31:\n- Why do not depend on Marketplace.\n- Out of Marketplace Client Hunting process.\n- Personal Branding Strategies.\nClass-32:\n- Full Course Summary.\n- Job Preparation.\n- What is next?\n- Farewell."
+        }
+    ],
+    "careers": [
+        {
+            "title": "Freelancing & Remote Work",
+            "text": "Work with clients worldwide through platforms like Fiverr and Upwork. Build your career from home and earn through digital marketing services such as SEO, social media management, and advertising."
+        },
+        {
+            "title": "Digital Marketing Executive",
+            "text": "Join companies as a Digital Marketing Executive and manage social media, SEO, Google Ads, email campaigns, and online branding activities."
+        },
+        {
+            "title": "Social Media Manager",
+            "text": "Help brands grow their online presence by managing Facebook, Instagram, TikTok, LinkedIn, and other social media platforms professionally."
+        },
+        {
+            "title": "SEO Specialist",
+            "text": "Optimize websites to rank higher on Google search results. SEO experts are highly demanded by businesses, agencies, and e-commerce companies."
+        },
+        {
+            "title": "E-commerce Marketing",
+            "text": "Work with e-commerce businesses to increase online sales through Facebook Ads, Google Ads, content marketing, and conversion optimization."
+        },
+        {
+            "title": "Content Creator & Personal Branding",
+            "text": "Build your own YouTube channel, blog, or social media brand. Use digital marketing skills to grow followers, audience engagement, and online income."
+        },
+        {
+            "title": "Agency Career Opportunities",
+            "text": "Work in a digital marketing agency or start your own agency providing SEO, advertising, social media, and branding services to clients."
+        },
+        {
+            "title": "Affiliate Marketing",
+            "text": "Promote products and services online and earn commission-based income through affiliate marketing platforms and partnerships."
+        },
+        {
+            "title": "Local Business Marketing",
+            "text": "Support local businesses such as restaurants, shops, clinics, and startups by helping them attract more customers through online marketing strategies."
+        },
+        {
+            "title": "Remote International Jobs",
+            "text": "Many international companies hire remote digital marketers for SEO, paid ads, content creation, and social media management roles."
+        },
+        {
+            "title": "Entrepreneurship & Startup Growth",
+            "text": "Use digital marketing to launch and grow your own business or startup with cost-effective online promotion strategies."
+        },
+        {
+            "title": "Consulting & Training",
+            "text": "Become a digital marketing consultant or trainer and help businesses or students learn effective online marketing strategies."
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "10 Practical Projects Will Be Demonstrated",
+            "text": "You will learn through real marketing projects. Skills will be built through hands-on practice. Every step will be guided by a mentor. You will not only learn but also gain real industry experience."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Ad Result Analysis Will Be Shown",
+            "text": "Live ad campaign results will be analyzed in detail. You will learn how to make decisions based on data. Successful ad strategies and reasons for failure will be explained. This will help you become a professional in real marketing analysis."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Award-Winning Certified Mentor",
+            "text": "You will learn from an experienced and professionally recognized mentor. You will receive personal guidance for hands-on learning. Every class will include practical feedback. You will have a real guide for your career development."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Advanced Tools & Effective Strategy Integration",
+            "text": "You will be trained with up-to-date digital tools. You will learn result-driven strategies through practical work. These tools will be used in real projects. This is not theory this is real-time action planning."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Use of AI Tools in Marketing",
+            "text": "You will learn smart marketing using trending AI tools. It includes content creation, copywriting, design, and automation. You will learn techniques to make work faster and easier. Productivity will increase significantly while saving time."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Experience-Based Portfolio Building",
+            "text": "Your portfolio will be built through real project work. It will not be empty design it will include real case studies and results. Employers will clearly understand your skills. It will be job-market ready and professionally presented."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2026/07/image-71-1-288x300.png",
+            "name": "Rahmat Ullah",
+            "designation": "Senior Digital Marketing Manager",
+            "badges": "NSDA Certified, Facebook Certified, Hubspot Certified, Mentor",
+            "url": "https://europeanit-inst.com/mentors/rahmat-ullah/"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/unsplash_sxeFMlcId1I-300x165.png",
+            "title": "Facebook Instant Experience",
+            "text": "Conduct a full SEO audit for a real business and develop an actionable strategy to improve their search rankings.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Facebook-Ads-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-canva.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-234-300x166.png",
+            "title": "Facebook Pixel Setup on WordPress",
+            "text": "Design and implement a complete social media marketing campaign across multiple platforms.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/meta_pixel_logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/wordpress-logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Tag-Manager-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Pixelyoursite.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2341-300x165.png",
+            "title": "Google Ads Conversion Tracking",
+            "text": "Set up, optimize and manage paid advertising campaigns on Google and Facebook platforms",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/meta_pixel_logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/wordpress-logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Tag-Manager-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/stape-Logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Logo_Google_Analytics-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2342-300x166.png",
+            "title": "AI-Based Video and Image",
+            "text": "Develop a comprehensive content strategy including blog posts, videos, and social media content.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Google_Ads_logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Tag-Manager-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Tag-Assistant-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/unsplash_sxeFMlcId1I1-300x165.png",
+            "title": "Google Analytics 4 (GA4)",
+            "text": "Set up, optimize and manage paid advertising campaigns on Google and Facebook platforms",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/ChatGPT-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Veo-3-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Kling-AI-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Freepic-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2343-300x166.png",
+            "title": "Email Automation Setup with",
+            "text": "Develop a comprehensive content strategy including blog posts, videos, and social media content.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Yoast-SEO-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/google-search-console-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/wordpress-logo-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2344-300x166.png",
+            "title": "Facebook Conversion API",
+            "text": "Create a complete email marketing funnel with lead magnets, automation, and conversion tracking.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Tag-Manager-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Logo_Google_Analytics-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/wordpress-logo-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2345-300x166.png",
+            "title": "Practical On-Page SEO",
+            "text": "Set up analytics tracking and create comprehensive reports to measure campaign performance.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Mailchimp-1-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Gmail_icon_-150x150.png"
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/logos_google-ads.svg",
+            "name": "Google Ads"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/logos_meta-icon-1.svg",
+            "name": "Meta Ads"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/logos_google-tag-manager.svg",
+            "name": "Google Tag Manager"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/ph_code-fill.svg",
+            "name": "Meta Pixel with CAPI"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/material-icon-theme_gemini-ai.svg",
+            "name": "Gmini"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/kling-kuaishou-icon-300x300.png",
+            "name": "kling ai"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/simple-icons_yoast.svg",
+            "name": "Yoast SEO"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/google-search-console-300x268.png",
+            "name": "Google Search Console"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/skill-icons_wordpress.svg",
+            "name": "WordPress"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/simple-icons_semrush.svg",
+            "name": "Semrush"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/hugeicons_chat-gpt.svg",
+            "name": "ChatGPT"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Veo-3.png",
+            "name": "VEO 3"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Vector.svg",
+            "name": "Mailchimp"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/skill-icons_linkedin.svg",
+            "name": "Linkedin"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/skill-icons_instagram.svg",
+            "name": "Instagram"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/image-70.svg",
+            "name": "Ahrefs"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=REptAYuMElE",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=3QxkZCFNBW4",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=rsFqFWj9MNw",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=wRh9o32Gk0Q",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=Y7JlcNIq2_0",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=nJ7iW35_yP4",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "১৩ টি কোর্স"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fa6-solid_diagram-project.svg",
+            "text": "১০ টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৩ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/grommet-icons_resources.svg",
+            "text": "৬০০০ টাকা সমমূল্যের মার্কেটিং রিসোর্স"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

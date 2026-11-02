@@ -1,0 +1,62 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/06/Cyber-Security-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "Cyber Security – Computer security, cybersecurity, or information technology security is the protection of computer systems and networks from information disclosure, theft of, or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide.",
+    "curriculum": [
+        {
+            "title": "What is Cyberspace?",
+            "details": ""
+        },
+        {
+            "title": "What is Cybersecurity?",
+            "details": ""
+        },
+        {
+            "title": "Why is Cybersecurity Important?",
+            "details": ""
+        },
+        {
+            "title": "What is a Hacker?",
+            "details": ""
+        },
+        {
+            "title": "What is Malware?",
+            "details": ""
+        }
+    ],
+    "careers": [],
+    "reasons": [],
+    "mentors": [],
+    "projects": [],
+    "tools": [],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                28000,
+                18000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                40000,
+                26000
+            ]
+        }
+    }
+}

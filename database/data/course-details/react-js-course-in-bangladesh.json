@@ -1,0 +1,173 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/07/Frontend-Development-with-React-Js-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "React is a library for building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time. Lots of people use React as the V in MVC. React abstracts away the DOM from you, offering a simpler programming model and better performance. React can also render on the server using Node, and it can power native apps using React Native. React implements one-way reactive data flow, which reduces the boilerplate and is easier to reason about than traditional data binding. React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+    "curriculum": [
+        {
+            "title": "Introduction + setup",
+            "details": ""
+        },
+        {
+            "title": "JavaScript basics",
+            "details": ""
+        },
+        {
+            "title": "React key concepts",
+            "details": ""
+        },
+        {
+            "title": "React basics",
+            "details": ""
+        },
+        {
+            "title": "Working with components",
+            "details": ""
+        },
+        {
+            "title": "React router",
+            "details": ""
+        },
+        {
+            "title": "React Hooks",
+            "details": ""
+        },
+        {
+            "title": "React context for state management",
+            "details": ""
+        },
+        {
+            "title": "Styling React components",
+            "details": ""
+        },
+        {
+            "title": "Material UI",
+            "details": ""
+        },
+        {
+            "title": "ReactBootstrap",
+            "details": ""
+        },
+        {
+            "title": "React props",
+            "details": ""
+        },
+        {
+            "title": "Reducers",
+            "details": ""
+        },
+        {
+            "title": "Working with APIs",
+            "details": ""
+        },
+        {
+            "title": "Debugging React apps",
+            "details": ""
+        },
+        {
+            "title": "Debugging React apps",
+            "details": ""
+        },
+        {
+            "title": "Git and GitHub",
+            "details": ""
+        },
+        {
+            "title": "Deploying React apps in netlify",
+            "details": ""
+        }
+    ],
+    "careers": [
+        {
+            "title": "Web Developer",
+            "text": ""
+        },
+        {
+            "title": "Front-End Web Developer",
+            "text": ""
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "",
+            "title": "JavaScript & ReactJs",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "JavaScript basics",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "React Structure",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "React Hooks",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Dynamic Website Development",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Web Application Development",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Hands-on training using latest tools and training",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Specialization & creating portfolio in the area of interest",
+            "text": ""
+        }
+    ],
+    "mentors": [],
+    "projects": [],
+    "tools": [
+        {
+            "icon": "",
+            "name": "Code Editor (visual studio code recommended)"
+        },
+        {
+            "icon": "",
+            "name": "Web Browsers ( Chrome recommended)"
+        }
+    ],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                22500,
+                16000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                30000,
+                22500
+            ]
+        }
+    }
+}

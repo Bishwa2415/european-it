@@ -1,0 +1,70 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2023/04/Blockchain-Development-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "Blockchain technology is a decentralized, distributed ledger that maintains a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. This technology is the backbone of cryptocurrencies, such as Bitcoin and Ethereum, and has a wide range of applications in various industries, including finance.\nFinTech, or financial technology, refers to the use of technology to improve and automate financial services. FinTech has disrupted traditional financial services by introducing innovative solutions that are faster, more efficient, and more convenient. Examples of FinTech solutions include mobile payments, peer-to-peer lending, digital wallets, and robo-advisors.\nBlockchain technology has the potential to transform the financial industry by making transactions faster, cheaper, and more secure. The use of blockchain technology in finance enables decentralized, peer-to-peer transactions that eliminate the need for intermediaries such as banks. It also provides greater transparency and accountability in financial transactions, reducing the risk of fraud and corruption.\nOverall, blockchain technology has the potential to revolutionize the financial industry by making transactions faster, cheaper, and more secure. FinTech companies are at the forefront of this transformation, using blockchain technology to create innovative solutions that are disrupting traditional financial services.",
+    "curriculum": [
+        {
+            "title": "Why Do We Need a Decentralised Ledger System? Part 1",
+            "details": ""
+        },
+        {
+            "title": "Why Do We Need a Decentralised Ledger System? Part 2",
+            "details": ""
+        },
+        {
+            "title": "Having a Centralised Trusted Party – Advantages and Disadvantages",
+            "details": ""
+        },
+        {
+            "title": "Security, Integrity and Privacy Issues of a Decentralized System",
+            "details": ""
+        },
+        {
+            "title": "Blockchain – A Technology that Makes Sense with Trust and Coordination (An Interview with Charles d’Haussy from ConsenSys)",
+            "details": ""
+        },
+        {
+            "title": "What Are the Main Barriers to Blockchain Adoption? (Charles d’Haussy from ConsenSys)",
+            "details": ""
+        },
+        {
+            "title": "Why Use Blockchain Technology? (Henri Arslanian from PwC)",
+            "details": ""
+        }
+    ],
+    "careers": [],
+    "reasons": [],
+    "mentors": [],
+    "projects": [],
+    "tools": [],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                26000,
+                16000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                40000,
+                26000
+            ]
+        }
+    }
+}

@@ -85,6 +85,14 @@
                                    class="rounded-lg p-2 text-gray-500 hover:bg-primary/10 hover:text-primary">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
+                                <a href="{{ route('admin.courses.edit', $course) }}#tab-curriculum" title="Course page content (curriculum, projects ...)"
+                                   class="rounded-lg p-2 text-gray-500 hover:bg-primary/10 hover:text-primary">
+                                    <i class="bi bi-layout-text-window"></i>
+                                </a>
+                                <a href="{{ $course->url() }}" target="_blank" title="View on website"
+                                   class="rounded-lg p-2 text-gray-500 hover:bg-primary/10 hover:text-primary">
+                                    <i class="bi bi-box-arrow-up-right"></i>
+                                </a>
                                 <form method="POST" action="{{ route('admin.courses.destroy', $course) }}"
                                       data-confirm="Delete “{{ $course->title }}”? This cannot be undone.">
                                     @csrf

@@ -1,0 +1,118 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2023/04/CCNA-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "CCNA – Cisco Certified Network Associate (CCNA) is a widely-recognized IT certificate for professionals who are beginning their IT careers. This certificate validates the ability to install configure, operate, and troubleshoot medium-size routed and switched networks, including implementation and verification of connections to remote sites in a WAN. This certificate is very important for any company. CCNA is the most in-demand certification for IT.\nCCNA makes you a well-rounded network engineer, it trains you in multiple levels and areas regarding the ability to work with routed and switched networks. Network Security engineers are in a demandable job now a day and if you are Cisco certified then you have more than 70% possibility to get hired because still Cisco methods are used widely. This strengthens your knowledge and skills in the fundamentals of networking, IP connectivity, security, automation, and more.",
+    "curriculum": [
+        {
+            "title": "Network Fundamentals",
+            "details": ""
+        },
+        {
+            "title": "LAN Switching Fundamentals & Technologies",
+            "details": ""
+        },
+        {
+            "title": "Routing Fundamentals & Technologies",
+            "details": ""
+        },
+        {
+            "title": "Infrastructure Services & Security",
+            "details": ""
+        },
+        {
+            "title": "Infrastructure Maintenance & Management",
+            "details": ""
+        },
+        {
+            "title": "WAN Technologies",
+            "details": ""
+        }
+    ],
+    "careers": [
+        {
+            "title": "Network Administrator",
+            "text": ""
+        },
+        {
+            "title": "Network Specialist",
+            "text": ""
+        },
+        {
+            "title": "Network integrators",
+            "text": ""
+        },
+        {
+            "title": "IT managers",
+            "text": ""
+        },
+        {
+            "title": "IT consultants",
+            "text": ""
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "",
+            "title": "Install, operate and troubleshoot medium- sized switched and routed networks",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Network and Wireless Security",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Implement and troubleshoot various protocols to manage addressing, perform load balancing and authentication",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Manage Local Area Network (LAN)",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Establish and troubleshoot connection to service provider over WAN",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Identify security threats and basic mitigation methods",
+            "text": ""
+        }
+    ],
+    "mentors": [],
+    "projects": [],
+    "tools": [],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                22500,
+                16000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                30000,
+                22500
+            ]
+        }
+    }
+}

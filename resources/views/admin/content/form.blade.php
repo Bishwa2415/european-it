@@ -5,15 +5,11 @@
 @section('content')
     @php
         $slugHint = match ($type) {
-            'menu' => 'Use “header” for the desktop and mobile navigation menu, or “footer” for footer links.',
-            'setting' => 'Use “site” for contact details, social links, footer content, and floating button settings.',
             'section' => 'Optional anchor name for this section.',
             'popup' => 'Optional internal key for this popup.',
             default => 'This becomes the public URL slug. Pages use /{slug}; posts use /blog/{slug}.',
         };
         $dataHint = match ($type) {
-            'menu' => 'JSON object matching the existing menu structure: popular, dropdowns, and links. Keep labels and URLs together.',
-            'setting' => 'JSON object for site contact, social, map, and floating button settings. Footer links and payment content are managed under Menus > Footer.',
             'popup' => 'Optional JSON settings: button_label and button_url.',
             default => 'Optional JSON fields include image, meta_title, meta_description, button_label, and button_url.',
         };

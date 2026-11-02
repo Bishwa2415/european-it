@@ -1,0 +1,109 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/03/networking.png",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "Many companies from enterprises to small businesses are changing. They are moving from internal services to cloud architecture.\nAn AWS Solution designs build, deploys, and maintains business applications and critical infrastructure inside the AWS cloud. They have developed skills and expertise to help them design and build advanced cloud-based solutions and migrate existing workloads to the cloud.\nOur AWS course syllabus is framed by experts. This AWS Solutions Architect Associate (SAA-C02) Course Content Cover all the latest topics to an advanced level for the AWS Solutions Architect Associate (SAA-C02).",
+    "curriculum": [
+        {
+            "title": "The AWS Fundamentals",
+            "details": ""
+        },
+        {
+            "title": "The AWS CLI",
+            "details": ""
+        },
+        {
+            "title": "In-Depth Database comparison",
+            "details": ""
+        },
+        {
+            "title": "Monitoring, Troubleshooting & Audit",
+            "details": ""
+        },
+        {
+            "title": "AWS Integration & Messaging",
+            "details": ""
+        },
+        {
+            "title": "AWS Serverless",
+            "details": ""
+        },
+        {
+            "title": "AWS Security best practices",
+            "details": ""
+        },
+        {
+            "title": "VPC & Networking in depth",
+            "details": ""
+        },
+        {
+            "title": "Final Project",
+            "details": ""
+        }
+    ],
+    "careers": [],
+    "reasons": [
+        {
+            "icon": "",
+            "title": "Architecting for the AWS Cloud",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "AWS Well-Architected Framework",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "AWS Storage & Content Delivery Services",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "AWS Compute Services",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "AWS Networking Services",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "AWS Database Services",
+            "text": ""
+        }
+    ],
+    "mentors": [],
+    "projects": [],
+    "tools": [],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                22500,
+                16000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                30000,
+                22500
+            ]
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/03/Networking-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "Networking – A computer network is a set of computers sharing resources located on or provided by network nodes. The computers use common communication protocols over digital interconnections to communicate with each other. Through Computer networks, users can share their files, printer, or another device with each other and run. There are 3 elements of a computer network\nWith the networking huge amount of work can be shortened. Network engineers have huge demand now. Because every reputed and big companies use networking for fast and convenience.\nThis course offers you the opportunity to become a successful networker by learning advanced networking from the basics of Network Engineer, CCNA, MTCNA, and RHCE.",
+    "curriculum": [
+        {
+            "title": "Network Fundamentals.",
+            "details": ""
+        },
+        {
+            "title": "Network Addressing",
+            "details": ""
+        },
+        {
+            "title": "Switching Fundamentals",
+            "details": ""
+        },
+        {
+            "title": "Routing Fundamentals",
+            "details": ""
+        },
+        {
+            "title": "Gateway & DHCP Server",
+            "details": ""
+        },
+        {
+            "title": "Small Officer Router and Access point Configuration",
+            "details": ""
+        },
+        {
+            "title": "Managing IT services including Printer, File sharing",
+            "details": ""
+        },
+        {
+            "title": "Linux Fundamentals",
+            "details": ""
+        }
+    ],
+    "careers": [
+        {
+            "title": "Technical Support Executive",
+            "text": ""
+        },
+        {
+            "title": "Support Engineer",
+            "text": ""
+        },
+        {
+            "title": "IT Support Executive",
+            "text": ""
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "",
+            "title": "Maintenance, troubleshooting and administration of IT systems including router and switch, computer workstations, Internet connection and all IT related network peripheral equipment.",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Design, Develop and Manage LAN and connect to other network.",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Install, Configure and Maintenance Wireless router, Access point.",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Data Sync & Backups Management",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Effectively manage file sharing, printer sharing.",
+            "text": ""
+        }
+    ],
+    "mentors": [],
+    "projects": [],
+    "tools": [],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                15000,
+                11000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                20000,
+                15000
+            ]
+        }
+    }
+}

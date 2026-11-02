@@ -1,0 +1,104 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/09/Modern-Software-Development-with-Python-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "In the era of the 4.0 industrial revolution, python is one of the promising and leading programming languages compared to other high-level languages (Such as Java, C#, and So on). The main reason for python’s popularity is that python is very easy to code. In software development, python is hugely used for integrative advanced AI technology as well as Natural Language Processing. Python has a lot of built-in libraries for developing data analysis tools and machine learning and deep learning which is absolutely easy to understand and code. Moreover, to make a fast and interactive web application or web-based software React JS is another popular JavaScript framework that can easily merge with python for developing the software or web application very efficiently.",
+    "curriculum": [],
+    "careers": [
+        {
+            "title": "Web Developer",
+            "text": ""
+        },
+        {
+            "title": "Full Stack Web Developer",
+            "text": ""
+        },
+        {
+            "title": "Software Engineer",
+            "text": ""
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "",
+            "title": "Modern JavaScript",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "React JS",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Python",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "MongoDB",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Dynamic Website Development",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Web Application Development",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Hands-on training using latest tools and training",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Specialization & creating portfolio in the area of interest",
+            "text": ""
+        }
+    ],
+    "mentors": [],
+    "projects": [],
+    "tools": [
+        {
+            "icon": "",
+            "name": "Code Editor (visual studio code recommended)"
+        },
+        {
+            "icon": "",
+            "name": "Web Browsers (Chrome recommended)"
+        }
+    ],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                45000,
+                33000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                50000,
+                45000
+            ]
+        }
+    }
+}

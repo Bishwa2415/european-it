@@ -1,0 +1,412 @@
+{
+    "tagline": "AI-Powered Digital Skills for Modern Careers",
+    "intro": "Learn essential computer skills, Microsoft Office, internet usage, and modern AI tools like ChatGPT & Canva AI for jobs, study, office work, and freelancing.",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2023/04/Basic-Computer-scaled.jpg",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 4130,
+    "review_count": 3789,
+    "overview": "This course is designed for beginners who want to build practical computer skills for today’s digital and AI-powered world. Students will learn computer fundamentals, MS Office, internet & email communication, cloud tools, AI productivity tools, online safety, and basic freelancing skills to stay ready for modern careers and workplaces.",
+    "curriculum": [
+        {
+            "title": "Module 1: Computer Basics & Hardware - 4 Hours",
+            "details": "🎯 Learning Objectives\n- Identify computer parts\n- Understand input/output devices\n- Know how data is stored\n- Turn on/off safely\n🛠 Practical Tasks & Assignments\n- Label all hardware parts on a diagram\n- Practise turning on/off, restart safely\n- Type 30 words per minute - Bangla & English\n- Identify 10 components from real device\n📚 Topics Covered\n- What is a computer?\n- Hardware: CPU, RAM, HDD, Monitor, Keyboard, Mouse\n- Input vs Output devices\n- Types: Desktop, Laptop, Tablet\n- Proper computer handling & care\n- Typing practice: Bengali & English\n🌍 Real-Life Use Cases\n- HR staff organizes employee documents in folders\n- Students keep assignments organized\n- Small business tracks receipts digitally"
+        },
+        {
+            "title": "Module 2: Windows OS & File Management - 4 Hours",
+            "details": "🎯 Learning Objectives\n- Navigate Windows desktop\n- Manage files and folders\n- Use keyboard shortcuts\n- Install/uninstall software\n🛠 Practical Tasks & Assignments\n- Organize 20 files into proper folders\n- Create a personal folder structure\n- Screenshot your desktop & label all parts\n- Install a free app (VLC, PDF reader)\n📚 Topics Covered\n- Windows 10/11 interface overview\n- Desktop, Taskbar, Start Menu\n- Creating folders, renaming, moving files\n- Copy, Cut, Paste (Ctrl+C, V, X)\n- Recycle Bin, Undo, Redo\n- Installing & uninstalling apps\n- Disk management basics\n🌍 Real-Life Use Cases\n- Apply for jobs via email\n- Submit assignments to teachers\n- Customer support via email in offices"
+        },
+        {
+            "title": "Module 3: Windows OS & File Management - 5 Hours",
+            "details": "🎯 Learning Objectives\n- Browse internet confidently\n- Search effectively on Google\n- end/receive professional emails\n- Stay safe online\n🛠 Practical Tasks & Assignments\n- Create a Gmail account from scratch\n- Send a professional job application email\n- Search 5 topics and save links\n- Upload a file to Google Drive & share it\n📚 Topics Covered\n- What is the Internet? / ইন্টারনেট কী?\n- Browser: Chrome, Firefox\n- Google Search tips & tricks\n- Creating a Gmail account\n- Composing, Reply, Forward, CC, BCC\n- Email attachments (file, photo)\n- Online safety: passwords, phishing\n- YouTube for learning\n🌍 Real-Life Use Cases\n- Apply for jobs via email\n- Submit assignments to teachers\n- Customer support via email in offices"
+        },
+        {
+            "title": "Module 4: Microsoft Word - Document Creation - 6 Hours",
+            "details": "🎯 Learning Objectives\n- Create professional documents\n- Format text and pages\n- Insert tables, images, headers\n- Print and export to PDF\n🛠 Practical Tasks & Assignments\n- Type and format a full CV/Resume\n- Create a formal letter (চাকরির দরখাস্ত)\n- Design a one-page business flyer\n- Build a table-based class schedule\n📚 Topics Covered\n- Word interface: Ribbon, Quick Access\n- Font: size, bold, italic, underline, color\n- Paragraph alignment, spacing, indent\n- Bullet points & numbered lists\n- Tables: insert, format, merge cells\n- Page layout: margins, orientation\n- Headers, Footers, Page Numbers\n- Save as PDF, Print document\n- CV/Resume template creation\n🌍 Real-Life Use Cases\n- HR writes offer letters in Word\n- Students type assignments and reports\n- NGOs prepare project proposals"
+        },
+        {
+            "title": "Module 5: Microsoft Excel - Data & Spreadsheets - 7 Hours",
+            "details": "🎯 Learning Objectives\n- Enter and format data\n- Use formulas for calculations\n- Create charts and graphs\n- Manage lists and databases\n🛠 Practical Tasks & Assignments\n- Build a monthly household budget sheet\n- Create attendance register with formulas\n- Make a sales data chart for a shop\n- Build a student grade calculator\n📚 Topics Covered\n- Excel interface: cells, rows, columns\n- Data entry, AutoFill, Flash Fill\n- Formulas: SUM, AVERAGE, COUNT, MAX, MIN\n- Functions: IF, VLOOKUP, CONCATENATE\n- Cell formatting: borders, colors, merge\n- Sorting & Filtering data\n- Charts: Bar, Pie, Line chart\n- Budget sheet / attendance register\n🌍 Real-Life Use Cases\n- Accounts staff tracks daily sales\n- School teachers manage student marks\n- Shop owners track inventory & expenses"
+        },
+        {
+            "title": "Module 6: Microsoft PowerPoint - Presentations - 5 Hours",
+            "details": "🎯 Learning Objectives\n- Create slides from scratch\n- Use themes and layouts\n- Add visuals, charts, transitions\n- Deliver a confident presentation\n🛠 Practical Tasks & Assignments\n- Create 10-slide company introduction deck\n- Design a 5-slide product pitch\n- Make a personal portfolio presentation\n- Convert a Word CV into slides\n📚 Topics Covered\n- PowerPoint interface overview\n- Slide layouts and themes\n- Adding text, images, icons\n- Shapes and SmartArt\n- Slide transitions & animations\n- Charts and tables in slides\n- Presenter view & speaker notes\n- Slide design principles\n🌍 Real-Life Use Cases\n- Students present projects to class\n- Sales teams pitch to clients\n- NGO workers present reports to donors"
+        },
+        {
+            "title": "Module 7: Introduction to AI & ChatGPT - 6 Hours",
+            "details": "🎯 Learning Objectives\n- Understand what AI is\n- Use ChatGPT for everyday tasks\n- Write effective prompts\n- Know AI limitations & ethics\n🛠 Practical Tasks & Assignments\n- Ask ChatGPT 10 different types of questions\n- Translate a paragraph with AI + compare\n- Summarize a news article using AI\n- Write a complaint letter using ChatGPT\n📚 Topics Covered\n- What is Artificial Intelligence?\n- How ChatGPT works — in simple terms\n- Creating a ChatGPT account (free)\n- Basic prompting: asking good questions\n- ChatGPT for Q&A, explanations\n- Translating Bengali ↔ English with AI\n- Summarizing long texts instantly\n- AI dos & don'ts / ethical use\n🌍 Real-Life Use Cases\n- Job seekers write cover letters in minutes\n- Students get concepts explained simply\n- Job seekers write cover letters in minutes"
+        },
+        {
+            "title": "Module 8: AI for Writing & Content Creation - 5 Hours",
+            "details": "🎯 Learning Objectives\n- Write professional documents with AI\n- Create social media contento\n- Use AI image tools\n- Build a basic content portfolio\n🛠 Practical Tasks & Assignments\n- Write 5 Facebook posts for a local business\n- Create a blog article with AI assistance\n- Design a social media banner in Canva AI\n- Build a 1-page content portfolio\n📚 Topics Covered\n- AI tools: ChatGPT, Gemini, Copilot\n- Writing emails, letters, proposals with AI\n- Blog post & article generation\n- Social media captions (Facebook, LinkedIn)\n- AI image generation: Canva AI, Adobe Firefly\n- Creating logos & graphics with Canva\n- Facebook post design for businesses\n🌍 Real-Life Use Cases\n- Businesses need daily social media content\n- NGOs promote campaigns with AI graphics\n- Freelancers offer content packages"
+        },
+        {
+            "title": "Module 9: AI for Productivity & Office Work - 5 Hours",
+            "details": "🎯 Learning Objectives\n- Use AI tools for office efficiency\n- Automate repetitive tasks\n- Create AI-powered presentations\n- Manage time and tasks with AI"
+        },
+        {
+            "title": "Module 10: Freelancing, Job Skills & Final Project - 8 Hours",
+            "details": "💻 Freelancing Platforms\n- Fiverr - Gig-based, perfect for beginners\n- Upwork - Hourly/fixed contracts\n- Freelancer.com - Bid on projects\n- LinkedIn - Professional networking & jobs\n- Facebook Groups - Local BD clients\n🏢 Office Job Skills\n- Professional email etiquette\n- Resume & CV with AI assistance\n- Job portal registration (bdjobs.com)\n- Interview preparation with ChatGPT\n🎓 Final Project Options\n- Create a personal CV using MS Word\n- Build an Excel budget tracker for a shop\n- Design a 10-slide presentation with AI\n- Write 5 social media posts for a business\n- Create a Fiverr profile for one skill\n🏅 Certification Criteria\n- Attend 80% of classes\n- Submit final project\n- Pass practical test (score 60%+)\n- Complete all module assignments"
+        }
+    ],
+    "careers": [
+        {
+            "title": "Data Entry Operator",
+            "text": "Enter and manage data in Excel, online forms, databases"
+        },
+        {
+            "title": "Office Computer Operator",
+            "text": "Handle Word, Excel, email in corporate/NGO offices"
+        },
+        {
+            "title": "Content Creator / Writer",
+            "text": "Write social media posts, blogs, marketing copy with AI"
+        },
+        {
+            "title": "Presentation Designer",
+            "text": "Create PowerPoint decks for businesses and education"
+        },
+        {
+            "title": "Freelancer on Fiverr/Upwork",
+            "text": "Offer typing, Excel, content, VA services internationally"
+        },
+        {
+            "title": "AI Tool Specialist",
+            "text": "Help businesses use ChatGPT, Canva AI, productivity tools"
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Industry-Relevant Syllabus",
+            "text": "The course teaches practical skills in highly demanded software such as Microsoft Word, Excel, PowerPoint, and Access, which are highly needed in the job and freelancing market."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Hands-on project-based learning",
+            "text": "Through 9 real-world projects, you will gain not only theory but also practical experience, which will strengthen your portfolio."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Expert Mentor",
+            "text": "You will learn under the guidance of experienced and certified mentors, who will provide personalized feedback and career guidance."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Job placement and freelancing support",
+            "text": "Our powerful job placement cell and freelancing marketplace guide will help you with CV creation, interview preparation, and client finding strategies."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Lifetime access and community support",
+            "text": "Enrolling in the course will give you lifetime access and the opportunity to solve problems and network through our active community."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Certificates and Career Value",
+            "text": "At the end of the course, you will receive an industry-ready certificate, which will help increase your professional value by adding it to your job application or freelancing profile."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2025/07/Harun-Profile-260x300.png",
+            "name": "Harun Or Rashid",
+            "designation": "Basic Computer Specialist",
+            "badges": "NSDA Certified, 100+ Freelance Projects, MS Office applications Expert",
+            "url": "https://europeanit-inst.com/mentors/md-harun-ur-rashid/"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/basic-partical-1-1-300x165.jpg",
+            "title": "Personal portfolio document",
+            "text": "You will learn how to present your skills and work by creating professional documents.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-microsoft-word.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/basic-partical-2-300x165.jpg",
+            "title": "Business Report with MS Word",
+            "text": "Proficiency in business report, proposal and document formatting in MS Word.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-microsoft-word.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/basic-partical-5-300x165.jpg",
+            "title": "Data Analysis Dashboard with Excel",
+            "text": "Creating data analysis dashboards using pivot tables, charts, and Power Query.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-microsoft-excel.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/basic-partical-4-300x165.jpg",
+            "title": "Professional Presentation with PowerPoint",
+            "text": "Create engaging presentations using animation and media.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-ms-powerpoint.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/basic-partical-3-300x165.jpg",
+            "title": "Database Management with MS Access",
+            "text": "Database handling through query and form design.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/database-svgrepo-com.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-microsoft-access.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/basic-partical-6-300x165.jpg",
+            "title": "Automation with Excel Macros",
+            "text": "Automate work processes in Excel using macros and VBA.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-microsoft-excel.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/basic-cmputer-9-300x165.jpg",
+            "title": "Creating a newsletter using Microsoft Word",
+            "text": "Create a professional newsletter using columns, images, and text formatting in Microsoft Word.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-microsoft-word.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/basic-cmputer-8-300x165.jpg",
+            "title": "Create Attendance Sheet, Salary Sheet & Result Sheet",
+            "text": "Practical skills will be acquired in creating attendance, salary, and result sheets using formulas and tables in Microsoft Excel.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-microsoft-excel.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/basic-cmputer-7-300x165.jpg",
+            "title": "Creating animations and cartoons in PowerPoint",
+            "text": "You will learn to create simple cartoons and moving content using animations, transitions, and shapes in PowerPoint.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/AI-Powered-Facebook-Ads.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-ms-powerpoint.svg"
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-windows-10.svg",
+            "name": "Windows operating system"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-microsoft-word.svg",
+            "name": "Microsoft Word"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-microsoft-excel.svg",
+            "name": "Microsoft Excel"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/05/icons8-microsoft-powerpoint.svg",
+            "name": "Microsoft PowerPoint"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-microsoft-access.svg",
+            "name": "Microsoft Access"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=SAFzsPE0CRM",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=2V-QbwVggZ0",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=z-_hHEiSxO8",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=-c5KQoO8B0w",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=BMpnRo7IrjA",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "36 টি লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fa6-solid_diagram-project.svg",
+            "text": "০৬ টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৩ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

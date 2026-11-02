@@ -1,0 +1,526 @@
+{
+    "tagline": "Video Editing & Motion Graphics with AI",
+    "intro": "Adobe Premiere Pro + After Effects + AI Tools + Freelancing",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2026/05/Video-Editing-Motion-Graphics-with-AI-Certificate.webp",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 2110,
+    "review_count": 1351,
+    "overview": "Whether it’s social media marketing, e-commerce, or entertainment – visual storytelling is everyone’s first choice. Learn how to convert this passion into a career with cutting-edge editing techniques.",
+    "curriculum": [
+        {
+            "title": "Class 01: Adobe Premiere Pro",
+            "details": "- 1.1: Mentor Introduction\n- 1.2: Future & Demand of Video Editing\n- 1.3: Premiere Pro & After Effects Difference\n- 1.4: Course & Project Overview"
+        },
+        {
+            "title": "Class 02: Adobe Premiere Pro",
+            "details": "- 2.1: The Art of Storytelling for Video Editing\n- 2.2: Premiere Interface & Workspace Setup\n- 2.3: Timeline, Sequence, Tracks & Footage Management"
+        },
+        {
+            "title": "Class 03: Adobe Premiere Pro",
+            "details": "- 3.1: Custom Sequence Creation\n- 3.2: Use of Timeline Tools\n- 3.2: Basic Editing Tools (Cut, Trim, Ripple Delete)"
+        },
+        {
+            "title": "Class 04: Adobe Premiere Pro",
+            "details": "- 4.1: Bin, Level, Loop\n- 4.2: Effect Controls (Basic Keyframing)\n- 4.3: Black & White Effects\n- 4.4: L Cut & J Cut, J-Play Backward, K-Pause, L-Play forward"
+        },
+        {
+            "title": "Class 05: Adobe Premiere Pro",
+            "details": "- 5.1: Use of Source Monitor Tools\n- 5.2: Use of Program Monitor Tools\n- 5.3: Automate to Sequence\n- 5.4: Some Shortcuts"
+        },
+        {
+            "title": "Class 06: Adobe Premiere Pro",
+            "details": "- 6.1: Essential Graphics & Titles\n- 6.2: Use of Tools Panel\n- 6.3: Create & Save Preset"
+        },
+        {
+            "title": "Class 07: Adobe Premiere Pro",
+            "details": "- 7.1: Audio & Video Transitions\n- 7.2: Speed/Duration & Time Remapping\n- 7.3: Advanced Keyframing (Ease In/Out, Speed Graph, Value Graph)"
+        },
+        {
+            "title": "Class 08: Adobe Premiere Pro",
+            "details": "- 8.1: Slideshow & Presentation Editing\n- 8.2: Mixing Audio\n- 8.3: Basic Video Editing\n- 8.4: Video and B-roll making by AI"
+        },
+        {
+            "title": "Class 09: Adobe Premiere Pro",
+            "details": "- 9.1: Audio Editing & Noise Reduction\n- 9.2: SFX & Sound Mixing\n- 9.3: Creating Music and Sound effect with AI"
+        },
+        {
+            "title": "Class 10: Adobe Premiere Pro",
+            "details": "- 10.1: Color Correction\n- 10.2: Basic Manual Color Grading\n- 10.2: Use of Luts"
+        },
+        {
+            "title": "Class 11: Adobe Premiere Pro",
+            "details": "- 11.1: Color Grading with Project"
+        },
+        {
+            "title": "Class 12: Adobe Premiere Pro",
+            "details": "- 12.1: Multi-Camera Editing & Podcast Editing Technique"
+        },
+        {
+            "title": "Class 13: Adobe Premiere Pro",
+            "details": "- 13.1: Masking, Tracking, Cloning, Green Screen (Ultra Key) & Freeze Frame"
+        },
+        {
+            "title": "Class 14: Adobe Premiere Pro",
+            "details": "- 14.1: Use of Plugins (Premiere Composer)\n- 14.2: Audio Synchronize\n- 14.3: Nest, Unnest & Track Matte Key"
+        },
+        {
+            "title": "Class 15: Adobe Premiere Pro",
+            "details": "- 15.1: AI Tools Use in Editing (Chat GPT, Leonardo AI, Freepik, Gemini, ElevenLabs, Suno, Google AI Studio, Veo 3)"
+        },
+        {
+            "title": "Class 16: Adobe After Effects",
+            "details": "- 16.1: Create a project and import footage.\n- 16.2: Create compositions and arrange layers.\n- 16.3. Use the Project, Composition, and Timeline panels.\n- 16.4. Apply basic keyframes and effects.\n- 16.5: Customize the workspace.\n- 16.6: Adjust preferences related to the user interface.\n- 16.7: Save & Export (Render)"
+        },
+        {
+            "title": "Class 17: Adobe After Effects",
+            "details": "- 17.1: Creating Basic Shape\n- 17.2: Using the Pen Tool in After Effects\n- 17.3: Customize a shape’s fill, stroke, and gradient.\n- 17.4: Animate shapes.\n- 17.5: Repeat shapes, Twist.\n- 17.6: Adding compositions to a 3D project\n- 17.7: Trim Path"
+        },
+        {
+            "title": "Class 18: Adobe After Effects",
+            "details": "- 18.1: Text Animation, Lower Thirds, Titles\n- 18.2: Apply drop-shadow and emboss effects.\n- 18.3: Adjust the time range of a text animation preset.\n- 18.4: Precompose layers"
+        },
+        {
+            "title": "Class 19: Adobe After Effects",
+            "details": "- 19.1: Work with the layers of an imported Adobe Illustrator file\n- 19.2: 2D Character Animation\n- 19.3: Separate the Layers\n- 19.4: Model Illustrator"
+        },
+        {
+            "title": "Class 20: Adobe After Effects",
+            "details": "- 20.1: Using Puppet Tool\n- 20.2: 3D Text Animation (CC Cylinder)"
+        },
+        {
+            "title": "Class 21: Adobe After Effects",
+            "details": "- 20.1: Layer Masking & Alpha Masking\n- 20.2: Text Animation Using the Saber Plugin\n- 20.3: Lighting Effect"
+        },
+        {
+            "title": "Class 22: Adobe After Effects",
+            "details": "- 22.1: Create a Dynamic Link Between Premiere Pro and After Effects\n- 22.2: Number Counting Animation\n- 22.3: Liquid Glass Effect in After Effects\n- 22.4: Bounce Effect\n- 22.5: Glowing Effect"
+        },
+        {
+            "title": "Class 23: Adobe After Effects",
+            "details": "- 23.1: Rotoscoping\n- 23.2: Touch up a matte with the Refine Edge Tool.\n- 23.3: Freeze a matte across a clip."
+        },
+        {
+            "title": "Class 24: Adobe After Effects",
+            "details": "- 24.1: Learn how 3D cameras function\n- 24.2: Camera 3D Parallax\n- 24.3: Animating 3D camera movements, including zoom, rotation, and Position"
+        },
+        {
+            "title": "Class 25: Adobe After Effects",
+            "details": "- 25.1: Adjusting the focal length and depth of field in 3D scenes.\n- 25.2: Analyzing advanced 3D camera techniques through short video breakdowns."
+        },
+        {
+            "title": "Class 26: Adobe After Effects",
+            "details": "- 26.1: Face Tracking\n- 26.2: Warp Stabilizer VFX\n- 26.3: Advance Motion Tracking\n- 26.4: Graph Animation\n- 26.5: Call-outs"
+        },
+        {
+            "title": "Class 27: Adobe After Effects",
+            "details": "- 27.1: 3D Camera Tracker\n- 27.2: Animation Principles (Theory & Practical)"
+        },
+        {
+            "title": "Class 28: Adobe After Effects",
+            "details": "- 28.1: Map Animation"
+        },
+        {
+            "title": "Class 29: Adobe After Effects",
+            "details": "- 29.1: Animated Grid Background\n- 29.2: Fading Black overlay\n- 29.3: Match Cut Effect\n- 29.4: Freeze frame for character introduction"
+        },
+        {
+            "title": "Class 30: Adobe After Effects",
+            "details": "- Project 01: Logo Animation\n- Project 02: Making Ad/ project with AI and After effect"
+        },
+        {
+            "title": "Class 31: Adobe After Effects",
+            "details": "- Project 02: Product Animation"
+        },
+        {
+            "title": "Class 32: Adobe After Effects",
+            "details": "- Project 03: Trending Reels Editing"
+        },
+        {
+            "title": "Class 33: Adobe After Effects",
+            "details": "- Project 04: Advanced Map Animation"
+        },
+        {
+            "title": "Class 34: Adobe After Effects",
+            "details": "- Project 05: Trending Documentary Video Editing with Pr & AE"
+        },
+        {
+            "title": "Class 35: Adobe After Effects",
+            "details": "- Project 06: Podcast Video Editing"
+        },
+        {
+            "title": "Class 36: Adobe After Effects",
+            "details": "- Project 07: Professional Self-Portfolio Video with Service Explanation"
+        }
+    ],
+    "careers": [
+        {
+            "title": "Video Editor",
+            "text": "Edit professional videos for YouTubers, businesses, weddings, and corporate clients."
+        },
+        {
+            "title": "Motion Graphics Designer",
+            "text": "Create engaging motion graphics, animations, intros, and explainers using After Effects."
+        },
+        {
+            "title": "Freelance Video Editor",
+            "text": "Work independently on Fiverr, Upwork, and Freelancer by offering video editing and motion graphics services."
+        },
+        {
+            "title": "Reels & Short-Form Content Editor",
+            "text": "Specialize in trending YouTube Shorts, Instagram Reels, and TikTok videos."
+        },
+        {
+            "title": "AI Video Editor",
+            "text": "Use modern AI tools to create videos faster and deliver high-quality work efficiently."
+        },
+        {
+            "title": "Advertisement & Product Video Editor",
+            "text": "Create promotional videos and product animations for brands and e-commerce businesses."
+        },
+        {
+            "title": "Podcast Video Editor",
+            "text": "Work on documentary-style, corporate, and narrative videos."
+        },
+        {
+            "title": "2D/3D Motion Graphics Artist",
+            "text": "Design advanced animations, character animations, and visual effects."
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Industry-relevant syllabus",
+            "text": "In this course, you will learn basic to advanced video editing techniques - from cutting, color grading, transitions, and audio mixing in Premiere Pro to motion graphics, visual effects, and 3D animation in After Effects. The syllabus is designed to meet the real needs of freelance marketplaces, agencies, and content creators."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "06 practical projects",
+            "text": "You will work on 6 projects - such as social media ads, short film/music video cuts, corporate videos, event highlights, product commercials, and motion graphics animations - hands-on. Each project will make you a confident editor and help you build a portfolio that you can use for jobs or freelancing."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Expert Mentor",
+            "text": "You will be guided by experienced video editors and motion graphics artists who have worked with international marketplaces and local brands. They will not only teach you the software but also provide you with feedback, professional tips, and real-life career guidelines."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Job placement and freelancing support",
+            "text": "Our dedicated team will help you prepare for work with local production houses and agencies including Fiverr, Upwork, Freelancer. You will learn how to communicate with clients, optimize your profile/showreel, and set project rates."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Lifetime access and community support",
+            "text": "Enrolling in the course will give you lifetime access to video content. You'll also be part of an active editors' community, where you'll get instant support, job opportunities, networking, and industry connections."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Certificates and Career Value",
+            "text": "At the end of the course, you will receive an industry-recognized digital certificate. Adding it to your Fiverr, Upwork profile, LinkedIn, or CV will increase your career credibility and market value."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2025/07/Rauful-230x300.png",
+            "name": "Rauful Islam",
+            "designation": "Senior Video Editor",
+            "badges": "NSDA Certified, Adobe Certified, 150+ Freelance Projects, Branding & Visual Design Expert",
+            "url": "https://europeanit-inst.com/mentors/rauful-islam/"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/OVC-300x165.jpg",
+            "title": "OVC",
+            "text": "",
+            "icons": ""
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/Motion-Poster-Design-300x165.jpg",
+            "title": "Motion Poster Design",
+            "text": "",
+            "icons": ""
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/Photo-Slideshow-300x165.jpg",
+            "title": "Slide SHow",
+            "text": "",
+            "icons": ""
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/3D-Camera-Tracking-300x165.jpg",
+            "title": "3D Camera Tracking",
+            "text": "",
+            "icons": ""
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/Product-Animation-300x165.jpg",
+            "title": "Product Animation",
+            "text": "",
+            "icons": ""
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/Curve-Animation-300x165.jpg",
+            "title": "Curve Animation",
+            "text": "",
+            "icons": ""
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/06/Adobe_Premiere_Pro_CC_icon.svg-300x293.png",
+            "name": "Adobe Premiere Pro"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/06/Adobe_After_Effects_CC_icon.svg-300x293.png",
+            "name": "Adobe After Effects"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/ChatGPT-1.png",
+            "name": "Chatgpt"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Gemini.png",
+            "name": "Gemini"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Freepic-300x300.png",
+            "name": "Freepik AI"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Leonardo.png",
+            "name": "Leonardo AI"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/runway-logo-300x300.png",
+            "name": "Runway ML"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/hailuo-icon-logo-300x300.png",
+            "name": "Hailuo ai"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/kling-kuaishou-icon-300x300.png",
+            "name": "Kling"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/ElevenLabs-logo-300x300.jpeg",
+            "name": "ElevenLabs"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=op_8wxwdWJ0",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=w17w4k2430Y",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=iEYlAguQIzM",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=8mF3I9KOV7k",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=6ohflPi_ccQ",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "36 টি লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fa6-solid_diagram-project.svg",
+            "text": "০৬ টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৩ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

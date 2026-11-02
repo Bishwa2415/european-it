@@ -1,0 +1,417 @@
+{
+    "tagline": "Build Beautiful, Fast & Cross-Platform Mobile Apps",
+    "intro": "Master Flutter & Dart – Build iOS & Android Apps from a Single Codebase.",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2023/06/App-Development-with-Flutter-scaled.jpg",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 3874,
+    "review_count": 2432,
+    "overview": "Flutter is Google’s revolutionary UI toolkit that allows you to build natively compiled, beautiful, and high-performance mobile applications for iOS and Android from a single codebase. This comprehensive course is designed for beginners and aspiring developers who want to become professional Flutter App Developers. You will learn everything from Dart programming to advanced UI/UX design, state management, API integration, and publishing apps on Google Play Store & Apple App Store. By the end of this course, you will be able to build real-world, production-ready mobile applications and start your freelancing career.",
+    "curriculum": [
+        {
+            "title": "Module 01: Dart Programming Language Mastery (Class 01–07)",
+            "details": "Class 01: Introduction to Flutter & Setup\n- What is Flutter and Dart and how they work together\n- Flutter vs Native vs React Native (performance & development differences)\n- Career opportunities in mobile app development (job + freelancing scope)\n- Course roadmap overview and final project structure\n- Flutter SDK installation and environment setup\n- IDE setup using Android Studio / VS Code\n- Running first Flutter application on emulator and real device\nClass 02: Dart Basics - Variables & Data Types\n- Understanding variables: var, final, const and their differences\n- Core data types: int, double, String, bool, List, Map\n- String interpolation for dynamic text building\n- Type conversion between data types\n- Basic user input handling in Dart\nClass 03: Control Flow in Dart\n- Conditional statements: if, else, else-if\n- Switch-case usage for multiple conditions\n- Logical operators for decision making\n- Nested condition handling in real scenarios\n- Problem-solving logic building using conditions\nClass 04: Loops & Functions\n- Loop structures: for, while, do-while\n- Usage of break and continue in loops\n- Function creation and structure\n- Return types and void functions\n- Named and optional parameters in functions\n- Arrow functions for concise logic\nClass 05: OOP in Dart – Part 1\n- Understanding class and object concept\n- Different types of constructors\n- Usage of this keyword in classes\n- Methods and properties in objects\n- Static members and usage scenarios\n- Basic real-world object modeling\nClass 06: OOP in Dart – Part 2\n- Inheritance and code reuse concept\n- Method overriding in subclasses\n- Polymorphism in real applications\n- Encapsulation for data protection\n- Abstraction concept in Dart\n- Abstract classes usage\nClass 07: Advanced Dart\n- Working with List, Set, Map in detail\n- Collection methods for data manipulation\n- Basics of null safety in Dart\n- Exception handling using try-catch\n- Future basics for async programming\n- Generics introduction for reusable code"
+        },
+        {
+            "title": "Module 02: Flutter UI Development (Class 08–14)",
+            "details": "Class 08: Flutter Architecture & Widgets\n- Flutter project structure and organization\n- Widget tree concept and rendering flow\n- Stateless vs Stateful widget difference\n- BuildContext usage in Flutter\n- Hot reload vs hot restart behavior\n- Creating reusable widgets for scalable apps\nClass 09: Basic UI Design\n- Scaffold and AppBar for screen structure\n- Text styling and customization\n- Container widget with decoration and layout\n- Row and Column for UI arrangement\n- Padding and spacing management\n- Alignment system for positioning elements\nClass 10: Material Design & Beautiful UI Creation\n- Understanding Material Design principles\n- ThemeData customization for consistent design\n- Color system and typography setup\n- Card and button styling techniques\n- Elevation and shadow usage for depth\n- Clean UI design rules for professional apps\n- Building modern and attractive UI layouts\nClass 11: Advanced Layout Design\n- Stack and Positioned for layered UI design\n- Expanded and Flexible for dynamic layouts\n- Wrap widget for responsive content flow\n- MediaQuery usage for screen adaptation\n- LayoutBuilder for responsive UI logic\n- Building fully responsive mobile UI\nClass 12: Lists & Grid UI\n- ListView and GridView implementation\n- Builder pattern for dynamic rendering\n- Horizontal and vertical list layouts\n- Card-based UI design structure\n- Dynamic UI rendering from data sources\n- Custom reusable item widgets\nClass 13: Navigation System\n- Navigator push and pop mechanism\n- Passing data between screens\n- Returning data from pages\n- Named routes implementation\n- Bottom navigation bar structure\n- Drawer navigation system\nClass 14: Image Handling, Network Images & Caching\n- Using asset images in Flutter apps\n- Loading images from network/API\n- Handling loading and error states for images\n- Placeholder UI for better UX\n- Cached image concept for performance improvement\n- Shimmer loading effect for smooth UI experience\n- Image optimization for production apps"
+        },
+        {
+            "title": "Module 03: State Management & API Integration (Class 15–20)",
+            "details": "Class 15: State Management Basics\n- Understanding state in Flutter apps\n- setState usage and lifecycle\n- Stateful widget behavior\n- UI rebuild mechanism\n- Basic state handling techniques\nClass 16: Provider State Management\n- Provider concept and architecture\n- ChangeNotifier usage for state updates\n- Consumer widget for UI updates\n- Multi-provider setup in apps\n- Shared state management between screens\nClass 17: State Architecture Basics\n- Separation of UI and business logic\n- Simple scalable architecture structure\n- App state organization techniques\n- Clean and maintainable state handling\nClass 18: REST API Integration – GET\n- Introduction to REST APIs\n- HTTP methods overview\n- Dio package setup and configuration\n- GET request implementation\n- JSON response parsing\n- Loading and error handling\nClass 19: REST API Integration – POST\n- POST request implementation\n- Sending data to backend server\n- Model class creation for API data\n- JSON serialization and deserialization\n- Basic API flow structure\nClass 20: Local Storage\n- SharedPreferences usage for simple storage\n- Hive database introduction\n- Secure storage for sensitive data\n- Session handling techniques\n- Offline data storage concepts"
+        },
+        {
+            "title": "Module 04: Firebase (Class 21–24)",
+            "details": "Class 21: Firebase Setup\n- Creating Firebase project\n- Android configuration setup\n- Flutter Firebase integration\n- Basic project linking and configuration\nClass 22: Authentication\n- Email and password authentication\n- Signup and login flow implementation\n- Logout system handling\n- User session management basics\nClass 23: Firestore Database\n- Firestore database introduction\n- CRUD operations (Create, Read, Update, Delete)\n- Data structure design in Firestore\n- Real-time data update concept\nClass 24: Firebase Storage + Notifications (Basic)\n- Uploading images and files to Firebase Storage\n- Retrieving uploaded files\n- Basic push notification setup\n- Receiving notifications in app"
+        },
+        {
+            "title": "Module 05: E-commerce App Development (Class 25–32)",
+            "details": "Class 25: E-commerce App Setup & Product Listing\n- Project setup for e-commerce application\n- Product model creation and structure\n- Product listing UI design\n- Fetching products using API\n- Category-based product display system\nClass 26: Product Details Screen\n- Product detail page UI design\n- Image gallery implementation\n- Product price and description display\n- Add to cart button UI integration\n- Related products section display\nClass 27: Cart System Development\n- Add to cart functionality\n- Cart state management implementation\n- Quantity increase and decrease logic\n- Remove item from cart feature\n- Cart total price calculation\nClass 28: Wishlist System\n- Add and remove wishlist items\n- Wishlist UI design implementation\n- Favorite products handling logic\n- Persistent storage for wishlist data\nClass 29: Checkout Flow\n- Checkout screen UI design\n- Address selection interface\n- Order summary layout\n- Price breakdown display\n- Order confirmation flow design\nClass 30: Order Management\n- Order creation logic implementation\n- Order list screen UI\n- Order details screen design\n- Order status tracking interface\n- User order history management\nClass 31: Performance Optimization & Debugging\n- Using Flutter DevTools effectively\n- Optimizing widget rebuilds\n- Image optimization techniques\n- Pagination implementation basics\n- Overall app performance tuning\nClass 32: Final Project & Career Preparation\n- Building complete production-level e-commerce app\n- Git and GitHub workflow usage\n- Portfolio project preparation for job market\n- CV building for Flutter developers\n- Freelancing roadmap guidance\n- Interview preparation basics\n- Final project submission and evaluation"
+        }
+    ],
+    "careers": [
+        {
+            "title": "Flutter Mobile App Developer",
+            "text": "Design and develop high-performance, beautiful mobile applications for Android and iOS using Flutter."
+        },
+        {
+            "title": "Cross-Platform App Developer",
+            "text": "Build native-like apps for both Android and iOS from a single codebase, saving time and cost."
+        },
+        {
+            "title": "Frontend Mobile Developer",
+            "text": "Specialize in creating stunning user interfaces and smooth user experiences for mobile apps."
+        },
+        {
+            "title": "Freelance Flutter Developer (Fiverr & Upwork)",
+            "text": "Offer professional Flutter app development services to international clients and earn in dollars."
+        },
+        {
+            "title": "Full Stack Mobile Developer",
+            "text": "Handle both frontend and backend integration to build complete mobile applications."
+        },
+        {
+            "title": "Mobile Application Engineer",
+            "text": "Work in software companies and tech firms as a professional mobile app developer."
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Learn Once, Build Anywhere",
+            "text": "Master Flutter and build beautiful, high-performance apps for both Android and iOS using a single codebase - saving time and effort."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Beginner Friendly to Professional Level",
+            "text": "No prior experience needed. The course starts from basic Dart programming and gradually takes you to advanced app development."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "100% Practical & Project-Based",
+            "text": "Build 8+ real-world mobile apps including E-commerce, Food Delivery, Chat App, and Portfolio App."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "High Demand Skill in 2026",
+            "text": "Flutter is one of the most demanded mobile development frameworks worldwide. Companies and clients are actively looking for skilled Flutter developers."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Freelancing & Income Focused",
+            "text": "Dedicated classes on portfolio building, client projects, and freelancing strategies so you can start earning from Fiverr and Upwork quickly."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Modern Tools & Latest Techniques",
+            "text": "Learn State Management (Provider, Riverpod, Bloc), Firebase, REST APIs, Animations, Payment Integration, and App Deployment."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Strong Portfolio Development",
+            "text": "Graduate with professional, production-ready apps that you can showcase to clients and employers."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Expert Mentorship",
+            "text": "Learn directly from experienced Flutter developers with real industry and freelancing experience."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Complete End-to-End Training",
+            "text": "From UI/UX design to backend integration and app publishing — everything you need to become a job-ready or freelance-ready Flutter developer."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2026/05/Debasish-Roy.webp",
+            "name": "Debasish Roy",
+            "designation": "Senior Apps Developer",
+            "badges": "NSDA Certified, 100+ Freelance Project, Fiverr Verified Freelancer, Upwork Verified Freelancer",
+            "url": "https://github.com/roydebasish"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2026/05/Bikrishop-Buy-Sell-Everything.webp",
+            "title": "Bikrishop -Buy Sell Everything",
+            "text": "Developed Bikrishop, a Flutter-based marketplace application that connects buyers and sellers through a seamless digital platform. The app enables users to post advertisements, browse products across multiple categories, search and filter listings, and communicate directly with sellers. Integrated REST APIs, user authentication, location-based services, push notifications, and dynamic content management to deliver a smooth user experience. Designed with a scalable architecture and responsive UI, the platform simplifies local commerce and helps users discover great deals within their communities.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/Dart-Language-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/REST-APIs-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/Riverpod-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2026/05/Amar-School.webp",
+            "title": "Amar School - School Management App",
+            "text": "Developed a comprehensive school management application that streamlines communication and administrative operations between students, teachers, parents, and school authorities. The app provides dedicated student and teacher panels, enabling users to access academic information, attendance records, notices, class updates, and performance reports in real time. Built with Flutter, the application offers a user-friendly interface, secure data management, and seamless integration with backend services. The platform helps educational institutions digitize daily operations, improve transparency, and enhance collaboration across the entire school community.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/Dart-Language-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/flutter-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/Provider-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/REST-APIs-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2026/05/Dhaka-Pharmacy.webp",
+            "title": "Dhaka Pharmacy",
+            "text": "Developed Dhaka Pharmacy, a Flutter-based healthcare and e-commerce application that enables users to order prescription medicines, over-the-counter drugs, health supplements, and wellness products from their mobile devices. The app includes features such as prescription upload, medicine search, product categorization, secure online payments, order tracking, and doorstep delivery services. Integrated with backend APIs to provide real-time inventory, order management, and customer support functionalities. Designed with a user-friendly interface to make healthcare products more accessible, affordable, and convenient for customers across Bangladesh.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/Dart-Language-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/flutter-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/REST-APIs-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/Riverpod-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2026/05/PARAN-Computer.webp",
+            "title": "Paran Computer Institute",
+            "text": "Developed Paran Computer Institute mobile application using Flutter to support students in managing their academic journey. The app allows users to complete student admission, view class history, and track their learning progress. It provides a centralized platform for accessing important institute resources and staying updated with academic activities. Integrated backend services to manage student data and ensure smooth information flow. Designed with a simple and user-friendly interface to enhance accessibility and improve the overall student experience within the institute ecosystem.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/Dart-Language-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/flutter-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/REST-APIs-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2026/05/Oji-Shop.webp",
+            "title": "Oji Shop",
+            "text": "Oji Shop is your trusted destination for premium smart lock solutions in the UAE. Designed for convenience, security, and a smooth shopping experience, the Oji Smart app makes it easy to explore advanced smart lock products built for modern homes, holiday rentals, and commercial spaces. With just a few taps, users can browse products, view detailed features and specifications, compare lock models, and place secure orders—anytime, anywhere.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/Dart-Language-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/flutter-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/Bloc-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/REST-APIs-150x150.png"
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/flutter-300x300.png",
+            "name": "Flutter SDK"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Dart-Language.png",
+            "name": "Dart Language"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Firebase.png",
+            "name": "Firebase"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Riverpod-300x300.png",
+            "name": "Riverpod"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Bloc-300x300.png",
+            "name": "Bloc"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Provider.png",
+            "name": "Provider"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/06/Github-icon.png",
+            "name": "Git & GitHub"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Visual-Studio-Code-300x300.png",
+            "name": "Visual Studio Code"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/REST-APIs-300x300.png",
+            "name": "REST APIs"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Postman.png",
+            "name": "Postman"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Android-Studio-300x300.png",
+            "name": "Android Studio"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/06/figma.png",
+            "name": "Figma"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=iCZ4Szzc6Rg",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=lx_0Xt0J4DI",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=qt4S9rSggpo",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=BMpnRo7IrjA",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=tkolzPBXD_s",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=H89dWEL3Lnc",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "32 টি লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fa6-solid_diagram-project.svg",
+            "text": "০4 টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৩ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

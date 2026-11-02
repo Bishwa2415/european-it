@@ -55,6 +55,8 @@
             @endforeach
         </x-admin.card>
 
+        @include('admin.courses._content')
+
         <x-admin.card title="SEO" description="What Google shows. Leave empty to use the course title.">
             <x-admin.input name="meta_title" label="Meta title" :value="$course->meta_title" maxlength="255" />
             <x-admin.textarea name="meta_description" label="Meta description" :value="$course->meta_description" rows="3" maxlength="255" />

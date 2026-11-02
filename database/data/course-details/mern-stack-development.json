@@ -1,0 +1,150 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/07/MERN-Stack-Development-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "MERN Stack is a compilation of four different technologies that work together to develop dynamic web apps and websites. It is a contraction for four different technologies as This stack technology is mainly designed to make the process of development much easier and smoother. All of these four stack technologies offer an end-to-end framework to the engineers to work in, and all of these technologies play a vital role in the creation of web applications. M – MongoDB, E – Express JS, R – React JS, N – NodeJS",
+    "curriculum": [
+        {
+            "title": "HTML",
+            "details": ""
+        },
+        {
+            "title": "CSS/CSS3",
+            "details": ""
+        },
+        {
+            "title": "JavaScript",
+            "details": ""
+        },
+        {
+            "title": "ECMAScript",
+            "details": ""
+        },
+        {
+            "title": "jQuery",
+            "details": ""
+        },
+        {
+            "title": "Bootstrap 5",
+            "details": ""
+        },
+        {
+            "title": "PSD to HTML",
+            "details": ""
+        },
+        {
+            "title": "XD to HTML",
+            "details": ""
+        },
+        {
+            "title": "Responsive Design",
+            "details": ""
+        }
+    ],
+    "careers": [
+        {
+            "title": "Web Developer",
+            "text": ""
+        },
+        {
+            "title": "Full Stack Web Developer",
+            "text": ""
+        },
+        {
+            "title": "Software Engineer",
+            "text": ""
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "",
+            "title": "JavaScript",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "React",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "MongoDB",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "NodeJs",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "ExpressJs",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Dynamic Website Development",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Web Application Development",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Hands-on training using latest tools and training",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Specialization & creating portfolio in the area of interest",
+            "text": ""
+        }
+    ],
+    "mentors": [],
+    "projects": [],
+    "tools": [
+        {
+            "icon": "",
+            "name": "Node Js"
+        },
+        {
+            "icon": "",
+            "name": "Code Editor (visual studio code recommended)"
+        },
+        {
+            "icon": "",
+            "name": "Web Browsers (Chrome recommended)"
+        }
+    ],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                45000,
+                33000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                50000,
+                45000
+            ]
+        }
+    }
+}

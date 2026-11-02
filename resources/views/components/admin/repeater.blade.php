@@ -3,15 +3,18 @@
         <x-admin.repeater name="buttons_json" label="Buttons"
                           :fields="['label' => 'Label', 'url' => 'Link']"
                           :items="$hero['buttons']" />
-     A field can also be an array: 'count' => ['label' => 'Number', 'type' => 'number']
+     A field can also be an array:
+        'count'     => ['label' => 'Number', 'type' => 'number']
+        'placement' => ['label' => 'Where', 'type' => 'select', 'options' => ['before' => 'Before', 'after' => 'After']]
      The rows are saved as JSON into a hidden input called {name} (JavaScript in resources/js/admin.js),
-     so the controller still receives one JSON string and validates it. --}}
-@props(['name', 'label' => null, 'fields' => [], 'items' => [], 'hint' => null, 'addLabel' => 'Add row'])
+     so the controller still receives one JSON string and validates it.
+     nested = used inside <x-admin.group-repeater>: no form name, the group repeater collects it. --}}
+@props(['name' => null, 'label' => null, 'fields' => [], 'items' => [], 'hint' => null, 'addLabel' => 'Add row', 'nested' => false])
 
 @php
     // Normalise: 'url' => 'Link'  →  'url' => ['label' => 'Link', 'type' => 'text']
     $fields = collect($fields)->map(fn ($f) => is_array($f) ? $f + ['type' => 'text'] : ['label' => $f, 'type' => 'text'])->all();
-    $rows = old($name) ? (json_decode(old($name), true) ?: []) : ($items ?? []);
+    $rows = (! $nested && old($name)) ? (json_decode(old($name), true) ?: []) : ($items ?? []);
 @endphp
 
 <div data-repeater>
@@ -19,7 +22,7 @@
         <p class="mb-1.5 text-sm font-medium text-heading">{{ $label }}</p>
     @endif
 
-    <input type="hidden" name="{{ $name }}" value="{{ json_encode(array_values($rows)) }}" data-repeater-output>
+    <input type="hidden" @unless ($nested) name="{{ $name }}" @endunless value="{{ json_encode(array_values($rows)) }}" data-repeater-output>
 
     <div class="space-y-2" data-repeater-rows>
         @foreach ($rows as $row)
@@ -40,10 +43,9 @@
     @if ($hint)
         <p class="mt-1 text-xs text-gray-500">{{ $hint }}</p>
     @endif
-    @error($name)
-        <p class="mt-1 text-xs text-red-600">{{ $message }}</p>
-    @enderror
-    @error($name.'.*')
-        <p class="mt-1 text-xs text-red-600">{{ $message }}</p>
-    @enderror
+    @if ($name)
+        @error($name)
+            <p class="mt-1 text-xs text-red-600">{{ $message }}</p>
+        @enderror
+    @endif
 </div>

@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\CourseController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\SiteContentController;
 use Illuminate\Support\Facades\Route;
 
@@ -9,6 +11,12 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // Dashboard / CMS
 require __DIR__.'/admin.php';
+
+// Course detail page: {course:slug} = find the Course whose slug is in the URL
+Route::get('/course/{course:slug}', [CourseController::class, 'show'])->name('courses.show');
+
+// Landing page "free webinar" form (max 5 sends per minute from one visitor). The pages themselves open at /{slug} below.
+Route::post('/landing/{landing}/lead', [LandingPageController::class, 'lead'])->name('landing.lead')->middleware('throttle:5,1');
 
 // Posts written in Dashboard → Posts
 Route::get('/blog/{slug}', [SiteContentController::class, 'post'])->name('posts.show')->where('slug', '[A-Za-z0-9_-]+');

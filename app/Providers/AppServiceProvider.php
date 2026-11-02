@@ -31,13 +31,13 @@ class AppServiceProvider extends ServiceProvider
 
         // Every public layout part gets the dashboard-editable settings, menus and popup
         View::composer(
-            ['layouts.app', 'partials.topbar', 'partials.navbar', 'partials.mobile-menu', 'partials.footer', 'partials.floating-buttons', 'partials.popup'],
+            ['layouts.app', 'layouts.landing', 'landing.header', 'partials.topbar', 'partials.navbar', 'partials.mobile-menu', 'partials.footer', 'partials.floating-buttons', 'partials.popup'],
             function ($view): void {
                 $content = app(SiteContentService::class);
 
                 $view->with([
-                    'siteData'    => $content->settings(),
-                    'headerMenu'  => $content->headerMenu(),
+                    'siteData' => $content->settings(),
+                    'headerMenu' => $content->headerMenu(),
                     'activePopup' => $content->popup(),
                 ]);
             },

@@ -128,7 +128,8 @@
                 @foreach ($footer['payments'] as $payment)
                     <a href="{{ url($site['admission_url']) }}"
                        class="flex w-[253px] flex-col items-center justify-center rounded-xl border-2 border-[#374151] bg-white p-5 shadow-[0_0_8px_#374151]">
-                        <img src="{{ media_url($payment['image']) }}" alt="{{ $payment['alt'] }}" class="{{ $payment['class'] }}">
+                        <img src="{{ media_url($payment['image']) }}" alt="{{ $payment['alt'] }}" class="{{ $payment['class'] ?? '' }}"
+                             @if (! empty($payment['width'])) style="width: {{ (int) $payment['width'] }}px" @endif>
                         <span class="font-roboto text-2xl text-heading">{{ $payment['text'] }}</span>
                     </a>
                 @endforeach

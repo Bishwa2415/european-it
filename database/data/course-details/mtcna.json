@@ -1,0 +1,135 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/03/MTCNA-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "MTCNA – Mikro Tik is a Latvian network equipment manufacturer. This company sells and manufactures wired and wireless network routers network switches, and access points, as well as operating systems and auxiliary software.\nMikro Tik company designed the MTCNA course. MTCNA stands for MikroTik Certified Network Associate. This curse was designed to make familiar with RouterOS software and Router Board products. Before MTCNA course was not very popular. But now it becomes a most important part of career development because nowadays a large number of companies seek network management professionals. So, choosing this course is not only good for professionals but also for the freshers.",
+    "curriculum": [
+        {
+            "title": "Introduction",
+            "details": ""
+        },
+        {
+            "title": "DHCP",
+            "details": ""
+        },
+        {
+            "title": "Bridging",
+            "details": ""
+        },
+        {
+            "title": "Routing",
+            "details": ""
+        },
+        {
+            "title": "Wireless",
+            "details": ""
+        },
+        {
+            "title": "Firewall",
+            "details": ""
+        },
+        {
+            "title": "QoS",
+            "details": ""
+        },
+        {
+            "title": "Tunnels",
+            "details": ""
+        },
+        {
+            "title": "RouterOS tools",
+            "details": ""
+        }
+    ],
+    "careers": [
+        {
+            "title": "Network Administrator",
+            "text": ""
+        },
+        {
+            "title": "Network Specialist",
+            "text": ""
+        },
+        {
+            "title": "Network integrators",
+            "text": ""
+        },
+        {
+            "title": "IT managers",
+            "text": ""
+        },
+        {
+            "title": "IT consultants",
+            "text": ""
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "",
+            "title": "Configure, manage, troubleshooting of a MikroTik router and provide basic services.",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Configure a MikroTik RouterOS Routerboard as a dedicated router, a bandwidth manager, a secure firewall appliance, a simple wireless access point, a VPN Server or Client or an Internet Hotspot concentrator etc.",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Firewalls like Cyberoam & Other Security Firewalls",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Network and Wireless Security",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Infrastructure Management & Virtualization",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Data Sync & Backups Management",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Domain Controller",
+            "text": ""
+        }
+    ],
+    "mentors": [],
+    "projects": [],
+    "tools": [],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                15000,
+                11000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                20000,
+                15000
+            ]
+        }
+    }
+}

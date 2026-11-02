@@ -1,0 +1,556 @@
+{
+    "tagline": "Beginner to Earning Ready | Practical Freelancing Focused",
+    "intro": "Learn Web Design and Development with WordPress and Client Dealing with Real Projects – Together!",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2023/04/Web-Design-Development-with-WordPress-1.jpg",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 4591,
+    "review_count": 2347,
+    "overview": "This course is designed for beginners and intermediate learners to master web design and development using WordPress, including essential web development technologies like HTML, CSS, JavaScript, Bootstrap, and PHP.",
+    "curriculum": [
+        {
+            "title": "Class 01: Introduction to Web Design & Development",
+            "details": "What is Web Design and Web Development?\n- Differences between web design and development.\n- Frontend vs. Backend development.\n- Full-stack development explained.\nOverview of Web Technologies\n- HTML, CSS, JavaScript, PHP, MySQL.\n- Introduction to WordPress as a CMS.\n- Setting up the Development Environment"
+        },
+        {
+            "title": "Class 02: Learning HTML (Hypertext Markup Language)",
+            "details": "Introduction to HTML\n- What is HTML? Role in web development.\n- Structure of an HTML document.\n- Basic HTML tags: <html>, <head>, <body>, <title>, etc."
+        },
+        {
+            "title": "Class 03: Learn HTML Elements and Tags",
+            "details": "- Headings, paragraphs, links, lists, and images.\n- Forms and input elements (e.g., text fields, checkboxes, radio buttons, submit button).\n- Tables, semantic elements (<header>, <footer>, <section>, <article>).\nHTML Structure and Best Practices\n- Proper document structure.\n- Accessibility standards."
+        },
+        {
+            "title": "Class 04: Learning CSS (Cascading Style Sheets)",
+            "details": "Introduction to CSS\n- What is CSS? Role in styling websites.\n- External, internal, and inline CSS.\nCSS Selectors and Properties\n- Selectors: element, class, id, attribute, pseudo-class, and pseudo-element.\n- CSS properties: color, background, borders, padding, margin, font family, etc."
+        },
+        {
+            "title": "Class 05: Learning Layout Techniques",
+            "details": "Box Model:\n- Understanding margin, border, padding, and content.\n- Positioning elements: relative, absolute, fixed, and sticky."
+        },
+        {
+            "title": "Class 06: Introduction to PSD, XD, Figma, and Other Design Files for Web Layouts.",
+            "details": "- What is PSD?\n- What is Adobe XD?\n- What is Figma?\n- Other Design Files"
+        },
+        {
+            "title": "Class 07: From PSD to HTML Layout Design (Part -1)",
+            "details": "- Organize the PSD File\n- Slice and Export Images\n- Understand the Layout Structure\n- Setup HTML Template\n- Create Semantic HTML Markup\n- Write the Basic CSS for Layout"
+        },
+        {
+            "title": "Class 08: From PSD to HTML Layout Design (Part -2)",
+            "details": "- Positioning and Alignment\n- Set Up Typography and Colors\n- Start PSD to HTML Design with Simple Project"
+        },
+        {
+            "title": "Class 09: From PSD to HTML Layout Design (Part - 3)",
+            "details": "- Analyze the PSD\n- Navigation Menu Design\n- Banner Design\n- The other section design same as like selected PSD design."
+        },
+        {
+            "title": "Class 10: From PSD to HTML Layout Design (Part - 4)",
+            "details": "- Complete First Project (PSD to HTML)"
+        },
+        {
+            "title": "Class 11: Introduction to Responsive Web Design",
+            "details": "- What is Responsive Design?\n- Fluid Layouts and Flexible Images\n- Media Queries"
+        },
+        {
+            "title": "Class 12: Advanced Responsive Layout Techniques",
+            "details": "- Flexbox: Introduction and Basics\n- CSS Grid Layout (optional introduction)"
+        },
+        {
+            "title": "Class 13: Introduction to JavaScript (JS)",
+            "details": "- What is JavaScript?\n- Basic Syntax and Structure\n- Functions and Events"
+        },
+        {
+            "title": "Class 14: Working with JavaScript for Interactivity",
+            "details": "- JavaScript DOM Manipulation\n- Event Handling"
+        },
+        {
+            "title": "Class 15: Introduction to Bootstrap Framework",
+            "details": "- What is Bootstrap?\n- Setting Up Bootstrap in Your Project\n- Bootstrap Components"
+        },
+        {
+            "title": "Class 16: Introduction to PHP (Hypertext Preprocessor)",
+            "details": "What is PHP?\n- Overview of PHP and its role in web development.\n- Difference between client-side and server-side scripting languages\n- How PHP works on the server to generate dynamic content (HTML) for the client.\n- PHP Syntax and Basic Structure"
+        },
+        {
+            "title": "Class 17: PHP Variables, Data Types, and Operators",
+            "details": "- Variables in PHP\n- Operators in PHP\nHands-on:\n- Creating a PHP script that uses variables and operators to calculate basic operations (e.g., addition of two numbers).\n- Displaying the results dynamically on the page."
+        },
+        {
+            "title": "Class 18: Setting Up Local Development Environment with XAMPP/WAMP",
+            "details": "What is XAMPP/WAMP?\n- Overview of XAMPP and WAMP as local server environments for PHP development.\n- Understanding the components of XAMPP/WAMP (Apache server, MySQL database, PHP).\nInstalling XAMPP/WAMP\n- Step-by-step guide to downloading and installing XAMPP or WAMP on your computer\n- Running Apache and MySQL services via the XAMPP/WAMP control panel.\n- Testing your local server setup by accessing localhost or 127.0.0.1 in a browser.\nHands-on:\n- Setting up a basic PHP file (index.php) in the htdocs (XAMPP) or www (WAMP) folder.\n- Accessing the PHP file via localhost to check if the server is running."
+        },
+        {
+            "title": "Class 19: Working with Forms and PHP for Data Handling",
+            "details": "PHP Form Handling Basics\n- Creating HTML forms and using GET and POST methods to send data to the server.\n- Accessing form data using PHP ($_GET, $_POST, and $_REQUEST).\n- Validating and sanitizing form inputs to avoid security issues (e.g., XSS, SQL injection).\nHands-on:\n- Creating a contact form that accepts user input (name, email, message).\n- Using PHP to process and display the form data dynamically on the webpage.\n- Adding form validation to ensure proper input (e.g., checking for empty fields or invalid email format)."
+        },
+        {
+            "title": "Class 20: Introduction to MySQL and PHP Integration",
+            "details": "What is MySQL?\n- Introduction to MySQL as a database management system used with PHP for storing and retrieving data.\n- Understanding the relationship between PHP and MySQL in dynamic web applications.\nConnecting PHP to MySQL Database\n- Introduction to mysqli and PDO (PHP Data Objects) for interacting with MySQL.\n- Connecting to a MySQL database using PHP: creating a database, connecting to it, and performing queries.\nHands-on:\n- Setting up a MySQL database in XAMPP or WAMP using phpMyAdmin.\n- Writing PHP scripts to connect to the MySQL database and fetch data from a table.\n- Displaying data from MySQL on the webpage using PHP."
+        },
+        {
+            "title": "Class 21: WordPress Introduction and Setup",
+            "details": "What is WordPress?\n- Overview of WordPress as a Content Management System (CMS).\n- Difference between WordPress.com and WordPress.org.\n- Why WordPress is popular: ease of use, flexibility, and large community support.\nKey Features of WordPress\n- Themes: How themes control the design and layout of a website.\n- Plugins: How plugins extend the functionality of WordPress websites.\n- Pages vs. Posts: Understanding the difference and when to use each.\nHands-on:\n- Exploring examples of popular WordPress websites.\n- Discussing real-world use cases for WordPress (blogs, business websites, e-commerce)."
+        },
+        {
+            "title": "Class 22: Installing WordPress (Local and Web Hosting Setup)",
+            "details": "- Installing WordPress Locally (Using XAMPP or WAMP)\n- Installing WordPress on Live Web Hosting (Optional Overview)"
+        },
+        {
+            "title": "Class 23: WordPress Dashboard Introduction",
+            "details": "Overview of the WordPress Dashboard\n- Explanation of the WordPress Dashboard interface: Admin bar, sidebar, and top navigation.\nKey areas of the dashboard:\n- Posts: Creating and managing blog posts.\n- Pages: Creating and managing static pages (About, Contact, etc.).\n- Media: Uploading and managing images, videos, and files.\n- Appearance: Changing themes and customizing the look of the site.\n- Plugins: Adding and managing plugins for additional features.\n- Settings: General site settings, permalinks, and user settings."
+        },
+        {
+            "title": "Class 24: Working with Themes and Customizing Your WordPress Site.",
+            "details": "What are WordPress Themes?\n- The role of themes in WordPress: controlling the visual appearance and layout of a website.\n- Understanding how to choose the right theme for different types of websites (business, blog, portfolio, e-commerce).\n- Free vs. Premium Themes: Pros and Cons.\nInstalling and Activating a Theme\n- How to install a new theme from the WordPress theme repository.\n- How to upload and activate a custom theme (if you have a theme purchased from a third-party source).\nCustomizing the Theme\n- Using the WordPress Customizer: Changing site title, tagline, logo, colors, and fonts.\n- Setting up the homepage, menu, and widgets.\n- Hands-on: Customize a default theme by adjusting the layout, adding a logo, changing colors, and setting up navigation menus."
+        },
+        {
+            "title": "Class 25: Page Builder Setup and Interface",
+            "details": "What is a Page Builder?\n- Overview of Page Builders: Drag-and-drop interfaces that allow you to design pages visually, without needing to write code\n- Advantages of using Page Builders: Faster development, greater design flexibility, and easierto-use interfaces for beginners.\nElementor: Introduction and Features\n- What is Elementor? Overview of the most popular WordPress page builder plugin.\n- Key features of Elementor: Drag-and-drop editor, pre-designed templates, customizable widgets, responsive design, and theme builder.\n- Installing Elementor: How to install the Elementor plugin from the WordPress Dashboard.\n- Hands-on: Installing and activating the free version of Elementor on a WordPress site.\nUX Builder: Overview\n- What is UX Builder (used by the WPBakery plugin)? Another popular page builder for WordPress with similar drag-and-drop features.\n- Key features of UX Builder: Custom layouts, frontend editor, and content elements.\n- Installing UX Builder (via WPBakery or theme integration).\n- Hands-on: Installing UX Builder and accessing its interface."
+        },
+        {
+            "title": "Class 26: Exploring the Page Builder Interface.",
+            "details": "- Elementor Interface Overview\n- UX Builder Interface Overview\n- And other Builder Overview"
+        },
+        {
+            "title": "Class 27: Designing a Landing Page in WordPress (part -1 )",
+            "details": "What is a Landing Page?\n- Definition: A landing page is a standalone web page designed for a specific purpose, typically used for marketing, lead generation, or conversions (e.g., a product launch, newsletter signup, or event registration).\nKey elements of a successful landing page:\n- Headline: Grabs attention and clearly communicates the page's offer\n- Subheadline: A secondary line that elaborates on the headline, providing more context.\n- Call-to-Action (CTA): A prominent button or link encouraging users to take action (e.g., \"Sign Up\", \"Learn More\", \"Buy Now\").\n- Visuals: High-quality images or videos that support the offer and build trust.\n- Trust Indicators: Testimonials, reviews, security badges, or social proof.\n- Simple Form: To collect leads (name, email, phone number) with as few fields as necessary.\nWhy are Landing Pages Important?\n- Landing pages are designed to convert visitors into leads or customers by focusing on a single callto-action.\n- Higher conversion rates due to streamlined messaging and minimal distractions.\nDesigning a Landing Page with Elementor\nStep 1: Creating a New Page\n- Creating a new page in WordPress via the Dashboard.\n- Setting the page template to \"Elementor Full Width\" for a blank canvas\nStep 2: Adding a Section and Customizing the Layout\n- Adding a full-width section for the hero area (the first part users see when landing).\n- Choosing the background color or image for the hero section.\nStep 3: Adding Headline, Subheadline, and CTA\n- Using Elementor’s Heading widget to create an eye-catching headline.\n- Adding a Text Editor widget for a persuasive subheadline.\n- Adding a Button widget for the CTA, styling it to stand out.\nStep 4: Adding Trust Elements\n- Adding testimonials, reviews, or social media icons to increase trust.\n- Using Elementor's Image or Testimonial widget to include real client feedback.\nStep 5: Adding a Lead Capture Form\n- Using Elementor's Form widget to create a simple lead capture form (name, email, phone number).\n- Integrating the form with an email marketing tool (e.g., Mailchimp) or setting up a simple email notification.\nDesigning a Landing Page with UX Builder (WPBakery)\n- Step 1: Create a New Page in WordPress and open it in the UX Builder.\n- Step 2: Add Rows and Columns for layout structure (typically a single-column layout for simplicity).\n- Step 3: Add Content Elements like headings, text, buttons, images, and forms. o Customize text and button styles to align with your branding and messaging.\n- Step 4: Call-to-Action & Lead Capture using forms or CTA buttons."
+        },
+        {
+            "title": "Class 27: Designing a Landing Page in WordPress (part -2 )",
+            "details": "Best Practices for Landing Page Design\n- Focus on One Goal: Keep the messaging clear and concise, focusing on a single call to action.\n- Keep it Simple: Avoid clutter. Only include necessary elements to support the offer.\n- Visual Hierarchy: Ensure the CTA stands out using contrasting colors, bold text, and appropriate placement.\n- Responsive Design: Ensure your landing page looks great on all screen sizes.\n- A/B Testing: Try different versions of your landing page to test which elements convert best (headlines, CTAs, etc.).\nHands-On Exercise:\n- Students will create a simple landing page for a fictional product or service using Elementor or UX Builder.\n- Students will design the hero section, add a headline, CTA, and contact form for lead generation."
+        },
+        {
+            "title": "Class 28: WooCommerce and eCommerce Development",
+            "details": "Introduction to WooCommerce\n- Overview of WooCommerce and its role in creating online stores on WordPress.\n- Setting up the WooCommerce plugin and basic configuration."
+        },
+        {
+            "title": "Class 29: Setting Up Products in WooCommerce",
+            "details": "- Adding and managing products (simple, variable, and downloadable products).\n- Organizing products using categories and tags."
+        },
+        {
+            "title": "Class 30: WooCommerce Store Settings and Payment Gateway Integration",
+            "details": "- Configuring store settings (currency, shipping, taxes).\n- Setting up payment gateways (PayPal, Stripe, and others)."
+        },
+        {
+            "title": "Class 31: Designing the WooCommerce Storefront",
+            "details": "- Customizing the appearance of the WooCommerce store using themes and page builders.\n- Setting up product pages, shop pages, and checkout pages."
+        },
+        {
+            "title": "Class 31: Launching an eCommerce Project in WordPress",
+            "details": "- Finalizing the eCommerce project: Testing, optimizing for speed, and SEO.\n- Launching the WooCommerce store live and post-launch best practices."
+        },
+        {
+            "title": "Class 32: Introduction to Online and Offline Marketplaces and Job Hunting Suggestions",
+            "details": "Online Marketplaces\n- Overview of popular online marketplaces (e.g., Amazon, eBay, Etsy, Upwork, Fiverr).\n- The role of online marketplaces in eCommerce and freelancing.\n- Setting up your own shop or listing products/services on online platforms.\n- Benefits of selling or offering services on online marketplaces: global reach, built-in audience, ease of use.\nOffline Marketplaces\n- Understanding traditional offline marketplaces (e.g., local stores, trade fairs, bazaars).\n- Comparing offline vs. online selling: challenges and advantages.\n- Strategies for leveraging offline markets and reaching local customers.\nJob Hunting Suggestions for Freelancers and Web Developers\n- How to build a strong online presence (personal website, LinkedIn, GitHub).\n- Platforms for job hunting in web development and freelancing (e.g., Upwork, Freelancer, Fiverr, LinkedIn Jobs).\n- Building a portfolio that showcases projects and skills.\n- Networking tips for landing freelance or full-time work in web design and development.\n- Preparing for job interviews: showcasing technical skills and soft skills.\nHands-On:\n- Students will explore various online marketplace platforms and learn how to set up a basic profile.\n- Research job opportunities in web development and design, focusing on key platforms to kick-start freelancing or full-time roles."
+        }
+    ],
+    "careers": [
+        {
+            "title": "WordPress Developer",
+            "text": "Design and develop professional, dynamic websites using WordPress for clients and businesses."
+        },
+        {
+            "title": "Web Designer",
+            "text": "Create modern, responsive, and visually appealing website designs."
+        },
+        {
+            "title": "Frontend Web Developer",
+            "text": "Build interactive and user-friendly websites using HTML, CSS, JavaScript, and Bootstrap."
+        },
+        {
+            "title": "Freelance Web Developer",
+            "text": "Offer website development services on Fiverr, Upwork, and other international freelance platforms."
+        },
+        {
+            "title": "Full-Stack WordPress Developer",
+            "text": "Handle both frontend design and backend functionality of WordPress websites."
+        },
+        {
+            "title": "Web Development Executive",
+            "text": "Join IT companies, digital agencies, or e-commerce businesses as a web developer."
+        },
+        {
+            "title": "Website Maintenance & Optimization Specialist",
+            "text": "Provide ongoing website maintenance, speed optimization, and security services."
+        },
+        {
+            "title": "Landing Page Designer & Developer",
+            "text": "Create high-converting landing pages for marketing campaigns and businesses."
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "06 Hands-on Practical Projects",
+            "text": "Hands-on learning through working on real-life projects under the mentor's guidance will help you develop perfect skills, which will help you gain real-world experience."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Personal Portfolio Website",
+            "text": "You will learn to present yourself to clients by creating a professional website for yourself."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Business Landing Page with Elementor",
+            "text": "You will learn how to create business websites/product landing pages using Elementor - which is a great opportunity to get orders from clients."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "E-commerce Store Setup (WooCommerce)",
+            "text": "You will learn how to create a full-featured online shop with WooCommerce, from adding products to setting up payments."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Mobile-First Responsive Website",
+            "text": "You will learn to design mobile-friendly websites that work beautifully on all types of devices."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Speed Optimization Project (GTmetrix + LSCache)",
+            "text": "You will learn first-hand how to make websites load faster with the LSCache plugin by analyzing GTmetrix reports."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Figma Design to Live Website",
+            "text": "You will learn the professional skills of how to create a real website from the Figma file provided by the designer."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "SEO Optimized Blog Website",
+            "text": "You will learn how to create SEO friendly blogs and content sites that rank on Google."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Live Site Setup with Domain & Hosting",
+            "text": "You will learn how to purchase a domain, configure hosting, and publish a live website, including SSL setup."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Portfolio & Confidence",
+            "text": "Finish the course with 6+ professional projects and the confidence to take on real clients."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2025/08/Mentor-Image-5-278x300.png",
+            "name": "Faruk Ahmed",
+            "designation": "Senior Web Developer & Mentor",
+            "badges": "NSDA Certified, 80+ Freelance Project, Fiverr Verified Freelancer, Upwork Verified Freelancer",
+            "url": "https://europeanit-inst.com/mentors/faruk-ahmed/"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/protfolio-300x165.jpg",
+            "title": "Portfolio Website",
+            "text": "In this project, you will learn how to create a professional website for yourself. It will beautifully present your work, skills, and contact information. It is an important digital identity for freelancing or employment.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/html-5-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/css3-logo-png_seeklogo-186678-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/js-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/social-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/Travels-300x166.jpg",
+            "title": "Content Based Website",
+            "text": "This website will focus on blog, article or news content. You will learn how to organize and publish content in categories. Ideal for those who want to create a blogging or informational website.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/html-5-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/css3-logo-png_seeklogo-186678-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/social-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/restarunent-300x165.jpg",
+            "title": "Restaurant Website",
+            "text": "In this project, you will learn how to present a restaurant's menu, booking, gallery, and location on a site. The design will be mobile-friendly and visitor-friendly.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-wordpress-48.png, https://europeanit-inst.com/wp-content/uploads/2025/08/elementorlogo-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/resturant-300x165.jpg",
+            "title": "E-Commerce Website Using Elementor",
+            "text": "You will learn how to create a professional online shop using Elementor. Product, cart, checkout and payment setup will be shown in action. This is very useful for your own business or client projects.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-wordpress-48.png, https://europeanit-inst.com/wp-content/uploads/2025/08/elementorlogo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-woocommerce-48.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/enfoldecommerce-300x165.jpg",
+            "title": "E-Commerce Website Using Flatsome Theme",
+            "text": "You will create a stylish and user-friendly e-commerce site with the Flatsome theme. You will learn theme customization, homepage design, and product presentation. There is a lot of work available with this theme in the freelance market.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-wordpress-48.png, https://europeanit-inst.com/wp-content/uploads/2025/08/elementorlogo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Dark-Flatsome3_mText-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/crud-300x165.jpg",
+            "title": "CRUD Operation using PHP and MySQL",
+            "text": "In this project, you will learn how to Create, Read, Update, and Delete (CRUD) database data. You will be able to handle dynamic forms and tables using PHP and MySQL. This is a foundational skill for backend web development.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/bootstrap-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/php-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/mysql-150x150.png"
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/html-5-300x300.png",
+            "name": "HTML5"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/css3-logo-png_seeklogo-186678-300x300.png",
+            "name": "CSS3"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/bootstrap-300x300.png",
+            "name": "Bootstrap"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/js-300x300.png",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/social-300x300.png",
+            "name": "jQuery"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/php-300x300.png",
+            "name": "PHP"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mysql-300x300.png",
+            "name": "MySQL"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/skill-icons_wordpress.svg",
+            "name": "WordPress"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/elementorlogo.png",
+            "name": "Elementor"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-woocommerce-48.png",
+            "name": "WooCommerce"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Dark-Flatsome3_mText-300x63.png",
+            "name": "Flatsome"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/splash-orange-300x138.png",
+            "name": "Enfold"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=iCZ4Szzc6Rg",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=lx_0Xt0J4DI",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=qt4S9rSggpo",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=BMpnRo7IrjA",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=tkolzPBXD_s",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=H89dWEL3Lnc",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "১৩ টি কোর্স"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fa6-solid_diagram-project.svg",
+            "text": "০৬ টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৩ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/grommet-icons_resources.svg",
+            "text": "২১,৫০০ টাকা সমমূল্যের রিসোর্স"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

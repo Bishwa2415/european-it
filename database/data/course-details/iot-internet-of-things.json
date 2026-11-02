@@ -1,0 +1,58 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2023/04/IoT-–-Internet-of-Things-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "IoT, or the Internet of Things, refers to the concept of connecting physical devices and objects to the internet, allowing them to communicate and exchange data with each other and with users. These devices can range from household appliances and wearable technology to industrial machinery and smart city infrastructure.\nIoT enables real-time monitoring and analysis of data from connected devices, providing insights and automation to optimize operations and improve efficiency. It also allows for the development\nThe proliferation of IoT devices and applications has the potential to transform a wide range of industries, including healthcare, manufacturing, transportation, and agriculture. However, it also presents new challenges around security, privacy, and data management. As such, the development and adoption of IoT technologies will require collaboration and innovation from a variety of stakeholders.",
+    "curriculum": [
+        {
+            "title": "IoT Devices",
+            "details": ""
+        },
+        {
+            "title": "IoT Communications",
+            "details": ""
+        },
+        {
+            "title": "IoT Networking",
+            "details": ""
+        },
+        {
+            "title": "IoT Cloud",
+            "details": ""
+        }
+    ],
+    "careers": [],
+    "reasons": [],
+    "mentors": [],
+    "projects": [],
+    "tools": [],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                28000,
+                18000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                40000,
+                26000
+            ]
+        }
+    }
+}

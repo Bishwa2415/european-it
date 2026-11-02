@@ -2,17 +2,17 @@
 
 namespace App\Models;
 
+use App\View\Composers\NavigationComposer;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use App\View\Composers\NavigationComposer;
 use Illuminate\Support\Facades\Storage;
 
 class Course extends Model
 {
     protected $fillable = [
-        'course_category_id', 'title', 'short_title', 'slug', 'custom_url', 'thumbnail', 'badge', 'overview',
+        'course_category_id', 'title', 'short_title', 'slug', 'custom_url', 'thumbnail', 'badge', 'overview', 'details',
         'review_count', 'student_count', 'is_popular', 'is_fourth_ir', 'in_footer', 'is_active',
         'sort_order', 'home_order', 'meta_title', 'meta_description',
     ];
@@ -20,10 +20,11 @@ class Course extends Model
     protected function casts(): array
     {
         return [
-            'is_popular'   => 'boolean',
+            'is_popular' => 'boolean',
             'is_fourth_ir' => 'boolean',
-            'in_footer'    => 'boolean',
-            'is_active'    => 'boolean',
+            'in_footer' => 'boolean',
+            'is_active' => 'boolean',
+            'details' => 'array',   // JSON column ↔ PHP array (detail page content)
         ];
     }
 
@@ -81,10 +82,18 @@ class Course extends Model
         return $prices->isEmpty() ? null : [$prices->min(), $prices->max()];
     }
 
-    // Link to the course detail page (the page itself is built in a later step)
+    // Link to the course detail page (CourseController@show), or the course's own website
     public function url(): string
     {
         return url($this->custom_url ?? '/course/'.$this->slug);
+    }
+
+    // One value / list from the detail page content: $course->detail('curriculum', [])
+    public function detail(string $key, mixed $default = null): mixed
+    {
+        $value = data_get($this->details, $key);
+
+        return blank($value) ? $default : $value;
     }
 
     // Thumbnail URL for <img src="...">

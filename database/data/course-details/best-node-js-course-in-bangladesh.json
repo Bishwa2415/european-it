@@ -1,0 +1,403 @@
+{
+    "tagline": "Build Scalable Web Applications with Modern JavaScript",
+    "intro": "Master Node.js, Express, MongoDB & Build Production-Ready Full Stack Applications",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/07/Node-Js-1-scaled.jpg",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 2561,
+    "review_count": 1314,
+    "overview": "Node.js is a powerful, open-source JavaScript runtime environment built on Google Chrome’s V8 Engine. It allows developers to create fast, scalable, and highly efficient server-side applications. Node.js is widely used for building modern web applications, APIs, real-time applications, video streaming platforms, and single-page applications (SPAs). This course is designed to take you from zero to job-ready by teaching complete Full Stack Web Development using Node.js, Express.js, MongoDB, and modern tools.",
+    "curriculum": [
+        {
+            "title": "Module 01: Fundamentals & JavaScript Mastery (Class 01–06)",
+            "details": "Class 01:\n- Introduction to Node.js & Full Stack Development\nClass 02:\n- JavaScript Basics – Part 1 (Variables, Data Types, Functions)\nClass 03:\n- JavaScript Basics – Part 2 (ES6+ Features: Arrow Function, Destructuring, Spread, Rest)\nClass 04:\n- JavaScript Advanced – Part 1 (Array Methods, Object Methods, DOM Basics)\nClass 05:\n- avaScript Advanced – Part 2 (Async JavaScript, Promises, Fetch API)\nClass 06:\n- Environment Setup, VS Code, Node.js Installation & NPM"
+        },
+        {
+            "title": "Module 02: Node.js Core Concepts (Class 07–11)",
+            "details": "Class 07:\n- Node.js Architecture & Event Loop Explained\nClass 08:\n- Modules System, Core Modules & File System (fs)\nClass 09:\n- Working with Paths, Streams & Buffers\nClass 10:\n- Building HTTP Server with Core Node.js\nClass 11:\n- Introduction to Express.js & First Express Server"
+        },
+        {
+            "title": "Module 03: Express.js & API Development (Class 12–17)",
+            "details": "Class 12:\n- Express.js Routing & Middleware\nClass 13:\n- Building RESTful APIs (GET, POST, PUT, DELETE)\nClass 14:\n- Dynamic Routes & Route Parameters\nClass 15:\n- Template Engines (EJS) – Dynamic Content Rendering\nClass 16:\n- MVC Architecture Pattern Implementation\nClass 17:\n- Advanced Controllers & Error Handling in Express"
+        },
+        {
+            "title": "Module 04: Database Integration (Class 18–23)",
+            "details": "Class 18:\n- Introduction to Databases – SQL vs NoSQL\nClass 19:\n- MongoDB Installation & Basic CRUD Operations\nClass 20:\n- Working with MongoDB Compass & Advanced Queries\nClass 21:\n- Introduction to Mongoose ODM\nClass 22:\n- Mongoose Schema, Models & Relationships\nClass 23:\n- Advanced Mongoose Features (Populate, Validation, Middleware)"
+        },
+        {
+            "title": "Module 05: Authentication & Security (Class 24–27)",
+            "details": "Class 24:\n- Sessions & Cookies Management\nClass 25:\n- User Registration & Login System\nClass 26:\n- Authentication with JWT (JSON Web Token)\nClass 27:\n- Password Hashing, Authorization & Protected Routes"
+        },
+        {
+            "title": "Module 06: Advanced Features & Production (Class 28–32)",
+            "details": "Class 28:\n- Sending Emails (Nodemailer) & File Upload\nClass 29:\n- Data Validation, Sanitization & Error Handling\nClass 30:\n- Pagination, Filtering & Search Functionality\nClass 31:\n- Testing Node.js Applications (Jest & Supertest)\nClass 32:\n- Deployment (Render / Vercel / Railway) + Final Project Presentation"
+        }
+    ],
+    "careers": [
+        {
+            "title": "Node.js Developer",
+            "text": "Specialize in building fast, scalable, and efficient server-side applications using Node.js."
+        },
+        {
+            "title": "Backend Developer",
+            "text": "Design and develop robust backend systems, APIs, and server logic for web and mobile applications."
+        },
+        {
+            "title": "Full Stack Web Developer",
+            "text": "Work on both frontend and backend to build complete end-to-end web applications."
+        },
+        {
+            "title": "JavaScript Developer",
+            "text": "Develop modern web applications using JavaScript across the full stack (frontend + backend)."
+        },
+        {
+            "title": "Software Engineer",
+            "text": "Join software companies as a backend or full-stack engineer working on real-world projects."
+        },
+        {
+            "title": "API Developer",
+            "text": "Create and maintain secure, high-performance RESTful APIs for web and mobile platforms."
+        },
+        {
+            "title": "Freelance Web Developer",
+            "text": "Offer Node.js, Express, and Full Stack development services on Fiverr, Upwork, and other freelance platforms."
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Complete Beginner to Professional",
+            "text": "No prior coding experience needed. The course starts from JavaScript basics and takes you all the way to advanced Full Stack Development."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Practical & Job-Oriented",
+            "text": "90% hands-on training with real-world projects. You will build multiple full-stack applications, not just theory."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Most In-Demand Skill in 2026",
+            "text": "Node.js is one of the highest-demand backend technologies worldwide. Companies and clients actively look for skilled Node.js developers."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Full Stack Mastery",
+            "text": "Learn both Backend (Node.js, Express, MongoDB) and essential Full Stack skills to build complete web applications."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Freelancing Ready",
+            "text": "Dedicated classes on portfolio building, deployment, and freelancing strategies so you can start earning from Fiverr & Upwork."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Modern Tools & Best Practices",
+            "text": "Learn latest technologies including ES6+, MVC, JWT Authentication, REST APIs, and Deployment on modern platforms."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Real Project Experience",
+            "text": "Build a professional portfolio with 4+ major projects that you can show to clients and employers."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Expert Mentorship",
+            "text": "Learn from experienced instructors who have real industry and freelancing background."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Certification & Job Support",
+            "text": "Get recognized certification and job placement assistance."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2026/05/Selected-photo-214x300.png",
+            "name": "Md Toabur Rahman",
+            "designation": "Senior Web Developer",
+            "badges": "NSDA Certified, 80+ Freelance Project, Fiverr Verified Freelancer, Upwork Verified Freelancer",
+            "url": "https://europeanit-inst.com/mentors/md-toabur-rahman/"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2026/05/Project-1-300x154.webp",
+            "title": "Personal Portfolio Website",
+            "text": "Build a fully dynamic and responsive personal portfolio website with admin dashboard to manage projects.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/Node.js-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/express-js-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/MongoDB-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2026/05/project-2-300x153.webp",
+            "title": "Real-time Todo & Task Management App",
+            "text": "Create a full-featured task management application with user authentication, real-time updates, and task categories.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/Node.js-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/express-js-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/MongoDB-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2026/05/project-3-300x171.webp",
+            "title": "Blog Application with CMS",
+            "text": "Develop a complete blog platform where users can register, write, publish, and manage blog posts with comments.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/Node.js-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/express-js-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2026/05/project-4-300x171.webp",
+            "title": "E-commerce Backend API",
+            "text": "Build a RESTful API for a mini e-commerce store with product management, cart system, and user authentication.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2026/05/express-js-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/Node.js-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/MongoDB-150x150.png, https://europeanit-inst.com/wp-content/uploads/2026/05/Postman-150x150.png"
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Node.js.png",
+            "name": "Node.js"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/express-js-300x300.png",
+            "name": "Express.js"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/MongoDB-300x300.png",
+            "name": "MongoDB"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Mongoose-300x300.png",
+            "name": "Mongoose"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/js-300x300.png",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Postman.png",
+            "name": "Postman"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/06/Github-icon.png",
+            "name": "Git & GitHub"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Visual-Studio-Code-300x300.png",
+            "name": "Visual Studio Code"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=iCZ4Szzc6Rg",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=lx_0Xt0J4DI",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=qt4S9rSggpo",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=BMpnRo7IrjA",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=tkolzPBXD_s",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=H89dWEL3Lnc",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "32 টি লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fa6-solid_diagram-project.svg",
+            "text": "০4 টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৩ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

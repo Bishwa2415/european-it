@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Dashboard') | European IT Admin</title>
     <meta name="robots" content="noindex, nofollow">   {{-- keep the dashboard out of Google --}}
+    {{-- admin.js reads these for fetch() uploads: the CSRF token + where to send the file --}}
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="upload-url" content="{{ route('admin.media.upload') }}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +36,9 @@
         ],
         'Courses' => [
             ['label' => 'Courses',    'icon' => 'bi-journal-bookmark', 'route' => 'admin.courses.index'],
+            ['label' => 'Course page', 'icon' => 'bi-layout-text-window', 'route' => 'admin.course-page.edit'],
+            ['label' => 'Landing pages', 'icon' => 'bi-megaphone',      'route' => 'admin.landing-pages.index'],
+            ['label' => 'Leads',      'icon' => 'bi-person-lines-fill', 'route' => 'admin.leads.index'],
             ['label' => 'Categories', 'icon' => 'bi-grid',             'route' => null],
             ['label' => 'Orders',     'icon' => 'bi-bag-check',        'route' => null],
             ['label' => 'Students',   'icon' => 'bi-mortarboard',      'route' => null],
@@ -45,8 +51,9 @@
             ['label' => 'Media library',      'icon' => 'bi-images',        'route' => 'admin.media.index'],
         ],
         'Site' => [
-            ['label' => 'Menus',         'icon' => 'bi-list',    'route' => 'admin.content.index', 'params' => ['type' => 'menu']],
-            ['label' => 'Site settings', 'icon' => 'bi-sliders', 'route' => 'admin.content.index', 'params' => ['type' => 'setting']],
+            ['label' => 'Header menu',   'icon' => 'bi-list',          'route' => 'admin.menus.edit', 'params' => ['menu' => 'header']],
+            ['label' => 'Footer',        'icon' => 'bi-layout-text-window-reverse', 'route' => 'admin.menus.edit', 'params' => ['menu' => 'footer']],
+            ['label' => 'Site settings', 'icon' => 'bi-sliders',       'route' => 'admin.settings.edit'],
         ],
     ];
 

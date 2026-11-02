@@ -1,0 +1,254 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2022/03/Python-Development-with-Django-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "Python has become very popular because it’s easy to understand, has easy syntax, and portability, and is easy to learn. Python is used for multiple purposes ranging from web development to data science to DevOps. Python can be used for data analysis, Machine Learning. Web Development, Automation, Scripting, Software Testing, and everyday tasks. Companies like Instagram, Youtube, and Spotify are built with Python.",
+    "curriculum": [
+        {
+            "title": "Python Basic",
+            "details": ""
+        },
+        {
+            "title": "Python Data Structure",
+            "details": ""
+        },
+        {
+            "title": "Online Task",
+            "details": ""
+        },
+        {
+            "title": "Python Conditional Statements",
+            "details": ""
+        },
+        {
+            "title": "Python loops",
+            "details": ""
+        },
+        {
+            "title": "Python String",
+            "details": ""
+        },
+        {
+            "title": "Python function",
+            "details": ""
+        },
+        {
+            "title": "Online Task",
+            "details": ""
+        },
+        {
+            "title": "Python OOP",
+            "details": ""
+        },
+        {
+            "title": "Introduction to Software Development",
+            "details": ""
+        },
+        {
+            "title": "Types Of SDLC Method",
+            "details": ""
+        },
+        {
+            "title": "Introduction to Database Design",
+            "details": ""
+        },
+        {
+            "title": "Online Task",
+            "details": ""
+        },
+        {
+            "title": "Database normalization",
+            "details": ""
+        },
+        {
+            "title": "Introduction to SQL",
+            "details": ""
+        },
+        {
+            "title": "SQL Advance",
+            "details": ""
+        },
+        {
+            "title": "Online Task",
+            "details": ""
+        },
+        {
+            "title": "Introduction to E-commerce",
+            "details": ""
+        },
+        {
+            "title": "Project",
+            "details": ""
+        },
+        {
+            "title": "ERD design of E-commerce Project",
+            "details": ""
+        },
+        {
+            "title": "ERD design of E-commerce",
+            "details": ""
+        },
+        {
+            "title": "Project-part-2",
+            "details": ""
+        },
+        {
+            "title": "Introduction to Django",
+            "details": ""
+        },
+        {
+            "title": "Django continues",
+            "details": ""
+        },
+        {
+            "title": "Django with MySQL",
+            "details": ""
+        },
+        {
+            "title": "Final Exam-1",
+            "details": ""
+        },
+        {
+            "title": "Final Exam-2",
+            "details": ""
+        },
+        {
+            "title": "Final Exam-3",
+            "details": ""
+        },
+        {
+            "title": "Final Project & Viva",
+            "details": ""
+        }
+    ],
+    "careers": [
+        {
+            "title": "Python Developer",
+            "text": ""
+        },
+        {
+            "title": "Django Web Developer",
+            "text": ""
+        },
+        {
+            "title": "Web Scraper",
+            "text": ""
+        },
+        {
+            "title": "Machine Learning Developer",
+            "text": ""
+        },
+        {
+            "title": "Research Assistant",
+            "text": ""
+        },
+        {
+            "title": "Data Analyst",
+            "text": ""
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "",
+            "title": "Dynamic Website Development",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Web Application Development",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Web Security",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Hands-on training using the latest tools & techniques",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Specialization & creating a portfolio in the area of interest",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Industry-relevant curriculum",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "E-commerce solution",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Project",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Online Market Place Strategy",
+            "text": ""
+        }
+    ],
+    "mentors": [],
+    "projects": [],
+    "tools": [
+        {
+            "icon": "",
+            "name": "Notepad/ Notepad++/ NetBeans/ Sublime/ VS Code/ Brackets"
+        },
+        {
+            "icon": "",
+            "name": "Firebug ( Browser Inspect Element)"
+        },
+        {
+            "icon": "",
+            "name": "Web Browsers ( Chrome, Firefox, Safari, Edge)"
+        },
+        {
+            "icon": "",
+            "name": "Web Server (Apache, Xampp, Wamp)"
+        },
+        {
+            "icon": "",
+            "name": "Pycharm"
+        },
+        {
+            "icon": "",
+            "name": "Sublime"
+        }
+    ],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                22500,
+                15000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                30000,
+                22500
+            ]
+        }
+    }
+}

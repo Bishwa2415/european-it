@@ -1,0 +1,434 @@
+{
+    "tagline": "Learn Graphic Design + AI Tools = Earn Money Fast",
+    "intro": "Learn graphic design through real-life projects, AI tools, and professional software mastery so that skills become the driving force of your career.",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2026/05/Income-and-Ai-Focus-Graphic-Design.webp",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 2137,
+    "review_count": 4321,
+    "overview": "This practical course teaches modern graphic design using the latest AI tools so you can create high-quality designs very fast and start earning from Fiverr, Upwork, and local clients quickly.",
+    "curriculum": [
+        {
+            "title": "Module-01: 6 Classes - Graphic Design Fundamentals & Theory",
+            "details": "Class 1–2: Introduction to Graphic Design & Visual Communication\n- History and evolution of graphic design as a discipline\n- Role of the graphic designer in modern business and branding\n- Visual communication principles: how images convey meaning\n- Understanding target audiences and design intent\n- Introduction to design thinking and creative problem solving\n- AI Application: Use ChatGPT to generate creative briefs, research audience personas, and explore visual direction concepts for any design project\n- AI Tool: ChatGPT -conversational ideation partner for brand research, design brief development, and creative problem-solving\nClass 3: Color Theory & Psychology\n- The color wheel: primary, secondary, and tertiary color relationships\n- Color models: RGB (screen) vs CMYK (print) — when and why each matters\n- Color harmony schemes: complementary, analogous, triadic, split-complementary, and tetradic\n- Color psychology: emotional and cultural associations of individual hues\n- 2025 color trends: high-contrast digital palettes, earthy tones, AI-influenced chromatic choices\n- Building effective brand color palettes with strategic intent\n- AI Application: Use Ideogram and ChatGPT to generate and test color palette concepts - visualize mood-driven palettes applied to real design mockups instantly\n- AI Tool: Ideogram - generate color-accurate design visuals to test palette choices before committing to final brand colors\nClass 4: Typography - The Grammar of Design\n- Type classification: serif, sans-serif, display, script, and monospace typefaces\n- Typography hierarchy: heading, subheading, body, and caption relationships\n- Kerning, tracking, leading, and baseline alignment\n- Font pairing strategies for brand identity and editorial design\n- Readability vs legibility: making type work across print and digital media\n- OpenType features and variable fonts in modern design workflows\n- AI Application: Use ChatGPT to generate font pairing recommendations based on brand personality, and Ideogram to visualize typographic compositions\n- AI Tool: ChatGPT - research and compare typeface options; generate typographic hierarchy recommendations for any brand style\nClass 5: Layout, Composition & Visual Hierarchy\n- The grid system: columnar, modular, and hierarchical grids\n- Rule of thirds, the golden ratio, and proportional spacing\n- White space (negative space) as a design tool\n- Gestalt principles: proximity, similarity, continuity, closure, and figure-ground\n- Visual hierarchy: guiding the viewer's eye through intentional design\n- Balance: symmetrical, asymmetrical, and radial compositions\n- Contrast, alignment, repetition, and proximity (C.A.R.P. principles)\n- AI Application: Use ChatGPT to generate layout concepts and mood board descriptions; use Ideogram to visualize compositional arrangements before building in Illustrator\n- AI Tool: Ideogram - create reference layout visuals and composition mockups to inform manual design decisions\nClass 6: Design Principles Deep Dive + Module Exam\n- Synthesis of all Module 1 concepts through applied visual examples\n- Case studies: analysis of iconic real-world designs through a theoretical lens\n- Module 1 Completion Exam: written and visual assessment\n- AI Integration Review: Reflect on how AI tools (ChatGPT, Ideogram) were used throughout Module 1 — assess where AI added value vs where human design judgment was essential"
+        },
+        {
+            "title": "Module-02: 13 Classes - Adobe Illustrator",
+            "details": "Classes 1–2: Interface, Workspace & Core Navigation\n- Artboard setup, workspace customization, and performance optimization\n- Document setup: color modes (CMYK vs RGB), units, and bleed settings\n- Navigating panels: Layers, Appearance, Swatches, Pathfinder, and Transform\n- Smart Guides, Snap to Grid, and the new consolidated Snapping Panel (2025)\n- Keyboard shortcuts and workflow efficiency strategies\n- AI Application: Use ChatGPT to quickly look up Illustrator shortcuts, troubleshoot tool behavior, and get step-by-step workflow guidance during live projects\n- AI Tool: ChatGPT - on-demand technical assistant for Illustrator questions, workflow optimization tips, and panel configuration advice\nClasses 3–4: Core Drawing Tools & Vector Fundamentals\n- The Pen Tool: creating and editing anchor points and Bezier curves with precision\n- The Curvature Tool: intuitive path creation for smooth, organic shapes\n- Shape tools: Rectangle, Ellipse, Polygon, Star, and custom path drawing\n- Shape Builder Tool and Pathfinder operations (Unite, Subtract, Intersect, Exclude)\n- Variable-width strokes and the Width Tool\n- Working with fills, strokes, gradients, and gradient meshes\n- AI Application: Use Recraft V4 to generate native SVG vector references - then study and refine the paths in Illustrator to understand professional vector construction techniques\n- AI Tool: Recraft - generate SVG vector shapes as reference starting points for custom Pen Tool refinement and learning\nClasses 5–6: Typography, Text Effects & Advanced Type Handling\n- Area type, point type, and type on a path workflows\n- Character and Paragraph panels: advanced spacing controls\n- OpenType and variable font workflows in Illustrator 2025\n- Text-to-vector type effects and outlines\n- Creating typographic logos and wordmarks\n- AI Application: Use ChatGPT to brainstorm wordmark concepts and naming; use Ideogram to generate typographic logo inspirations for client brief reference\n- AI Tool: Ideogram - generate text-accurate typographic compositions as mood board references before building final vectors in Illustrator\nClasses 7–8: Advanced Techniques & Effects\n- Appearance panel: stacking fills, strokes, and effects non-destructively\n- Clipping masks and compound paths\n- Blend Tool: creating smooth object blends and distributed object patterns\n- Pattern creation with the Pattern Options panel\n- Text to Pattern (2025): AI-generated vector patterns added to swatch library\n- Image Trace: converting raster images to clean vector artwork\n- AI Application: Use Recraft V4 to generate SVG patterns and textures; import directly into Illustrator as editable vector swatches to complement hand-crafted designs\n- AI Tool: Recraft — generate pattern and texture SVGs that can be refined and integrated into Illustrator design systems\nClasses 9–10: AI-Powered Features & Modern Workflows (2025)\n- Text to Vector Graphic: generating logos, icons, and illustrations from text prompts\n- Generative Shape Fill: populating shapes with AI-generated patterns and textures\n- Generative Expand: extending artwork for different format dimensions and print bleeds\n- Generative Recolor: theme-based AI color exploration\n- Objects on Path: aligning multiple elements along custom curves for packaging and patterns\n- Mockup Tool: realistic product visualization by mapping vectors onto photography\n- Export for Screens: batch export in SVG, PNG, PDF, TIFF, and EPS formats\nClasses 9–13: Hands-On Projects (8 Live Projects)\n- Logo Design: Design a professional brand logo from scratch — exploring wordmarks, lettermarks, and pictorial marks using the Pen Tool, Shape Builder, and typography tools. Delivered in full vector with color variations.\n- Business Card Design: Create a complete professional business card set for a brand — front and back, with typography, logo placement, and CMYK print-ready output at correct bleed specifications.\n- Flyer Design: Design a promotional A5 flyer for an event or product launch — incorporating hierarchy, color, imagery, and call-to-action elements.\n- Brochure Design: Develop a tri-fold or bi-fold brochure, applying grid systems, multi-column layouts, and consistent brand identity across multiple panels.\n- Banner Design: Produce digital and print banner designs for a campaign — adapting designs across multiple sizes and aspect ratios.\n- Packaging & Label Design: Design a product label or packaging for a consumer product, applying die-cut templates, regulatory text areas, barcode placement, and print production standards.\n- Social Media Post Design: Create a cohesive set of branded social media graphics (Instagram, Facebook, LinkedIn) with consistent visual identity — demonstrating template-based scalable design.\n- Infographic Design: Design an informational infographic that communicates data or a process visually — applying icons, charts, typography hierarchy, and visual flow principles."
+        },
+        {
+            "title": "Module-03: 13 Classes - Adobe Photoshop",
+            "details": "Classes 1–2: Interface, Workspace & Core Concepts\n- Understanding raster vs vector: resolution, DPI, and file size implications\n- Workspace setup: panels, workspaces, and interface customization\n- Color modes: RGB, CMYK, Grayscale, and Lab color\n- Layer system: types, naming, grouping, and organization strategies\n- Document creation: web, print, and social media presets\n- AI Application: Use ChatGPT to plan document setup specifications for any project type — get recommended DPI, color mode, and canvas size for any output format\n- AI Tool: ChatGPT - instant technical reference for Photoshop document setup, color mode selection, and output specification guidance\nClasses 3–4: Selection Tools & Non-Destructive Editing\n- Selection toolkit: Marquee, Lasso, Quick Selection, Magic Wand, and the Object Selection Tool\n- Select and Mask workspace: advanced hair/fur and edge refinement\n- Channels and alpha channels for precise selections\n- Non-destructive editing with Adjustment Layers: Curves, Levels, Hue/Saturation, Color Balance\n- Smart Objects and Smart Filters: maintaining editability throughout the workflow\n- AI Application: Use Photoshop's AI-powered Object Selection and Remove Background tools (Firefly) - understand how AI selection assistance works alongside manual masking techniques\n- AI Tool: Adobe Firefly (built into Photoshop) - AI-assisted selection refinement, background removal, and generative fill for rapid compositing\nClasses 5–6: Masking, Compositing & Layer Techniques\n- Layer masks vs pixel masks: when and how to use each\n- Clipping masks and layer groups for complex compositions\n- Blending modes: Multiply, Screen, Overlay, Luminosity and their applications\n- Compositing methodology: matching light, shadow, and perspective across elements\n- Luminosity masking for advanced tonal selectionsLuminosity masking for advanced tonal selections\n- AI Application: Use Generative Fill (Firefly) to extend backgrounds, fill gaps, and generate atmospheric elements that match existing light and color in composites\n- AI Tool: Adobe Firefly Generative Fill - AI-powered content generation for seamless background extension and environment creation in compositing projects\nClasses 7–8: Retouching & Advanced Image Manipulation\n- Healing Brush, Clone Stamp, Patch Tool, and Content-Aware Fill\n- Frequency separation for professional skin retouching\n- Dodge, Burn, and the Sponge Tool for tonal sculpting\n- Liquify Filter: reshaping and warping objects and portraits\n- Neural Filters: AI-powered skin smoothing, colorization, and JPEG artifact removal\n- Camera Raw as a Smart Filter for non-destructive raw processing\n- AI Application: Use Photoshop Neural Filters (AI-powered) for skin smoothing, colorization, and JPEG artifact removal - understand the strengths and limitations of AI retouching vs manual techniques\n- AI Tool: Adobe Neural Filters - AI-powered retouching features built directly into Photoshop for efficient image enhancement\nClasses 9–10: Typography, Effects & Output\n- Type layers, warp text, and text on paths\n- Layer Effects: Drop Shadow, Outer Glow, Bevel and Emboss, Gradient Overlay\n- Creating stylized text effects for poster and thumbnail design\n- Actions and batch processing for production efficiency\n- Export workflows: Save for Web, Export As, and print-ready PDF generation\n- AI Application: Use ChatGPT to generate caption copy, headline text options, and call-to-action variations - then apply the copy inside Photoshop type layers for rapid content production\n- AI Tool: ChatGPT - copywriting partner for generating on-brief text content (headlines, taglines, body copy) to populate design templates\nClasses 9–13: Hands-On Projects (8 Live Projects)\n- Image Manipulation: Create a surrealistic or narrative composite that combines multiple photographic elements into a seamless, believable final image — demonstrating masking, blending, and light matching.\n- Product Manipulation: Produce a professional product photography composite — placing a product into a custom-created environment with accurate shadows, reflections, and brand color grading.\n- Poster Design: Design a full-format promotional poster for a brand, event, or campaign, integrating typography, photography, and graphic elements.\n- Movie Poster: Design Create a cinematic movie poster complete with character isolation, atmospheric background, typographic title treatment, and genre-appropriate color grade.\n- Thumbnail Design: Develop YouTube or social media thumbnail designs optimized for click performance — bold typography, high contrast, and compelling visual hierarchy.\n- Mockup Design: Build realistic product and print mockups — placing designs onto surfaces (bags, books, screens, apparel) using Smart Objects and perspective warping.\n- Photo Retouching & Restoration: Professionally retouch a portrait using frequency separation, dodge and burn, and skin correction techniques — and restore a damaged or aged photograph to pristine quality.\n- Brand Visual Composite: Produce a full brand visual — combining a product, custom background, typography, and graphic overlays into a single polished advertising-quality composite ready for print or digital use."
+        },
+        {
+            "title": "Module-04: 4 Classes - AI-Powered Design & Research",
+            "details": "Class 1: Introduction to AI in Graphic Design\n- The shift in creative workflows: AI as co-creator vs replacement\n- Overview of the current AI image generation landscape (2025–2026)\n- Understanding raster AI output vs native SVG vector generation\n- Commercial use rights: what each platform permits and prohibits\n- Ethical considerations: originality, attribution, and client disclosure\nClass 2: Prompt Engineering for Designers\n- Writing effective visual prompts: style, composition, lighting, and medium descriptors\n- Negative prompts: excluding unwanted elements from generated outputs\n- Style references and image-to-image workflows\n- Iterative refinement: how to guide AI tools toward a specific creative direction\n- Building a personal prompt library for consistent brand work\nClass 3: Tool Deep-Dives - ChatGPT, Ideogram, Leonardo & Recraft\n- ChatGPT image generation: conversational design, multi-turn editing, and creative ideation\n- Ideogram V3: generating typographic posters, packaging concepts, and text-heavy graphics\n- Leonardo AI: maintaining character consistency, concept art, and brand visual libraries\n- Recraft V4: generating native SVG assets, icon sets, and design-system-compatible vectors\n- Workflow integration: exporting AI assets into Illustrator and Photoshop for refinement\nClass 4: AI in Research, Ideation & Practical Application + Module Exam\n- Using ChatGPT for design research: trend analysis, moodboard curation, and brief interpretation\n- Building AI-assisted design systems: generating consistent asset families\n- Practical limitations: when AI is efficient and when human judgment is essential\n- Case study: designing a complete brand visual identity using AI-assisted workflows\n- Module 4 Completion Exam: assessment of AI tool proficiency and workflow integration"
+        },
+        {
+            "title": "Module-05: 1 Session - Final Comprehensive Exam",
+            "details": "Exam Structure\n- Theory Evaluation: Written / MCQ + short answer - Modules 1 & 4: design principles, color theory, typography, AI tools\n- Technical Skills: Live software task in Illustrator or Photoshop - Modules 2 & 3: tool proficiency, project execution\n- Portfolio Review: Presentation and critique of module projects - All modules: design quality, process, and professional output\n- Freelance Strategy - Written scenario response - Marketplace positioning, gig design, client communication"
+        }
+    ],
+    "careers": [
+        {
+            "title": "Freelance Graphic Designer",
+            "text": "Work independently on Fiverr, Upwork, and other global platforms. Offer logo design, branding, social media graphics, and packaging services to international clients."
+        },
+        {
+            "title": "AI-Powered Graphic Designer",
+            "text": "Specialize in using modern AI tools (Ideogram, Leonardo, Recraft, ChatGPT) combined with Adobe software to deliver high-quality designs at exceptional speed."
+        },
+        {
+            "title": "Brand Identity Designer",
+            "text": "Create complete brand identity packages including logos, business cards, stationery, and brand guidelines for businesses."
+        },
+        {
+            "title": "Social Media Graphic Designer",
+            "text": "Design high-engagement posts, carousels, stories, and ad creatives for digital marketing campaigns and social media management agencies."
+        },
+        {
+            "title": "YouTube Thumbnail & Video Graphic Designer",
+            "text": "Create click-worthy thumbnails, channel art, and motion graphics for YouTubers and content creators."
+        },
+        {
+            "title": "Packaging & Print Designer",
+            "text": "Design professional product packaging, labels, flyers, brochures, and other print materials for businesses."
+        },
+        {
+            "title": "E-commerce Product & Advertising Designer",
+            "text": "Design product images, mockups, banners, and advertising creatives for Shopify, dropshipping, and online stores."
+        },
+        {
+            "title": "Marketing & Advertising Graphic Designer",
+            "text": "Work with digital marketing agencies to create promotional materials, posters, and campaign visuals."
+        },
+        {
+            "title": "In-House Graphic Designer",
+            "text": "Join companies, startups, or advertising agencies as a full-time graphic designer."
+        },
+        {
+            "title": "Own Graphic Design Studio / Agency Owner",
+            "text": "Start and grow your own design studio by serving multiple clients with premium branding and AI-accelerated services."
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Job-Business-Ready.svg",
+            "title": "Industry-Relevant Syllabus",
+            "text": "This course will teach the use of Adobe Photoshop, Illustrator, AI, and the skills required for the freelancing marketplace. The course content has been designed to meet the current needs of designing, branding, and social media marketing."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Complete-Marketing-Funnel.svg",
+            "title": "Hands-on project-based learning",
+            "text": "You will have the opportunity to work on 11 real-world design projects, such as logo design, banners, social media posts, branding kits, presentation designs, etc. This will help you develop real skills and build your professional portfolio."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector.svg",
+            "title": "Expert Mentor",
+            "text": "You will be guided by experienced and industry-ready designers. They will not only teach you the software, but also provide feedback, reviews, and real-world market-based career guidelines."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Advanced-Tracking-System.svg",
+            "title": "Job Placement and Freelancing Support",
+            "text": "Our job placement team will help you with local design projects and job preparation, in addition to Fiverr, Upwork. You will also receive assistance with client communication, CV and profile optimization, and interview preparation."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Freelancing-Income-Focus.svg",
+            "title": "Lifetime access and community support",
+            "text": "Enrolling in this course will give you lifetime access to content. You'll also be part of an active designer community where you can ask questions and get quick answers, job opportunities, and networking opportunities."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/100-Practical-Training.svg",
+            "title": "Certificate and Career Value",
+            "text": "At the end of the course, you will receive an industry-recognized digital certificate, which you can add to your Behance, LinkedIn, Fiverr, or CV to increase your career value."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2025/08/Mentor-Image-1-1-277x300.png",
+            "name": "Md. Azizul Islam",
+            "designation": "Graphic Designer",
+            "badges": "NSDA Certified, Visual Design Expert, Adobe Certified, 400+ Successful Projects Completed, 250+ Design Trainings, 40+ Creative Workshops Conducted",
+            "url": "https://europeanit-inst.com/mentors/azizul-islam/"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/08/Business-and-id-card-300x170.jpg",
+            "title": "Business card and ID card design",
+            "text": "You will learn how to design a business card that reflects your brand identity and creates a strong impression on your clients. You will be able to create unique business cards by combining style, color, and typography based on your business type.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/illustrator.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/photoshop.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/08/Logo-Design-300x170.jpg",
+            "title": "Logo design",
+            "text": "You will learn the entire process of creating a logo - from idea to sketch, design, and presentation. You will be able to design unique and minimal logos keeping in mind the brand's purpose and audience.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/illustrator.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/photoshop.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/restarunent-300x165.jpg",
+            "title": "Brand Design Guidelines",
+            "text": "You will learn how to define a brand's colors, logo, typography, and visual identity. These guidelines will help you and other designers work together more easily.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/illustrator.svg, https://europeanit-inst.com/wp-content/uploads/2026/05/amazon.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/08/T-Shirt-design-300x170.jpeg",
+            "title": "T-shirt design",
+            "text": "You will learn to design T-shirt prints by combining creative art, typography, and themes. Perfect project for working in freelancing or print on demand marketplaces.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/illustrator.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/photoshop.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/08/Packaging-and-Level-Design-300x170.jpg",
+            "title": "Packaging and Label Design",
+            "text": "You will learn how to create designs that capture product features, branding, and marketability. You will be taught real-life package and label design practices for various products.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/illustrator.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/photoshop.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/08/Catalog-Design-300x170.jpg",
+            "title": "Catalog design",
+            "text": "You will learn how to create beautiful catalogs by arranging information, images, and descriptions of various products. You will be taught clean and balanced design presentations in print and digital formats.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/illustrator.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/photoshop.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/08/Advance-Image-Manipulation-300x170.jpg",
+            "title": "Advanced image manipulation",
+            "text": "You will develop the ability to create new stories or themes by combining multiple images. You will learn to change colors, light, shadows, and backgrounds to make images more realistic and impactful.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/photoshop.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/08/Clickable-Social-Media-Poster-Design-300x170.jpg",
+            "title": "Clickable social media post design",
+            "text": "You will be taught how to create eye-catching and CTA-based designs for Facebook/Instagram. You will be able to create professional and trendy posts with branding and marketing goals.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/illustrator.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/photoshop.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/08/Mockup-Design-Process-300x170.jpg",
+            "title": "Mockup Design Process",
+            "text": "You will learn how to use mockups to beautifully present how design work will look in reality. You will be taught professional techniques for creating mockup-ready files and presenting them to clients.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/photoshop-1.svg"
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/05/Adobe_Photoshop-300x293.png",
+            "name": "Adobe Photoshop"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/05/Adobe_Illustrator_CC_icon.svg",
+            "name": "Adobe Illustrator"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Freepic-1.png",
+            "name": "Freepik"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vecteezy.webp",
+            "name": "Vecteezy"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/behance.png",
+            "name": "Behance"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/hugeicons_chat-gpt.svg",
+            "name": "ChatGPT"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Gemini-Logo-300x300.png",
+            "name": "Gemini"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Idiogram.png",
+            "name": "Ideogram"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Leonardo.png",
+            "name": "Leonardo"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Dall-E-1.png",
+            "name": "DALL-E"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Fiverr-1.png",
+            "name": "Fiverr"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Upwork-1.png",
+            "name": "Upwork"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=Dq_K-1RUpDc",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=QhOFi24CC0w",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=1yxztJvIye0",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=CrJ_azFCi1g",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "৩২ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "৯ টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৪ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "প্রফেশনাল সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/grommet-icons_resources.svg",
+            "text": "ডিজাইন রিসোর্স (মূল্য ৳৬০০০)"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

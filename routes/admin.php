@@ -3,10 +3,15 @@
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\ContentController;
 use App\Http\Controllers\Admin\CourseController;
+use App\Http\Controllers\Admin\CoursePageController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\HomeContentController;
 use App\Http\Controllers\Admin\HomePageController;
+use App\Http\Controllers\Admin\LandingPageController;
+use App\Http\Controllers\Admin\LeadController;
 use App\Http\Controllers\Admin\MediaController;
+use App\Http\Controllers\Admin\MenuController;
+use App\Http\Controllers\Admin\SettingsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -50,7 +55,24 @@ Route::prefix('admin')->name('admin.')->group(function () {
         // One line = 7 routes: index, create, store, show, edit, update, destroy (we don't need show)
         Route::resource('courses', CourseController::class)->except('show');
 
-        // Pages, posts, reusable sections, popups, menus, site settings (site_contents table)
+        // Course landing pages (online / offline sales pages) + the webinar bookings they collect
+        Route::resource('landing-pages', LandingPageController::class)->except('show');
+        Route::get('leads/export', [LeadController::class, 'export'])->name('leads.export');
+        Route::resource('leads', LeadController::class)->only(['index', 'update', 'destroy']);
+
+        // Parts shared by every course page (Why European IT, Certified By, help band ...)
+        Route::get('course-page', [CoursePageController::class, 'edit'])->name('course-page.edit');
+        Route::put('course-page', [CoursePageController::class, 'update'])->name('course-page.update');
+
+        // Header menu + footer (only these two: the where() blocks any other word)
+        Route::get('menus/{menu}', [MenuController::class, 'edit'])->name('menus.edit')->where('menu', 'header|footer');
+        Route::put('menus/{menu}', [MenuController::class, 'update'])->name('menus.update')->where('menu', 'header|footer');
+
+        // Site settings: phones, emails, address, social links, floating buttons
+        Route::get('settings', [SettingsController::class, 'edit'])->name('settings.edit');
+        Route::put('settings', [SettingsController::class, 'update'])->name('settings.update');
+
+        // Pages, posts, reusable sections, popups (site_contents table)
         Route::controller(ContentController::class)
             ->prefix('content/{type}')->name('content.')
             ->where(['type' => '[a-z]+'])
@@ -67,6 +89,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::get('media', [MediaController::class, 'index'])->name('media.index');
         Route::post('media', [MediaController::class, 'store'])->name('media.store');
         Route::delete('media', [MediaController::class, 'destroy'])->name('media.destroy');
+        Route::post('media/upload', [MediaController::class, 'upload'])->name('media.upload');   // JSON, used by "Upload" buttons in forms
 
         Route::post('logout', [AuthController::class, 'destroy'])->name('logout');
     });

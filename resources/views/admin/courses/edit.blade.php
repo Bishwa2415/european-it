@@ -4,7 +4,9 @@
 
 @section('content')
     <div class="mb-4 flex items-center justify-between">
-        <a href="{{ route('admin.courses.index') }}" class="text-sm text-gray-500 hover:text-primary">← All courses</a>
+        <div class="flex flex-wrap items-center gap-4 text-sm">
+            <a href="{{ route('admin.courses.index') }}" class="text-gray-500 hover:text-primary">← All courses</a>
+        </div>
 
         {{-- Separate form: a form inside another form is not allowed in HTML --}}
         <form method="POST" action="{{ route('admin.courses.destroy', $course) }}"

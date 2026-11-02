@@ -74,9 +74,9 @@ return [
             ],
         ],
         'payments' => [
-            ['image' => 'images/footer/bkash.webp',      'alt' => 'bKash',      'text' => '+8801889977951', 'class' => 'w-[115px]'],
-            ['image' => 'images/footer/nagad.webp',      'alt' => 'Nagad',      'text' => '+8801889977951', 'class' => 'w-[115px]'],
-            ['image' => 'images/footer/sslcommerz.webp', 'alt' => 'SSLCOMMERZ', 'text' => 'SSLCOMMERZ',     'class' => 'w-[209px] my-4'],
+            ['image' => 'images/footer/bkash.webp',      'alt' => 'bKash',      'text' => '+8801889977951', 'width' => 115],
+            ['image' => 'images/footer/nagad.webp',      'alt' => 'Nagad',      'text' => '+8801889977951', 'width' => 115],
+            ['image' => 'images/footer/sslcommerz.webp', 'alt' => 'SSLCOMMERZ', 'text' => 'SSLCOMMERZ',     'width' => 209],
         ],
         'bottom_links' => [
             ['label' => 'Terms & Conditions',        'url' => '/terms-conditions'],

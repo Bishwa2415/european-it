@@ -1,0 +1,562 @@
+{
+    "tagline": "Unlock opportunities with digital skills.",
+    "intro": "From Zero to Professional Facebook Ads Expert – Learn Meta Ads, AI-Powered Advertising, Pixel, Scaling, and Freelancing.",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2026/05/Practical-Facebook-Ads-Mastery.webp",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 1244,
+    "review_count": 1101,
+    "overview": "Practical Facebook Ads Mastery is a complete hands-on offline course specially designed to make you a professional Facebook & Instagram Ads expert. This course covers everything from basic page setup to advanced Meta Ads strategies, AI optimization, pixel tracking, dynamic ads, and real client acquisition from Fiverr & Upwork.",
+    "curriculum": [
+        {
+            "title": "Module-01: Course Overview and Understanding Meta ecosystem for Marketing",
+            "details": "Class-01:\n- Course Overview.\n- Mentor Intro.\n- Who Will Benefit from This Course?\n- Career Opportunity\n- Understanding Meta ecosystem for marketing.\n- Facebook Organic Marketing VS Paid Marketing.\n- How Facebook is using AI in their ecosystem."
+        },
+        {
+            "title": "Module-02: Create Facebook Page and Group with Optimization",
+            "details": "Class-02:\n- Create Facebook Page with Optimization.\n- Message Automation and FAQ Setup.\n- Create Group with Optimization.\n- Logo cover photo and description making with AI."
+        },
+        {
+            "title": "Module-03: Create and Understanding Meta business manager",
+            "details": "Class-03:\n- Create Meta business manager.\n- Create Ads Account.\n- Understanding Account Structure.\n- Business Manager Overview.\n- How to use Meta AI business assistant."
+        },
+        {
+            "title": "Module-04: How Facebook ads works - Auction System",
+            "details": "Class-04:\n- What is Facebook Auction ?\n- Total Value = Bid × Estimated Action Rate + User Value.\n- How to win in Auction.\n- How Ai work in auction system now."
+        },
+        {
+            "title": "Module-05: Facebook Ads Objective",
+            "details": "Class-05:\n- Awareness Campaign.\n- Traffic Campaign.\n- Engagement Campaign.\n- Leads Campaign.\n- App promotion Campaign.\n- Sales Campaign.\n- How AI works in any objective"
+        },
+        {
+            "title": "Module-06: Facebook Marketing Funnel",
+            "details": "Class-06:\n- TOFU, MOFU, BOFU Funnel.\n- Making marketing funnel with AI according to business type."
+        },
+        {
+            "title": "Module-07: Message campaign",
+            "details": "Class-07:\n- Message campaign Setup.\n- Use AI Chatbot in Messenger or WhatsApp."
+        },
+        {
+            "title": "Module-08: Identify target customer",
+            "details": "Class-08:\n- Understanding Customer Avatar.\n- Facebook ads Details Targeting.\n- Target audience research with AI."
+        },
+        {
+            "title": "Module-09: Ads Creation and Competitor Analysis",
+            "details": "Class-09:\n- Ads Create and Preview.\n- Competitors Ads Analysis.\n- Competitor analysis with ai."
+        },
+        {
+            "title": "Module-10: Like Campaign and Awareness Campaign",
+            "details": "Class-10:\n- Like Campaign and Awareness ads setup.\n- Use Meta AI Features to Increase performance."
+        },
+        {
+            "title": "Module-11: Lead Campaign",
+            "details": "Class-11:\n- Lead Campaign Setup.\n- Use AI for Lead Qualification."
+        },
+        {
+            "title": "Module-12: Traffic and Video View Campaign",
+            "details": "Class-12:\n- Traffic and Video View Campaign Setup.\n- Traffic source and video analysis with AI."
+        },
+        {
+            "title": "Module-13: Making a website and Understanding user behaviour",
+            "details": "Class-13:\n- Making a website for Pixel Setup.\n- Understanding user behaviour in website.\n- Making landing page very fast with AI."
+        },
+        {
+            "title": "Module-14: Facebook Pixel and Sales Campaign Setup",
+            "details": "Class-14:\n- Facebook Pixel Setup.\n- Sales Campaign Setup.\n- Meta pixel data analysis with AI."
+        },
+        {
+            "title": "Module-15: Carousel Ads Campaign",
+            "details": "Class-15:\n- Carousel Ads Campaign Setup.\n- Carousel headline and description writing with Ai."
+        },
+        {
+            "title": "Module-16: Facebook Ad Metrics, Ads Analysis and Optimization",
+            "details": "Class-16:\n- Understanding Facebook Ad Metrics.\n- Ads Analysis and Optimization.\n- Ads Analysis and Optimization with Ai."
+        },
+        {
+            "title": "Module-17: Campaign A/B Testing",
+            "details": "Class-17:\n- Manual A/B Testing.\n- Automatic A/B Testing with AI."
+        },
+        {
+            "title": "Module-18: Custom and Lookalike Audience",
+            "details": "Class-18:\n- Create Custom and Lookalike Audience.\n- Best Audience Validation with Ai."
+        },
+        {
+            "title": "Module-19: Retarget Ads Campaign",
+            "details": "Class-19:\n- Retarget Ads Campaign Setup\n- Use AI to Segment Retarget Audiences"
+        },
+        {
+            "title": "Module-20: Marketing Plan Making and Copywriting",
+            "details": "Class-20:\n- Create Facebook Marketing Plan\n- Copywriting For Facebook Ads\n- Marketing Plan and Copywriting with Ai"
+        },
+        {
+            "title": "Module-21: Meta commerce manager and catalog",
+            "details": "Class-21:\n- Create commerce manager and setup catalog\n- AI Analytics for Commerce Campaigns"
+        },
+        {
+            "title": "Module-22: Meta Ads Scaling",
+            "details": "Class-22:\n- Ads Scaling Methods\n- Use AI to Identify Winning Ads and Ad Fatigue Detection"
+        },
+        {
+            "title": "Module-23: Content strategy making",
+            "details": "Class-23:\n- Facebook Content strategy making\n- Making New Content Strategy with AI"
+        },
+        {
+            "title": "Module-24: Google Analytics with Facebook",
+            "details": "Class-24:\n- Create and Connect Google Analytics with Facebook\n- Google Analytics analysis with Ai"
+        },
+        {
+            "title": "Module-25: Use of Google tag manager",
+            "details": "Class-25:\n- Understanding and create Google tag manager\n- Explore different type of uses with AI"
+        },
+        {
+            "title": "Module-26: Tag ,Trigger and Variables",
+            "details": "Class-26:\n- Understand and Create Tag ,Trigger and Variables\n- Fix Tag ,Trigger and Variables Issue with ai"
+        },
+        {
+            "title": "Module-27: Facebook Pixel with Google tag manager",
+            "details": "Class-27:\n- Connect Facebook Pixel with Google tag manager\n- AI Debugging for GTM + Pixel"
+        },
+        {
+            "title": "Module-28: Facebook Catalog Ads (Dynamic product ads)",
+            "details": "Class-28:\n- Facebook Catalog Ads (Dynamic product ads)\n- AI Product Feed Optimization"
+        },
+        {
+            "title": "Module-29: AI-Based Optimization",
+            "details": "Class-29:\n- AI-Based Optimization (Advantage+ Placements, Campaigns)"
+        },
+        {
+            "title": "Module-30: Conversion Rate Optimization",
+            "details": "Class-30:\n- Conversion Rate Optimization\n- Conversion Rate Optimization with Ai"
+        },
+        {
+            "title": "Module-31: Preparation for income generation",
+            "details": "Class-31:\n- Niche selection and CV Making\n- Portfolio making to get Client or Job\n- Portfolio making with ai"
+        },
+        {
+            "title": "Module-32: How To get Client from Marketplace",
+            "details": "Class-32:\n- Create Fiverr Account\n- Create Upwork Account\n- How To get Client from Fiverr and Upwork\n- Client Hunting and Lead Generation with Ai"
+        }
+    ],
+    "careers": [
+        {
+            "title": "Facebook Ads Specialist",
+            "text": "Run Facebook and Instagram ads to generate leads and sales for businesses. Work as a specialist managing ad campaigns for clients or companies."
+        },
+        {
+            "title": "Meta Ads Manager",
+            "text": "Fully manage Meta (Facebook + Instagram) advertising accounts. High-demand role with good salary in agencies and large companies."
+        },
+        {
+            "title": "Freelance Digital Marketer (Fiverr & Upwork)",
+            "text": "Work as a freelancer on international platforms. Manage Facebook ads for global clients and earn attractive income (1 to 5 lakh+ Taka per month possible)."
+        },
+        {
+            "title": "E-commerce Ads Expert",
+            "text": "Specialize in running dynamic product ads and catalog campaigns for online stores. High demand in e-commerce businesses."
+        },
+        {
+            "title": "Digital Marketing Executive",
+            "text": "Join a company’s digital marketing team and handle Facebook & Instagram advertising along with other digital channels."
+        },
+        {
+            "title": "Performance Marketing Specialist",
+            "text": "Focus on result-driven marketing with strong emphasis on ROI and ROAS. Analyze and optimize campaigns for maximum performance."
+        },
+        {
+            "title": "Own Digital Marketing Agency Owner",
+            "text": "Start and grow your own digital marketing agency by serving multiple clients with Facebook and Instagram ad management."
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/100-Practical-Training.svg",
+            "title": "100% Practical Training",
+            "text": "Learn by doing. Every class includes hands-on practice with real campaigns instead of just theory."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/AI-Powered-Facebook-Ads.svg",
+            "title": "AI-Powered Facebook Ads",
+            "text": "Master modern AI tools and Meta’s Advantage+ system to optimize campaigns faster and smarter."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Freelancing-Income-Focus.svg",
+            "title": "Freelancing & Income Focus",
+            "text": "Learn how to get real clients from Fiverr and Upwork. Portfolio and proposal training included."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Advanced-Tracking-System.svg",
+            "title": "Advanced Tracking System",
+            "text": "Complete setup of Facebook Pixel, Google Tag Manager & Analytics for professional-level results."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Complete-Marketing-Funnel.svg",
+            "title": "Complete Marketing Funnel",
+            "text": "Build TOFU, MOFU & BOFU funnels with proper strategy for any business type."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Portfolio-Real-Projects.svg",
+            "title": "Portfolio & Real Projects",
+            "text": "Build a strong portfolio with live campaigns to show clients and get hired quickly."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Offline-Class-Expert-Mentor.svg",
+            "title": "Offline Class + Expert Mentor",
+            "text": "Direct guidance from experienced mentors in a physical classroom environment."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2026/05/Job-Business-Ready.svg",
+            "title": "Job & Business Ready",
+            "text": "Prepare for high-paying jobs or start your own digital marketing agency."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2026/07/image-71-288x300.png",
+            "name": "Rahmat Ullah",
+            "designation": "Senior Digital Marketing Manager",
+            "badges": "Google Certified, Facebook Certified, Hubspot Certified, Founder, Mentor",
+            "url": "https://europeanit-inst.com/mentors/rahmat-ullah/"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/unsplash_sxeFMlcId1I-300x165.png",
+            "title": "Complete Facebook Page & Group Optimization",
+            "text": "Create and fully optimize a professional Facebook Page and Group with AI-powered design, automation, and branding.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Facebook-Ads-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-canva.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-234-300x166.png",
+            "title": "Meta Business Manager & Pixel Setup",
+            "text": "Set up Meta Business Manager, Ads Account, and install Facebook Pixel on a real website for advanced tracking.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/meta_pixel_logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/wordpress-logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Tag-Manager-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Pixelyoursite.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2341-300x165.png",
+            "title": "Full Marketing Funnel Creation",
+            "text": "Build a complete TOFU, MOFU & BOFU marketing funnel tailored for any business using AI.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/meta_pixel_logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/wordpress-logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Tag-Manager-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/stape-Logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Logo_Google_Analytics-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2342-300x166.png",
+            "title": "Lead Generation Campaign",
+            "text": "Design and launch a high-performing Lead Generation Campaign for a local or online business.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Google_Ads_logo-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Tag-Manager-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Tag-Assistant-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/unsplash_sxeFMlcId1I1-300x165.png",
+            "title": "E-commerce Sales Campaign with Dynamic Catalog Ads",
+            "text": "Create and run Dynamic Product Ads (Catalog Campaign) for an online store.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/ChatGPT-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Veo-3-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Kling-AI-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Freepic-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2343-300x166.png",
+            "title": "Retargeting & Lookalike Audience Campaign",
+            "text": "Build advanced Retargeting and Lookalike Audience campaigns to maximize conversions.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Yoast-SEO-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/google-search-console-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/wordpress-logo-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2344-300x166.png",
+            "title": "Professional Portfolio Development",
+            "text": "Create a strong portfolio with at least 5 live Facebook Ads campaigns.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Google-Tag-Manager-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Logo_Google_Analytics-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/wordpress-logo-150x150.png"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/07/Frame-2345-300x166.png",
+            "title": "Fiverr & Upwork Gig Creation",
+            "text": "Set up optimized Fiverr and Upwork profiles, create service gigs, and write winning proposals.",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/Mailchimp-1-150x150.png, https://europeanit-inst.com/wp-content/uploads/2025/07/Gmail_icon_-150x150.png"
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/logos_google-ads.svg",
+            "name": "Google Ads"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/logos_meta-icon-1.svg",
+            "name": "Meta Ads"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/logos_google-tag-manager.svg",
+            "name": "Google Tag Manager"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/ph_code-fill.svg",
+            "name": "Meta Pixel with CAPI"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/material-icon-theme_gemini-ai.svg",
+            "name": "Gmini"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/kling-kuaishou-icon-300x300.png",
+            "name": "kling ai"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/simple-icons_yoast.svg",
+            "name": "Yoast SEO"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/google-search-console-300x268.png",
+            "name": "Google Search Console"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/skill-icons_wordpress.svg",
+            "name": "WordPress"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/simple-icons_semrush.svg",
+            "name": "Semrush"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/hugeicons_chat-gpt.svg",
+            "name": "ChatGPT"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Veo-3.png",
+            "name": "VEO 3"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/Vector.svg",
+            "name": "Mailchimp"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/skill-icons_linkedin.svg",
+            "name": "Linkedin"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/skill-icons_instagram.svg",
+            "name": "Instagram"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/image-70.svg",
+            "name": "Ahrefs"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=REptAYuMElE",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=3QxkZCFNBW4",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=rsFqFWj9MNw",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=wRh9o32Gk0Q",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=Y7JlcNIq2_0",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=nJ7iW35_yP4",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "১৩ টি কোর্স"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fa6-solid_diagram-project.svg",
+            "text": "১০ টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৪ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/grommet-icons_resources.svg",
+            "text": "৬০০০ টাকা সমমূল্যের মার্কেটিং রিসোর্স"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

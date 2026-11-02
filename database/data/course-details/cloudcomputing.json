@@ -1,0 +1,58 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2023/04/Cloud-Computing-1-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "Cloud computing is a model for delivering on-demand computing resources and services over the internet. Rather than maintaining local servers and hardware, businesses and individuals can leverage remote servers and infrastructure provided by cloud service providers to run their applications, store and process data, and perform other computing tasks.\nThere are three main types of cloud computing services: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). IaaS provides users with virtualized computing resources, such as servers, storage, and network capacity, while PaaS offers a platform for developing, deploying, and managing applications. SaaS delivers ready-to-use software applications over the internet.\nCloud computing has several advantages over traditional on-premises computing, including cost savings, scalability, and flexibility. However, there are also concerns around security, data privacy, and vendor lock-in that need to be carefully considered when adopting cloud services.",
+    "curriculum": [
+        {
+            "title": "Computer Network Basics.",
+            "details": ""
+        },
+        {
+            "title": "Concepts of Distributed Systems.",
+            "details": ""
+        },
+        {
+            "title": "Concepts of Cloud Computing and its Necessity.",
+            "details": ""
+        },
+        {
+            "title": "Cloud Service Providers in use and their Significance.",
+            "details": ""
+        }
+    ],
+    "careers": [],
+    "reasons": [],
+    "mentors": [],
+    "projects": [],
+    "tools": [],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                28000,
+                18000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                40000,
+                26000
+            ]
+        }
+    }
+}

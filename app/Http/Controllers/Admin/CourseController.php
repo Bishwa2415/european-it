@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\CourseRequest;
 use App\Models\Course;
 use App\Models\CourseCategory;
+use App\Support\CourseContent;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -32,7 +33,7 @@ class CourseController extends Controller
             ->withQueryString();   // keep ?search=... in the page 2, 3 links
 
         return view('admin.courses.index', [
-            'courses'    => $courses,
+            'courses' => $courses,
             'categories' => CourseCategory::orderBy('sort_order')->get(),
         ]);
     }
@@ -41,7 +42,7 @@ class CourseController extends Controller
     public function create(): View
     {
         return view('admin.courses.create', [
-            'course'     => new Course(['is_active' => true]),   // empty course so the form can use $course->...
+            'course' => new Course(['is_active' => true]),   // empty course so the form can use $course->...
             'categories' => CourseCategory::orderBy('sort_order')->get(),
         ]);
     }
@@ -66,7 +67,7 @@ class CourseController extends Controller
     public function edit(Course $course): View
     {
         return view('admin.courses.edit', [
-            'course'     => $course->load('plans'),
+            'course' => $course->load('plans'),
             'categories' => CourseCategory::orderBy('sort_order')->get(),
         ]);
     }
@@ -100,8 +101,12 @@ class CourseController extends Controller
      */
     private function courseData(CourseRequest $request, ?Course $course = null): array
     {
+        // Course page content tabs (curriculum, projects, tools ...) → courses.details. First, so a mistake there
+        // stops the save before a new thumbnail is stored.
+        $details = CourseContent::fromRequest($request, $course);
+
         // validated() = only the fields that passed the rules (never trust raw input)
-        $data = collect($request->validated())->except(['thumbnail', 'plans'])->all();
+        $data = collect($request->validated())->except(['thumbnail', 'plans'])->all() + ['details' => $details];
 
         if ($request->hasFile('thumbnail')) {
             $this->deleteUploadedThumbnail($course?->thumbnail);
@@ -122,16 +127,17 @@ class CourseController extends Controller
 
             if (empty($plan['enabled'])) {
                 $course->plans()->where('type', $type)->delete();
+
                 continue;
             }
 
             $course->plans()->updateOrCreate(['type' => $type], [
-                'duration'         => $plan['duration'] ?? null,
-                'total_classes'    => $plan['total_classes'] ?? null,
+                'duration' => $plan['duration'] ?? null,
+                'total_classes' => $plan['total_classes'] ?? null,
                 'classes_per_week' => $plan['classes_per_week'] ?? null,
-                'regular_price'    => $plan['regular_price'],
-                'sale_price'       => $plan['sale_price'] ?? null,
-                'is_active'        => true,
+                'regular_price' => $plan['regular_price'],
+                'sale_price' => $plan['sale_price'] ?? null,
+                'is_active' => true,
             ]);
         }
     }

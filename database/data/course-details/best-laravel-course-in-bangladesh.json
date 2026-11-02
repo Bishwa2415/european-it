@@ -1,0 +1,184 @@
+{
+    "tagline": "",
+    "intro": "",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2023/04/Laravel-Framework-scaled.jpg",
+    "avatars": [],
+    "student_count": 0,
+    "review_count": 0,
+    "overview": "Laravel framework is an open-source reservoir for Hypertext Preprocessor which is abbreviated as PHP. Being popular language worldwide for making interactive and dynamic websites, PHP finds readily scripted features available in Laravel.\nWith model-view-controller (MVC) design pattern, Laravel puts existing components of different frameworks into making a web application.\nDespite myriad of web generating tools, it is preferred by all for possessing unique features and safeguard modules for the sites.\nEnriched with easy CRUD (create, read, update and delete) operation of database, Laravel leads the way into making customized and dynamic websites.",
+    "curriculum": [
+        {
+            "title": "Introduction",
+            "details": ""
+        },
+        {
+            "title": "PHP Basic",
+            "details": ""
+        },
+        {
+            "title": "PHP Loop",
+            "details": ""
+        },
+        {
+            "title": "File Upload, Cookie, Session",
+            "details": ""
+        },
+        {
+            "title": "Exception & Database",
+            "details": ""
+        },
+        {
+            "title": "Introduction to Laravel",
+            "details": ""
+        },
+        {
+            "title": "Control Structures",
+            "details": ""
+        },
+        {
+            "title": "OOP Fundamental",
+            "details": ""
+        },
+        {
+            "title": "Windows – Local Environment Setup",
+            "details": ""
+        },
+        {
+            "title": "Laravel MVC & Other",
+            "details": ""
+        },
+        {
+            "title": "Laravel – Blade Templating Engine",
+            "details": ""
+        },
+        {
+            "title": "Laravel – Database – Laravel Migration",
+            "details": ""
+        },
+        {
+            "title": "Laravel – Query Builder",
+            "details": ""
+        },
+        {
+            "title": "Ajax, Angular JS",
+            "details": ""
+        },
+        {
+            "title": "Final Project",
+            "details": ""
+        }
+    ],
+    "careers": [],
+    "reasons": [
+        {
+            "icon": "",
+            "title": "PHP & MySQL",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Data Normalization",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Laravel Structure",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Laravel MVC",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Laravel Artisan",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Encryption",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Blade Features",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Angular JS",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Hands-on training using latest tools & techniques",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "E-commerce solution",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Project",
+            "text": ""
+        },
+        {
+            "icon": "",
+            "title": "Online Market Place Strategy",
+            "text": ""
+        }
+    ],
+    "mentors": [],
+    "projects": [],
+    "tools": [
+        {
+            "icon": "",
+            "name": "VS Code"
+        },
+        {
+            "icon": "",
+            "name": "Sublime Text"
+        },
+        {
+            "icon": "",
+            "name": "PhpStrome"
+        },
+        {
+            "icon": "",
+            "name": "Web Browsers (Chrome, FireFox, Edge)"
+        },
+        {
+            "icon": "",
+            "name": "Web Server (Apache, Xampp, Wamp)"
+        }
+    ],
+    "videos": [],
+    "glance": [],
+    "plans": {
+        "online": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                22500,
+                15000
+            ]
+        },
+        "offline": {
+            "info": {
+                "Duration": "4",
+                "Class Per Week": "2",
+                "Total": "32"
+            },
+            "prices": [
+                30000,
+                22500
+            ]
+        }
+    }
+}

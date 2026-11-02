@@ -1,0 +1,383 @@
+{
+    "tagline": "UI/UX Design Professional Course – From Beginner to Figma Mastery",
+    "intro": "Whether it’s an app, a website, or a digital product, the design of everything now depends on user experience and smart interfaces. In our course, you’ll learn from the very beginning how to turn an idea into a real product.",
+    "banner": "https://europeanit-inst.com/wp-content/uploads/2026/05/Income-and-Ai-Focus-Ui_UX-Design.webp",
+    "avatars": [
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/unnamed.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/06/unnamed-11.png",
+        "https://europeanit-inst.com/wp-content/uploads/2025/07/Tonny.png"
+    ],
+    "student_count": 1719,
+    "review_count": 2589,
+    "overview": "This course is designed to take students from beginner to advanced level in UI/UX design through hands-on, project-based learning. Students will learn Figma, wireframing, user research, mobile and web UI design, prototyping, design systems, case studies, and freelancing skills. By the end of the course, learners will build a professional portfolio and gain the practical skills needed to work with real clients on platforms like Fiverr and Upwork.",
+    "curriculum": [
+        {
+            "title": "Module-01: Total Classes: 4 - Tools Setup & Figma Foundations",
+            "details": "Class-01: Welcome & Course Orientation\n- Introduction to UI/UX design as a career, course overview, tools needed, and setting up accounts (Figma, Adobe XD, Notion, FigJam). Introduction to AI tools (ChatGPT, Ideogram) and how they will be used throughout the course to accelerate design workflows\nClass-02: Figma Interface Mastery\n- Deep dive into Figma: canvas, toolbar, layers panel, properties panel, and keyboard shortcuts for efficient navigation. Overview of Figma AI features for auto-completing design tasks and generating layout suggestions\nClass-03: Frames, Grids & Basic Shapes\n- Working with frames vs. groups, setting up responsive grids, using auto layout basics, and drawing fundamental UI shapes. Using AI plugins (e.g., Figma AI, Magician) to speed up shape creation and layout structuring.\nClass-04: Typography & Color in Figma\n- Managing fonts, creating text styles, building a basic color palette, and understanding how styles scale across a project. Using AI tools like Fontjoy for font pairing suggestions and Coolors AI for smart color palette generation."
+        },
+        {
+            "title": "Module-02: Total Classes: 6 - UI Fundamentals, Wireframing & Research",
+            "details": "Class-05: Visual Design Principles\n- Hierarchy, contrast, alignment, repetition, and proximity — the CRAP principles applied to real UI examples. Using AI image tools (Ideogram, Midjourney) to generate visual references that demonstrate design principles\nClass-06: UX Thinking & Design Thinking\n- Introduction to the 5-stage Design Thinking model: Empathize, Define, Ideate, Prototype, Test — with a hands-on example. Leveraging ChatGPT to brainstorm and rapidly expand ideas at the Ideate stage.\nClass-07: User Research Methods\n- How to plan and conduct user interviews, surveys using Google Forms, and secondary research. Analyzing and documenting findings. Using ChatGPT to synthesize interview notes, identify patterns, and generate survey question suggestions.\nClass-08: Empathy Maps & User Personas\n- Turning raw research data into structured empathy maps and persona profiles that guide design decisions. Using ChatGPT to draft user personas from research notes and validate assumptions quickly.\nClass-09: Wireframing: Web Layout\n- Low-fidelity wireframing in Figma for desktop layouts — landing pages, dashboards, and product pages. Using AI wireframing tools (Uizard, Visily) to generate initial wireframe structures from text prompts.\nClass-10: Wireframing: Mobile Layout\n- Mobile-first wireframing principles, thumb zones, mobile navigation patterns (hamburger, bottom nav), and responsive considerations. Using Uizard or Figma AI to convert rough sketches into digital mobile wireframes instantly."
+        },
+        {
+            "title": "Module-03: Total Classes: 3 - UI Design - Figma Mastery",
+            "details": "Class-11: High-Fidelity UI: Landing Page\n- Designing a complete web landing page in Figma — hero, features, testimonials, CTA sections — with grid and spacing discipline. Using Ideogram or Midjourney to generate hero images and visual assets directly within the design workflow.\nClass-12: Components & Variants\n- Creating reusable Figma components (buttons, inputs, cards), setting up variants and interactive states (default, hover, active, disabled). Using Figma AI to auto-generate component variants and detect inconsistencies across a design.\nClass-13: Auto Layout & Responsive Design\n- Mastering Figma auto layout for responsive components that adapt to content — columns, rows, wrapping, and fill/hug behavior. Using AI-powered Figma plugins to suggest and apply optimal spacing and alignment automatically.\nClass-14: Design Systems & Style Guides\n- Building a mini design system from scratch: color tokens, typography scale, spacing system, icon library, and component documentation. Using ChatGPT to draft component naming conventions and write design token documentation.\nClass-15: Mobile App UI Design (Part 1)\n- Designing a mobile app — onboarding screens, login/signup, home feed — following iOS and Android design guidelines. Using Ideogram to generate app concept mood boards and AI-assisted UI inspiration references.\nClass-16: Mobile App UI Design (Part 2)\n- Continuing the mobile app: profile pages, settings, modals, bottom sheets, and microinteraction states. Using Figma AI and ChatGPT to rapidly explore microinteraction concepts and generate copy for UI elements.\nClass-17: Dashboard UI Design\n- Designing an admin dashboard: sidebar navigation, data cards, charts/graphs placeholder, tables, and responsive behavior. Using ChatGPT to generate realistic sample data and placeholder content for dashboard mockups.\nClass-18: Developer Handoff & Annotations\n- Preparing Figma files for developers - redlines, spacing annotations, component notes, export settings, and using inspect mode. Using AI tools to auto-generate component specs and accessibility annotations for developer handoff."
+        },
+        {
+            "title": "Module-04: Total Classes: 6 - UI/UX Research & Problem Solving",
+            "details": "Class-19: Usability Testing Methods\n- Moderated vs. unmoderated testing, think-aloud protocol, task scenarios, and how to record and analyze sessions. Using AI transcription tools (Otter.ai) and ChatGPT to summarize session recordings and surface key usability findings.\nClass-20: Heuristic Evaluation\n- Nielsen’s 10 Usability Heuristics applied to real apps — how to identify UX issues and rate their severity. Using ChatGPT to assist with heuristic evaluation write-ups and quickly cross-reference violations against guidelines.\nClass-21: Problem Definition Frameworks\n- Crafting clear problem statements using Point of View (POV) and How Might We (HMW) techniques to frame design challenges. Using ChatGPT to generate and stress-test multiple POV and HMW statements rapidly.\nClass-22: Ideation & Concept Sketching\n- Rapid ideation techniques — Crazy 8s, mind mapping, feature prioritization using MoSCoW method — from problems to design directions. Using ChatGPT to expand idea lists, challenge assumptions, and generate unexpected feature concepts.\nClass-23: Interactive Prototyping in Figma\n- Building clickable prototypes in Figma with transitions, smart animate, overlays, and interactive component states for user testing. Using Figma AI to suggest transition styles and prototype flows based on the design context.\nClass-24: Testing, Feedback & Iteration\n- Running a mini usability test session, documenting findings, identifying pain points, and redesigning based on evidence. Using ChatGPT to analyze test notes, cluster themes, and generate actionable redesign recommendations."
+        },
+        {
+            "title": "Module-05: Total Classes: 6 - Product Redesign - Case Study Execution",
+            "details": "Class-25: Case Study Brief & Research\n- Introduction to the redesign project, selecting a real app/website, conducting research, and defining the problem scope. Using ChatGPT to accelerate competitive research and generate an initial problem scope draft.\nClass-26: Ideation & Information Architecture\n- Mapping the current app’s IA, identifying structural issues, and ideating new site map and navigation flows. Using ChatGPT to suggest improved information architecture structures and generate alternative navigation models.\nClass-27: Redesign Execution in Figma\n- Designing new screens based on research insights — applying the full design system, layout improvements, and UX fixes. Using Ideogram or Midjourney to generate visual concept references aligned with the redesign direction.\nClass-28: Prototype & Micro-interactions\n- Adding interactivity to the redesigned screens with Figma transitions, smart animate effects, and real prototype flows. Using Figma AI to preview and refine animation timing and transition logic across prototype screens.\nClass-29: Case Study Documentation & Presentation\n- Writing the case study narrative: problem, research, process, solutions, and outcomes. Designing a polished presentation deck. Using ChatGPT to draft and refine case study copy, structure narratives, and improve clarity of design rationale."
+        },
+        {
+            "title": "Module-06: Total Classes: 6 - Portfolio Development & Freelancing",
+            "details": "Class-30: Portfolio Strategy & Structure\n- What makes a great UI/UX portfolio, how many projects to include, writing case study introductions, and choosing the right platform. Using ChatGPT to craft compelling portfolio bios, case study intros, and project descriptions that attract clients.\nClass-31: Behance & Notion Portfolio Setup\n- Hands-on portfolio building on Behance and Notion — layout, project covers, mockup presentation, and writing project descriptions. Using Ideogram to generate polished project cover visuals and mockup scenes for portfolio presentation.\nClass-32: Freelancing Platforms: Fiverr & Upwork\n- Setting up winning profiles on Fiverr and Upwork — gig titles, descriptions, pricing tiers, samples, and getting first reviews. Using ChatGPT to write optimized gig descriptions, profile summaries, and keyword-rich titles for better platform visibility.\nClass-33: Client Communication & Proposals\n- Writing professional proposals, asking the right discovery questions, managing scope, setting boundaries, and delivering on time. Using ChatGPT to draft tailored client proposals, discovery call scripts, and professional follow-up messages.\nClass-34: AI Tools for UI/UX Designers\n- Using ChatGPT for content generation, Ideogram for AI-generated UI inspiration, and Figma AI features for faster design iteration. Deep dive into building an end-to-end AI-assisted design workflow — from brief to delivery — using the full AI toolkit covered throughout the course."
+        },
+        {
+            "title": "Module-07: Total Classes: 2 - Final Exam & Project Presentation",
+            "details": "Class-35: Final Project Review & Polish\n- Dedicated class for final project refinements — instructor-led review, peer feedback, and last-minute improvements before submission. Using ChatGPT to polish case study writing and Figma AI to audit design consistency before final handoff.\nClass-36: Final Presentation & Certification\n- Final project presentations before a panel. Certificate ceremony, career roadmap session, and graduation guidance for next steps. Reflection on AI tools used throughout the course and how to continue growing with AI-powered design workflows professionally."
+        }
+    ],
+    "careers": [
+        {
+            "title": "UI/UX Designer",
+            "text": "Start your career as a UI/UX Designer by creating user-friendly mobile and web interfaces for companies, startups, and digital products."
+        },
+        {
+            "title": "Product Designer",
+            "text": "Work as a Product Designer responsible for designing complete digital experiences, from user flow to final interface, for apps and SaaS platforms."
+        },
+        {
+            "title": "Freelance UI/UX Designer",
+            "text": "Build your freelance career on platforms like Fiverr and Upwork by offering UI/UX design services to global clients and earning remotely."
+        },
+        {
+            "title": "Figma Expert / Design Specialist",
+            "text": "Become a Figma specialist, creating high-quality wireframes, prototypes, and design systems for clients and design teams."
+        },
+        {
+            "title": "Web & Mobile App Designer",
+            "text": "Design modern responsive websites and mobile applications with a focus on usability, accessibility, and user experience."
+        },
+        {
+            "title": "UX Research Assistant / UX Researcher",
+            "text": "Work with teams to understand user behavior, conduct research, and improve product usability through data-driven design decisions."
+        },
+        {
+            "title": "Design System Designer",
+            "text": "Create and maintain scalable design systems, UI components, and style guides for companies and large digital products."
+        },
+        {
+            "title": "Remote UI/UX Designer",
+            "text": "Get hired as a remote designer and work with international companies while collaborating with global teams from anywhere."
+        }
+    ],
+    "reasons": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Industry-Relevant Curriculum",
+            "text": "This course is designed based on current industry demands of UI/UX design. You will learn every step using Figma - from wireframing, prototyping, and design systems to usability testing. The curriculum is structured to match real-world requirements of web, mobile, and digital product design."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "06 Practical Real-World Projects",
+            "text": "You will work on 06 hands-on UI/UX projects, including mobile app design, e-commerce website, dashboard UI, user flow mapping, and prototype testing. Each project helps you build confidence and create a strong professional portfolio for jobs and freelancing."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Expert Mentorship",
+            "text": "Our placement support team will help you prepare for Fiverr, Upwork, local jobs, and freelance projects. You will also get support in client communication, CV building, portfolio optimization, and interview preparation."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Lifetime Access & Community Support",
+            "text": "Once enrolled, you will get lifetime access to all course materials. You will also join an active design community where you can ask questions, get quick feedback, find opportunities, and grow your professional network."
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/10-Practical-Project.svg",
+            "title": "Certificate & Career Value",
+            "text": "After completing the course, you will receive an industry-ready certificate that adds value to your portfolio and helps you stand out in job applications and freelancing platforms."
+        }
+    ],
+    "mentors": [
+        {
+            "photo": "https://europeanit-inst.com/wp-content/uploads/2025/07/Azizul-islam-230x300.png",
+            "name": "Md. Azizul Islam",
+            "designation": "Senior UI/UX Designer",
+            "badges": "NSDA-certified, Adobe Certified, 120+ Freelance Projects, Branding & Visual Design Expert",
+            "url": "https://europeanit-inst.com/mentors/azizul-islam/"
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        },
+        {
+            "photo": "",
+            "name": "",
+            "designation": "",
+            "badges": "",
+            "url": ""
+        }
+    ],
+    "projects": [
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/CRM-300x166.jpg",
+            "title": "CRM Website Design",
+            "text": "",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/figma.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/photoshop-1.svg, https://europeanit-inst.com/wp-content/uploads/2025/07/icons8-canva.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/Travels-300x166.jpg",
+            "title": "Travel Planner Website",
+            "text": "",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/figma.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/App-300x166.jpg",
+            "title": "Mobile Wallet App",
+            "text": "",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/figma.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/Fasion-300x165.jpg",
+            "title": "E-Commerce Fashion Website",
+            "text": "",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/figma.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/Food-300x166.jpg",
+            "title": "Food Delivery App Redesign",
+            "text": "",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/figma.svg"
+        },
+        {
+            "image": "https://europeanit-inst.com/wp-content/uploads/2025/09/AppClone-300x166.jpg",
+            "title": "App Clone Design",
+            "text": "",
+            "icons": "https://europeanit-inst.com/wp-content/uploads/2025/07/figma.svg"
+        }
+    ],
+    "tools": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/06/figma.png",
+            "name": "Figma"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/08/ChatGPT-1.png",
+            "name": "ChatGPT"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/figma.svg",
+            "name": "Figma Site"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/behance.png",
+            "name": "Behance"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/09/Dribble-logo-300x300.png",
+            "name": "Dribble"
+        }
+    ],
+    "videos": [
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=Dq_K-1RUpDc",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=QhOFi24CC0w",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=1yxztJvIye0",
+            "file": ""
+        },
+        {
+            "title": "",
+            "source": "youtube",
+            "url": "https://www.youtube.com/watch?v=CrJ_azFCi1g",
+            "file": ""
+        }
+    ],
+    "glance": [
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/Vector3.svg",
+            "text": "১৩ টি কোর্স"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fa6-solid_diagram-project.svg",
+            "text": "১০ টি প্রজেক্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_video-line.svg",
+            "text": "সম্পূর্ণ কোর্সের রেকর্ড ভিডিও"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/icon-park-solid_plan.svg",
+            "text": "৩ মাসের স্টাডিপ্ল্যান"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/material-symbols_add-notes-rounded.svg",
+            "text": "ক্লাস নোটস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mdi_certificate-outline.svg",
+            "text": "সার্টিফিকেট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/mingcute_classify-2-fill.svg",
+            "text": "প্রবলেম সলভিং লাইভ ক্লাস"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/streamline-ultimate_job-responsibility-bag-hand-bold2.svg",
+            "text": "জব প্লেসমেন্ট সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/clarity_internet-of-things-line.svg",
+            "text": "ইন্টার্নশিপ অপরচুনিটি"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/fluent_person-support-28-filled.svg",
+            "text": "কমিউনিটি সাপোর্ট"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/grommet-icons_resources.svg",
+            "text": "৬০০০ টাকা সমমূল্যের মার্কেটিং রিসোর্স"
+        },
+        {
+            "icon": "https://europeanit-inst.com/wp-content/uploads/2025/07/lsicon_marketplace-outline.svg",
+            "text": "ফ্রিল্যান্সিং মার্কেটপ্লেস গাইডলাইন"
+        }
+    ],
+    "plans": []
+}

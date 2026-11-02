@@ -29,6 +29,51 @@
 }
 /* ===== Reusable classes ===== */
 @layer components {
+    /* ===== Landing pages (resources/views/landing) ===== */
+    /* Title text painted with a dark-to-blue gradient (like the live hero titles) */
+    .lp-gradient-text {
+        background-image: linear-gradient(89.55deg, #054162 1.28%, #0973BF 89.41%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    /* Yellow "Enroll Now" pill buttons */
+    .lp-btn-yellow {
+        @apply inline-flex items-center gap-2.5 rounded-[45px] bg-[#FFDA0A] px-6 py-[13px] font-heading text-[17px] leading-[17px] font-bold text-black
+               transition hover:bg-white hover:shadow-md;
+    }
+
+    /* Dashboard tabs (admin.js → 9. Tabs adds .is-active) */
+    .admin-tab {
+        @apply -mb-px rounded-t-lg border border-transparent px-3 py-2 text-sm font-medium text-gray-500 hover:text-primary;
+    }
+    .admin-tab.is-active {
+        @apply border-gray-200 border-b-white bg-white text-primary;
+    }
+
+    /* ===== Course detail page (resources/views/courses) ===== */
+    /* Hero "Admission Now" / "Free Seminar" pill buttons */
+    .course-hero-btn {
+        @apply inline-flex min-w-[214px] items-center justify-center gap-2.5 rounded-[44px] border border-[#00ADEE] bg-[#00ADEE] px-6 py-[15px]
+               font-heading text-[17px] leading-[17px] font-bold text-white transition hover:bg-primary-hover;
+    }
+
+    /* Light blue icon cards: "Why This course is best for you!" and "Why European IT? !" */
+    .course-icon-card {
+        @apply rounded-[10px] border-2 border-white bg-linear-to-b from-[#ECF9FF] to-[#DDF4FF] p-6 text-center
+               shadow-[0_0_12px_rgba(0,170,255,0.25)] md:px-[47px];
+    }
+
+    /* "Still Confused?" / "Join Our Community" boxes */
+    .course-help-card {
+        @apply rounded-xl border-2 border-white bg-[#DEF3FF] px-5 pt-5 pb-[30px] text-center;
+    }
+    .course-help-title {
+        @apply mt-[22px] font-menu text-[26px] leading-10 font-semibold text-[#04334D] lg:text-[32px];
+    }
+    .course-help-text {
+        @apply font-heading text-base leading-7 font-semibold text-[#04334D] lg:text-lg;
+    }
     /* Footer contact icons: white circle outline */
     .footer-icon {
         @apply inline-flex h-8 w-8 items-center justify-center rounded-full border border-white text-base;

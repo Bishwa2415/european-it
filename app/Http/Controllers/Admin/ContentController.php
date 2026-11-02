@@ -13,9 +13,9 @@ use Illuminate\View\View;
 
 class ContentController extends Controller
 {
+    // Menus and site settings have their own forms: MenuController and SettingsController
     public const TYPES = [
-        'page' => 'Pages', 'post' => 'Posts', 'section' => 'Page sections',
-        'popup' => 'Popups / modals', 'menu' => 'Menus', 'setting' => 'Site settings',
+        'page' => 'Pages', 'post' => 'Posts', 'section' => 'Page sections', 'popup' => 'Popups / modals',
     ];
 
     public function index(string $type): View
@@ -92,8 +92,7 @@ class ContentController extends Controller
         $validated = $request->validate([
             'title' => ['required', 'string', 'max:255'],
             'slug' => [
-                in_array($type, ['menu', 'setting'], true) ? 'required' : 'nullable',
-                'alpha_dash', 'max:255',
+                'nullable', 'alpha_dash', 'max:255',
                 Rule::notIn($type === 'page' ? self::RESERVED_SLUGS : []),
                 Rule::unique('site_contents', 'slug')->ignore($request->route('item')),
             ],
