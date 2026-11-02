@@ -1,6 +1,27 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Home page defaults
+|--------------------------------------------------------------------------
+| Used when nothing is saved yet in Dashboard → Home Page.
+| What the admin saves there (site_contents, type "home") overrides these values.
+*/
+
 return [
+    // Built-in sections: key = view file in resources/views/home/, value = name in the dashboard
+    'sections' => [
+        'hero'            => 'Hero banner',
+        'popular-courses' => 'Popular courses',
+        'fourth-ir'       => '4th Industrial courses',
+        'why-choose'      => 'Why choose us',
+        'specialty'       => 'Specialty and trusted service',
+        'success-stories' => 'Success stories',
+        'testimonials'    => 'Testimonials',
+        'team'            => 'Support team',
+        'partners'        => 'Partners',
+    ],
+
     'titles' => [
         'popular_courses_title' => 'Popular Courses',
         'popular_courses_description' => 'Explore our most in-demand courses designed to boost your IT career. Start learning today and build your future with European IT™ Solutions Bangladesh.',

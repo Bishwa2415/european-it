@@ -4,7 +4,7 @@
 
         {{-- Logo --}}
         <a href="{{ url('/') }}" class="shrink-0">
-            <img src="{{ asset($headerMenu['logo']) }}" alt="{{ $headerMenu['logo_alt'] }}" class="w-[190px] lg:w-[210px]">
+            <img src="{{ media_url($headerMenu['logo']) }}" alt="{{ $headerMenu['logo_alt'] }}" class="w-[190px] lg:w-[210px]">
         </a>
 
         {{-- Desktop menu --}}
@@ -60,10 +60,9 @@
                 </div>
             </div>
 
-            @foreach (($headerMenu['links'] ?? []) as $link)
-                @if (($link['placement'] ?? 'main') === 'main')
-                    <a href="{{ url($link['url']) }}" class="px-4 hover:text-primary">{{ $link['label'] }}</a>
-                @endif
+            {{-- Simple links placed before the dropdowns (e.g. Freelancing) --}}
+            @foreach (collect($headerMenu['links'] ?? [])->where('placement', 'before') as $link)
+                <a href="{{ url($link['url']) }}" class="px-4 hover:text-primary">{{ $link['label'] }}</a>
             @endforeach
 
             {{-- Dropdowns: Success Stories, Media --}}
@@ -93,6 +92,10 @@
                 </div>
             @endforeach
 
+            {{-- Simple links after the dropdowns (About, Career, Contact) --}}
+            @foreach (collect($headerMenu['links'] ?? [])->where('placement', '!=', 'before') as $link)
+                <a href="{{ url($link['url']) }}" class="px-4 hover:text-primary">{{ $link['label'] }}</a>
+            @endforeach
         </div>
 
         {{-- Admission button (desktop) + mobile menu button --}}

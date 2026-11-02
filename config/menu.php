@@ -18,15 +18,15 @@ return [
     'all_courses_label' => 'All Course',
     'all_courses_url' => '/european-it-courses',
     'popular_courses_label' => 'Popular Courses',
-    'all_courses_label' => 'All Course',
-    'popular_courses_label' => 'Popular Courses',
 
-    // Simple header links are editable from Admin > Menus (menu key: header).
+    // Simple header links (Dashboard → Menus → header).
+    // placement: "before" = before the Success Stories / Media dropdowns, "after" = after them (like the live site)
+    // mobile_label: optional different text in the mobile menu
     'links' => [
-        ['label' => 'Freelancing', 'url' => '/freelancing'],
-        ['label' => 'About', 'url' => '/about-european-it-institute'],
-        ['label' => 'Career', 'url' => '/career'],
-        ['label' => 'Contact', 'url' => '/contact-us'],
+        ['label' => 'Freelancing', 'url' => '/freelancing', 'placement' => 'before'],
+        ['label' => 'About', 'mobile_label' => 'About Us', 'url' => '/about-european-it-institute', 'placement' => 'after'],
+        ['label' => 'Career', 'url' => '/career', 'placement' => 'after'],
+        ['label' => 'Contact', 'mobile_label' => 'Contact Us', 'url' => '/contact-us', 'placement' => 'after'],
     ],
 
     // "Popular Courses" mega menu: 2 columns

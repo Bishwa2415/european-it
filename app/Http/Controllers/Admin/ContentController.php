@@ -7,7 +7,6 @@ use App\Models\SiteContent;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 use Illuminate\Validation\Rule;
 use Illuminate\View\View;
@@ -47,7 +46,6 @@ class ContentController extends Controller
     {
         abort_unless(isset(self::TYPES[$type]), 404);
         $item = SiteContent::create($this->validated($request, $type));
-        $this->clearFrontendCache($type);
 
         return redirect()->route('admin.content.edit', [$type, $item])->with('success', self::TYPES[$type].' created.');
     }
@@ -69,7 +67,6 @@ class ContentController extends Controller
     {
         $this->ensureType($item, $type);
         $item->update($this->validated($request, $type));
-        $this->clearFrontendCache($type);
 
         return back()->with('success', self::TYPES[$type].' updated.');
     }
@@ -78,16 +75,28 @@ class ContentController extends Controller
     {
         $this->ensureType($item, $type);
         $item->delete();
-        $this->clearFrontendCache($type);
 
         return redirect()->route('admin.content.index', $type)->with('success', self::TYPES[$type].' deleted.');
     }
 
+    // First parts of URLs the site already uses: a page with one of these slugs would never open (or would hide a real page)
+    private const RESERVED_SLUGS = ['admin', 'blog', 'course', 'courses', 'storage', 'build', 'images', 'up', 'login', 'logout', 'api'];
+
     private function validated(Request $request, string $type): array
     {
+        // Pages/posts: "About Us!" → "about-us" (also when the admin typed the slug by hand)
+        if (in_array($type, ['page', 'post'], true)) {
+            $request->merge(['slug' => Str::slug($request->input('slug') ?: $request->input('title'))]);
+        }
+
         $validated = $request->validate([
             'title' => ['required', 'string', 'max:255'],
-            'slug' => ['nullable', 'string', 'max:255', Rule::unique('site_contents', 'slug')->ignore($request->route('item'))],
+            'slug' => [
+                in_array($type, ['menu', 'setting'], true) ? 'required' : 'nullable',
+                'alpha_dash', 'max:255',
+                Rule::notIn($type === 'page' ? self::RESERVED_SLUGS : []),
+                Rule::unique('site_contents', 'slug')->ignore($request->route('item')),
+            ],
             'body' => ['nullable', 'string'],
             'data_json' => ['nullable', 'json'],
             'attached_sections' => ['nullable', 'array'],
@@ -96,10 +105,7 @@ class ContentController extends Controller
             'sort_order' => ['nullable', 'integer', 'min:0', 'max:65535'],
         ]);
 
-        $slug = trim((string) ($validated['slug'] ?? ''));
-        if (in_array($type, ['page', 'post'], true) && $slug === '') {
-            $slug = Str::slug($validated['title']);
-        }
+        $slug = (string) ($validated['slug'] ?? '');
 
         $data = json_decode($validated['data_json'] ?? '{}', true);
         if (! is_array($data)) {
@@ -123,19 +129,5 @@ class ContentController extends Controller
     private function ensureType(SiteContent $item, string $type): void
     {
         abort_unless(isset(self::TYPES[$type]) && $item->type === $type, 404);
-    }
-
-    private function clearFrontendCache(string $type): void
-    {
-        if ($type === 'setting') {
-            Cache::forget('site-content.settings');
-        }
-        if ($type === 'menu') {
-            Cache::forget('site-content.menu.header');
-            Cache::forget('site-content.menu.footer');
-        }
-        if ($type === 'popup') {
-            Cache::forget('site-content.popup');
-        }
     }
 }

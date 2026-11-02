@@ -47,3 +47,55 @@ document.querySelectorAll('[data-plan]').forEach((box) => {
     toggle.addEventListener('change', update);
     update();
 });
+
+// 5. Repeater (<x-admin.repeater>): add / remove / move rows, save them as JSON in a hidden input
+document.querySelectorAll('[data-repeater]').forEach((repeater) => {
+    const rows = repeater.querySelector('[data-repeater-rows]');
+    const output = repeater.querySelector('[data-repeater-output]');
+    const template = repeater.querySelector('[data-repeater-template]');
+
+    // Read every row's inputs → [{label: "...", url: "..."}, ...] → hidden input
+    const save = () => {
+        const data = [...rows.querySelectorAll('[data-repeater-row]')].map((row) => {
+            const item = {};
+            row.querySelectorAll('[data-field]').forEach((input) => { item[input.dataset.field] = input.value; });
+            return item;
+        });
+        output.value = JSON.stringify(data);
+    };
+
+    repeater.querySelector('[data-repeater-add]').addEventListener('click', () => {
+        rows.append(template.content.cloneNode(true));
+        save();
+    });
+
+    // One click listener for all buttons inside the rows (also works for rows added later)
+    rows.addEventListener('click', (event) => {
+        const row = event.target.closest('[data-repeater-row]');
+        if (!row) return;
+
+        if (event.target.closest('[data-repeater-remove]')) row.remove();
+        if (event.target.closest('[data-repeater-up]') && row.previousElementSibling) rows.insertBefore(row, row.previousElementSibling);
+        if (event.target.closest('[data-repeater-down]') && row.nextElementSibling) rows.insertBefore(row.nextElementSibling, row);
+        save();
+    });
+
+    rows.addEventListener('input', save);
+});
+
+// 6. Sortable list with ↑ ↓ buttons (Home Page editor: section order)
+document.querySelectorAll('[data-move]').forEach((button) => button.addEventListener('click', () => {
+    const row = button.closest('[data-section-row]');
+    const list = row.parentElement;
+
+    if (button.dataset.move === 'up' && row.previousElementSibling) list.insertBefore(row, row.previousElementSibling);
+    if (button.dataset.move === 'down' && row.nextElementSibling) list.insertBefore(row.nextElementSibling, row);
+}));
+
+// 7. "Copy" buttons (Media library: copy a file path)
+document.querySelectorAll('[data-copy]').forEach((button) => button.addEventListener('click', async () => {
+    await navigator.clipboard.writeText(button.dataset.copy);
+    const old = button.textContent;
+    button.textContent = 'Copied!';
+    setTimeout(() => { button.textContent = old; }, 1500);
+}));

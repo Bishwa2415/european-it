@@ -10,41 +10,39 @@ use App\Models\SiteContent;
 use App\Models\SuccessVideo;
 use App\Models\TeamMember;
 use App\Models\Testimonial;
+use App\Services\SiteContentService;
 use Illuminate\View\View;
 
 class HomeController extends Controller
 {
     /**
      * Home page: get every section's data from the database, then hand it to the view.
+     * Laravel gives us SiteContentService automatically because it is type-hinted ("dependency injection").
      */
-    public function index(): View
+    public function index(SiteContentService $content): View
     {
-        $homeLayout = SiteContent::type('home')->first()?->data['layout']
-            ?? array_map(fn ($key) => 'builtin:'.$key, ['hero', 'popular-courses', 'fourth-ir', 'why-choose', 'specialty', 'success-stories', 'testimonials', 'team', 'partners']);
-        $commonSectionIds = collect($homeLayout)
-            ->filter(fn ($key) => is_string($key) && str_starts_with($key, 'common:'))
-            ->map(fn ($key) => (int) substr($key, strlen('common:')))
-            ->all();
-        $homeData = SiteContent::type('home')->first()?->data ?? [];
-        $hero = array_replace(config('home.hero'), $homeData['hero'] ?? []);
-        $homeTitles = array_replace(config('home.titles'), $homeData['titles'] ?? []);
-        $headerMenu = SiteContent::type('menu')->where('slug', 'header')->where('is_active', true)->value('data') ?? [];
+        $home = $content->home();
+
+        // Reusable sections placed on the home page: layout items look like "common:12"
+        $commonSectionIds = collect($home['layout'])
+            ->filter(fn ($key) => str_starts_with($key, 'common:'))
+            ->map(fn ($key) => (int) substr($key, strlen('common:')));
 
         return view('pages.home', [
-            'hero' => $hero,
-            'homeTitles' => $homeTitles,
-            'allCoursesUrl' => $headerMenu['all_courses_url'] ?? config('menu.all_courses_url'),
-            'popularCourses' => $this->courses('popular'),
+            'homeLayout'      => $home['layout'],
+            'hero'            => $home['hero'],
+            'homeTitles'      => $home['titles'],
+            'allCoursesUrl'   => $content->headerMenu()['all_courses_url'],
+            'popularCourses'  => $this->courses('popular'),
             'fourthIrCourses' => $this->courses('fourthIr'),
-            'features' => Feature::active()->ordered()->get(),
-            'specialty' => ContentBlock::for('home.specialty'),
-            'trusted' => ContentBlock::for('home.trusted'),
-            'successVideos' => SuccessVideo::active()->ordered()->get(),
-            'testimonials' => Testimonial::active()->ordered()->get(),
-            'teamMembers' => TeamMember::active()->where('show_on_home', true)->ordered()->get(),
-            'partners' => Partner::active()->ordered()->get(),
-            'homeLayout' => $homeLayout,
-            'commonSections' => SiteContent::type('section')->where('is_active', true)->whereIn('id', $commonSectionIds)->get()->keyBy('id'),
+            'features'        => Feature::active()->ordered()->get(),
+            'specialty'       => ContentBlock::for('home.specialty'),
+            'trusted'         => ContentBlock::for('home.trusted'),
+            'successVideos'   => SuccessVideo::active()->ordered()->get(),
+            'testimonials'    => Testimonial::active()->ordered()->get(),
+            'teamMembers'     => TeamMember::active()->where('show_on_home', true)->ordered()->get(),
+            'partners'        => Partner::active()->ordered()->get(),
+            'commonSections'  => SiteContent::type('section')->published()->whereIn('id', $commonSectionIds)->get()->keyBy('id'),
         ]);
     }
 

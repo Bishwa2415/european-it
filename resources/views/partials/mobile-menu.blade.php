@@ -10,7 +10,7 @@
 
     {{-- Logo + Admission --}}
     <div class="mt-4 flex items-center justify-between gap-3">
-        <a href="{{ url('/') }}"><img src="{{ asset($headerMenu['logo']) }}" alt="{{ $headerMenu['logo_alt'] }}" class="w-[175px]"></a>
+        <a href="{{ url('/') }}"><img src="{{ media_url($headerMenu['logo']) }}" alt="{{ $headerMenu['logo_alt'] }}" class="w-[175px]"></a>
         <a href="{{ url($headerMenu['admission_url']) }}"
            class="rounded-full border border-[#00AAFF] bg-primary-btn px-4 py-3 text-xs leading-none font-bold uppercase text-white">
             {{ $headerMenu['admission_label'] }}
@@ -60,10 +60,8 @@
             </div>
         </li>
 
-        @foreach (($headerMenu['links'] ?? []) as $link)
-            @if (($link['placement'] ?? 'main') === 'main')
-                <li class="border-b border-[#00ADEE]"><a href="{{ url($link['url']) }}" class="block px-2.5 py-[13px]">{{ $link['label'] }}</a></li>
-            @endif
+        @foreach (collect($headerMenu['links'] ?? [])->where('placement', 'before') as $link)
+            <li class="border-b border-[#00ADEE]"><a href="{{ url($link['url']) }}" class="block px-2.5 py-[13px]">{{ $link['mobile_label'] ?? $link['label'] }}</a></li>
         @endforeach
 
         {{-- Success Stories, Media (accordion) --}}
@@ -80,6 +78,9 @@
             </li>
         @endforeach
 
+        @foreach (collect($headerMenu['links'] ?? [])->where('placement', '!=', 'before') as $link)
+            <li class="border-b border-[#00ADEE]"><a href="{{ url($link['url']) }}" class="block px-2.5 py-[13px]">{{ $link['mobile_label'] ?? $link['label'] }}</a></li>
+        @endforeach
     </ul>
 
     {{-- Demo class + Discount --}}
@@ -91,7 +92,7 @@
     {{-- Contact card --}}
     <div class="mt-6 rounded-2xl bg-linear-to-r from-[#00ADEE] to-[#0D9FD5] px-5 py-6 text-center text-sm font-semibold text-white space-y-3">
         <div class="flex flex-wrap justify-center gap-x-5 gap-y-1 text-[13px]">
-            @foreach (array_slice($siteData['phones'], 0, 2) as $phone)<a href="tel:{{ str_replace(' ', '', $phone) }}"><i class="bi bi-telephone-fill"></i> {{ $phone }}</a>@endforeach
+            @foreach ($siteData['header_phones'] ?? array_slice($siteData['phones'], 1, 2) as $phone)<a href="tel:{{ str_replace(' ', '', $phone) }}"><i class="bi bi-telephone-fill"></i> {{ $phone }}</a>@endforeach
         </div>
         <a href="mailto:{{ $siteData['emails'][0] }}" class="block"><i class="bi bi-envelope"></i> {{ $siteData['emails'][0] }}</a>
         <p>{{ $siteData['address'] }}</p>

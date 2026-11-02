@@ -3,7 +3,6 @@
 namespace App\Models\Concerns;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Support\Facades\Storage;
 
 /**
  * Shared by the small "content" models (team, testimonials, partners ...).
@@ -29,10 +28,6 @@ trait HasDisplayOrder
     // Seeded files live in public/images/..., dashboard uploads in storage/app/public/...
     public function mediaUrl(?string $path): ?string
     {
-        if (! $path) {
-            return null;
-        }
-
-        return str_starts_with($path, 'images/') ? asset($path) : Storage::disk('public')->url($path);
+        return media_url($path);   // app/helpers.php
     }
 }

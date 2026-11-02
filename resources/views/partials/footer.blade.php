@@ -50,7 +50,7 @@
 
         {{-- 2. Footer logo --}}
         <a href="{{ url('/') }}" class="mt-10 block w-fit mx-auto">
-            <img src="{{ asset($footer['logo']) }}" alt="{{ $footer['logo_alt'] }}" class="w-[300px]">
+            <img src="{{ media_url($footer['logo']) }}" alt="{{ $footer['logo_alt'] }}" class="w-[300px]">
         </a>
 
         {{-- 3. Follow Us bar --}}
@@ -128,7 +128,7 @@
                 @foreach ($footer['payments'] as $payment)
                     <a href="{{ url($site['admission_url']) }}"
                        class="flex w-[253px] flex-col items-center justify-center rounded-xl border-2 border-[#374151] bg-white p-5 shadow-[0_0_8px_#374151]">
-                        <img src="{{ asset($payment['image']) }}" alt="{{ $payment['alt'] }}" class="{{ $payment['class'] }}">
+                        <img src="{{ media_url($payment['image']) }}" alt="{{ $payment['alt'] }}" class="{{ $payment['class'] }}">
                         <span class="font-roboto text-2xl text-heading">{{ $payment['text'] }}</span>
                     </a>
                 @endforeach

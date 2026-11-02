@@ -4,120 +4,105 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\SiteContent;
+use App\Services\SiteContentService;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
+use Illuminate\Validation\Rule;
 use Illuminate\View\View;
 
+/**
+ * Dashboard → Home Page: section order (built-in + reusable sections), hero content, section headings.
+ * Saved as one row in site_contents (type "home"); read on the website through SiteContentService::home().
+ */
 class HomePageController extends Controller
 {
-    public const SECTIONS = [
-        'hero' => 'Hero banner',
-        'popular-courses' => 'Popular courses',
-        'fourth-ir' => '4th Industrial courses',
-        'why-choose' => 'Why choose us',
-        'specialty' => 'Specialty and trusted service',
-        'success-stories' => 'Success stories',
-        'testimonials' => 'Testimonials',
-        'team' => 'Support team',
-        'partners' => 'Partners',
-    ];
-
-    public function edit(): View
+    public function edit(SiteContentService $content): View
     {
-        $homePage = SiteContent::type('home')->first();
-        $layout = $homePage?->data['layout'] ?? array_map(fn ($key) => 'builtin:'.$key, array_keys(self::SECTIONS));
-        $commonSections = SiteContent::type('section')->where('is_active', true)->orderBy('sort_order')->orderBy('title')->get();
-        $items = collect(self::SECTIONS)->map(fn ($label, $key) => [
-            'key' => 'builtin:'.$key,
-            'label' => $label,
-            'kind' => 'Built-in section',
-        ])->merge($commonSections->map(fn (SiteContent $section) => [
-            'key' => 'common:'.$section->id,
-            'label' => $section->title,
-            'kind' => 'Reusable section',
-        ]));
+        $home = $content->home();
+        $layout = $home['layout'];
 
-        $byKey = $items->keyBy('key');
-        $orderedItems = collect($layout)
-            ->filter(fn ($key) => $byKey->has($key))
-            ->unique()
-            ->map(fn ($key) => $byKey->get($key))
-            ->concat($items->reject(fn ($item) => in_array($item['key'], $layout, true)))
+        // Every section that can be placed: built-in ones from config/home.php + reusable sections from the dashboard
+        $items = collect(config('home.sections'))
+            ->map(fn ($label, $key) => ['key' => 'builtin:'.$key, 'label' => $label, 'kind' => 'Built-in section'])
+            ->merge(SiteContent::type('section')->published()->orderBy('sort_order')->orderBy('title')->get()
+                ->map(fn (SiteContent $section) => ['key' => 'common:'.$section->id, 'label' => $section->title, 'kind' => 'Reusable section']))
+            ->keyBy('key');
+
+        // Sections in the saved order first, then the ones not used yet
+        $orderedItems = collect($layout)->filter(fn ($key) => $items->has($key))->unique()
+            ->map(fn ($key) => $items->get($key))
+            ->concat($items->except($layout))
             ->values();
 
         return view('admin.home-page.edit', [
-            'items' => $orderedItems,
-            'layout' => $layout,
-            'hero' => array_replace(config('home.hero'), $homePage?->data['hero'] ?? []),
-            'homeTitles' => array_replace(config('home.titles'), $homePage?->data['titles'] ?? []),
+            'items'      => $orderedItems,
+            'layout'     => $layout,
+            'hero'       => $home['hero'],
+            'homeTitles' => $home['titles'],
         ]);
     }
 
     public function update(Request $request): RedirectResponse
     {
+        $builtIn = implode('|', array_map('preg_quote', array_keys(config('home.sections'))));
+
         $validated = $request->validate([
-            'layout' => ['nullable', 'array'],
-            'layout.*' => ['string', 'max:255', 'regex:/^(builtin:(hero|popular-courses|fourth-ir|why-choose|specialty|success-stories|testimonials|team|partners)|common:\d+)$/'],
-            'eyebrow' => ['required', 'string', 'max:120'],
-            'title_before' => ['required', 'string', 'max:180'],
+            'layout'          => ['nullable', 'array'],
+            'layout.*'        => ['string', "regex:/^(builtin:({$builtIn})|common:\d+)$/"],
+            'eyebrow'         => ['required', 'string', 'max:120'],
+            'title_before'    => ['required', 'string', 'max:180'],
             'title_highlight' => ['required', 'string', 'max:180'],
-            'title_after' => ['required', 'string', 'max:180'],
-            'description' => ['required', 'string', 'max:2000'],
-            'buttons_json' => ['required', 'json'],
-            'slides_json' => ['required', 'json'],
-            'stats_json' => ['required', 'json'],
-            'section_titles_json' => ['required', 'json'],
+            'title_after'     => ['required', 'string', 'max:180'],
+            'description'     => ['required', 'string', 'max:2000'],
+            'buttons_json'    => ['required', 'json'],
+            'slides_json'     => ['required', 'json'],
+            'stats_json'      => ['required', 'json'],
+            'titles'          => ['required', 'array'],
+            'titles.*'        => ['nullable', 'string', 'max:500'],
         ]);
 
-        $heroArrays = [
-            'buttons' => json_decode($validated['buttons_json'], true),
-            'slides' => json_decode($validated['slides_json'], true),
-            'stats' => json_decode($validated['stats_json'], true),
-            'section_titles' => json_decode($validated['section_titles_json'], true),
-        ];
-        validator($heroArrays, [
-            'buttons' => ['array', 'min:1', 'max:4'],
+        // The repeaters send JSON; decode it and validate every row
+        $hero = validator([
+            'buttons' => json_decode($validated['buttons_json'], true) ?? [],
+            'slides'  => json_decode($validated['slides_json'], true) ?? [],
+            'stats'   => json_decode($validated['stats_json'], true) ?? [],
+        ], [
+            'buttons'         => ['array', 'min:1', 'max:4'],
             'buttons.*.label' => ['required', 'string', 'max:80'],
-            'buttons.*.url' => ['required', 'string', 'max:255'],
-            'slides' => ['array', 'max:10'],
-            'slides.*.image' => ['required', 'string', 'max:255'],
-            'slides.*.alt' => ['nullable', 'string', 'max:255'],
-            'stats' => ['array', 'max:6'],
-            'stats.*.icon' => ['required', 'string', 'max:80'],
-            'stats.*.count' => ['required', 'integer', 'min:0'],
-            'stats.*.suffix' => ['nullable', 'string', 'max:20'],
-            'stats.*.label' => ['required', 'string', 'max:80'],
-            'section_titles' => ['array'],
-            'section_titles.*' => ['required', 'string', 'max:255'],
+            'buttons.*.url'   => ['required', 'string', 'max:255'],
+            'slides'          => ['array', 'min:1', 'max:10'],
+            'slides.*.image'  => ['required', 'string', 'max:255'],
+            'slides.*.alt'    => ['nullable', 'string', 'max:255'],
+            'stats'           => ['array', 'max:6'],
+            'stats.*.icon'    => ['required', 'string', 'max:80'],
+            'stats.*.count'   => ['required', 'integer', 'min:0'],
+            'stats.*.suffix'  => ['nullable', 'string', 'max:20'],
+            'stats.*.label'   => ['required', 'string', 'max:80'],
         ])->validate();
 
-        $layout = collect($validated['layout'] ?? [])->unique()->filter(function (string $key): bool {
-            if (str_starts_with($key, 'builtin:')) {
-                return true;
-            }
+        $hero['stats'] = array_map(fn ($stat) => ['count' => (int) $stat['count']] + $stat, $hero['stats']);
 
-            $id = (int) substr($key, strlen('common:'));
+        // Drop reusable sections that were deleted in the meantime
+        $layout = collect($validated['layout'] ?? [])->unique()->filter(
+            fn (string $key) => str_starts_with($key, 'builtin:')
+                || SiteContent::type('section')->whereKey((int) substr($key, strlen('common:')))->exists()
+        )->values()->all();
 
-            return SiteContent::type('section')->whereKey($id)->exists();
-        })->values()->all();
+        // Only keep heading keys we know (config/home.php), ignore anything else sent in the form
+        $titles = Arr::only($validated['titles'], array_keys(config('home.titles')));
 
         $homePage = SiteContent::type('home')->first() ?? new SiteContent(['type' => 'home']);
-        $data = $homePage->data ?? [];
-        $data['layout'] = $layout;
-        $data['titles'] = $heroArrays['section_titles'];
-        unset($heroArrays['section_titles']);
-        $data['hero'] = [
-            ...Arr::only($validated, ['eyebrow', 'title_before', 'title_highlight', 'title_after', 'description']),
-            ...$heroArrays,
-        ];
         $homePage->fill([
-            'type' => 'home',
-            'title' => 'Home page layout',
-            'data' => $data,
+            'title'     => 'Home page',
             'is_active' => true,
-        ])->save();
+            'data'      => [
+                'layout' => $layout,
+                'titles' => array_filter($titles, fn ($value) => $value !== null && $value !== ''),
+                'hero'   => Arr::only($validated, ['eyebrow', 'title_before', 'title_highlight', 'title_after', 'description']) + $hero,
+            ],
+        ])->save();   // saving clears the cache (SiteContent::booted)
 
-        return back()->with('success', 'Home page layout saved.');
+        return back()->with('success', 'Home page saved.');
     }
 }

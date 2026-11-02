@@ -48,7 +48,7 @@
                 <div class="swiper-wrapper">
                     @foreach ($hero['slides'] as $slide)
                         <div class="swiper-slide">
-                            <img src="{{ asset($slide['image']) }}" alt="{{ $slide['alt'] }}" draggable="false"
+                            <img src="{{ media_url($slide['image']) }}" alt="{{ $slide['alt'] }}" draggable="false"
                                  class="w-full aspect-[625/369] object-cover rounded-[20px] border-[6px] border-white shadow-[0_0_3px_rgba(0,0,0,0.25)]">
                         </div>
                     @endforeach

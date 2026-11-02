@@ -17,31 +17,57 @@
 <body class="bg-[#F4F6F9] text-heading antialiased">
 
 @php
-    // Sidebar menu. 'route' = null means the module is not built yet
+    // Sidebar menu, in groups. 'params' = route parameters, 'route' => null = module not built yet
     $menu = [
-        ['label' => 'Dashboard',   'icon' => 'bi-speedometer2',     'route' => 'admin.dashboard',     'active' => 'admin.dashboard'],
-        ['label' => 'Home Page',   'icon' => 'bi-house',            'route' => 'admin.home-page.edit', 'active' => 'admin.home-page.*'],
-        ['label' => 'Why choose us', 'icon' => 'bi-stars',           'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'features'],
-        ['label' => 'Specialty blocks', 'icon' => 'bi-card-text',    'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'content-blocks'],
-        ['label' => 'Success videos', 'icon' => 'bi-play-btn',       'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'success-videos'],
-        ['label' => 'Testimonials', 'icon' => 'bi-chat-quote',      'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'testimonials'],
-        ['label' => 'Support team', 'icon' => 'bi-people',           'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'team-members'],
-        ['label' => 'Partners',     'icon' => 'bi-building',         'route' => 'admin.home-content.index', 'active' => 'admin.home-content.*', 'collection' => 'partners'],
-        ['label' => 'Courses',     'icon' => 'bi-journal-bookmark', 'route' => 'admin.courses.index', 'active' => 'admin.courses.*'],
-        ['label' => 'Pages',       'icon' => 'bi-file-earmark',     'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'page'],
-        ['label' => 'Posts',       'icon' => 'bi-pencil-square',    'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'post'],
-        ['label' => 'Page sections','icon' => 'bi-columns-gap',     'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'section'],
-        ['label' => 'Popups / modals','icon' => 'bi-window',        'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'popup'],
-        ['label' => 'Menus',       'icon' => 'bi-list',             'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'menu'],
-        ['label' => 'Site settings','icon' => 'bi-sliders',          'route' => 'admin.content.index', 'active' => 'admin.content.*', 'type' => 'setting'],
-        ['label' => 'Categories',  'icon' => 'bi-grid',             'route' => null],
-        ['label' => 'Mentors',     'icon' => 'bi-person-badge',     'route' => null],
-        ['label' => 'Orders',      'icon' => 'bi-bag-check',        'route' => null],
-        ['label' => 'Students',    'icon' => 'bi-people',           'route' => null],
-        ['label' => 'Gallery',     'icon' => 'bi-images',           'route' => null],
-        ['label' => 'Reviews',     'icon' => 'bi-chat-quote',       'route' => null],
-        ['label' => 'Settings',    'icon' => 'bi-gear',             'route' => null],
+        '' => [
+            ['label' => 'Dashboard', 'icon' => 'bi-speedometer2', 'route' => 'admin.dashboard'],
+        ],
+        'Home page' => [
+            ['label' => 'Layout & hero',    'icon' => 'bi-house',       'route' => 'admin.home-page.edit'],
+            ['label' => 'Why choose us',    'icon' => 'bi-stars',       'route' => 'admin.home-content.index', 'params' => ['collection' => 'features']],
+            ['label' => 'Specialty blocks', 'icon' => 'bi-card-text',   'route' => 'admin.home-content.index', 'params' => ['collection' => 'content-blocks']],
+            ['label' => 'Success videos',   'icon' => 'bi-play-btn',    'route' => 'admin.home-content.index', 'params' => ['collection' => 'success-videos']],
+            ['label' => 'Testimonials',     'icon' => 'bi-chat-quote',  'route' => 'admin.home-content.index', 'params' => ['collection' => 'testimonials']],
+            ['label' => 'Support team',     'icon' => 'bi-people',      'route' => 'admin.home-content.index', 'params' => ['collection' => 'team-members']],
+            ['label' => 'Partners',         'icon' => 'bi-building',    'route' => 'admin.home-content.index', 'params' => ['collection' => 'partners']],
+        ],
+        'Courses' => [
+            ['label' => 'Courses',    'icon' => 'bi-journal-bookmark', 'route' => 'admin.courses.index'],
+            ['label' => 'Categories', 'icon' => 'bi-grid',             'route' => null],
+            ['label' => 'Orders',     'icon' => 'bi-bag-check',        'route' => null],
+            ['label' => 'Students',   'icon' => 'bi-mortarboard',      'route' => null],
+        ],
+        'Content' => [
+            ['label' => 'Pages',              'icon' => 'bi-file-earmark',  'route' => 'admin.content.index', 'params' => ['type' => 'page']],
+            ['label' => 'Posts',              'icon' => 'bi-pencil-square', 'route' => 'admin.content.index', 'params' => ['type' => 'post']],
+            ['label' => 'Reusable sections',  'icon' => 'bi-columns-gap',   'route' => 'admin.content.index', 'params' => ['type' => 'section']],
+            ['label' => 'Popups / modals',    'icon' => 'bi-window',        'route' => 'admin.content.index', 'params' => ['type' => 'popup']],
+            ['label' => 'Media library',      'icon' => 'bi-images',        'route' => 'admin.media.index'],
+        ],
+        'Site' => [
+            ['label' => 'Menus',         'icon' => 'bi-list',    'route' => 'admin.content.index', 'params' => ['type' => 'menu']],
+            ['label' => 'Site settings', 'icon' => 'bi-sliders', 'route' => 'admin.content.index', 'params' => ['type' => 'setting']],
+        ],
     ];
+
+    // Active = same route name AND same parameters (e.g. Pages vs Posts both use admin.content.*)
+    $isActive = function (array $item): bool {
+        $current = request()->route();
+        if (! $item['route'] || ! $current) {
+            return false;
+        }
+        $base = str($item['route'])->beforeLast('.');
+        if (! request()->routeIs($item['route'] === 'admin.dashboard' ? 'admin.dashboard' : $base.'.*')) {
+            return false;
+        }
+        foreach ($item['params'] ?? [] as $key => $value) {
+            if ($current->parameter($key) !== $value) {
+                return false;
+            }
+        }
+
+        return true;
+    };
 @endphp
 
 <div class="flex min-h-screen">
@@ -52,23 +78,28 @@
             <img src="{{ asset('images/footer/footer-logo.svg') }}" alt="European IT" class="h-9">
         </a>
 
-        <nav class="flex-1 space-y-1 p-3 text-sm">
-            @foreach ($menu as $item)
-                @if ($item['route'])
-                    <a href="{{ route($item['route'], isset($item['type']) ? ['type' => $item['type']] : (isset($item['collection']) ? ['collection' => $item['collection']] : [])) }}"
-                       @class([
-                           'flex items-center gap-3 rounded-lg px-3 py-2.5 transition',
-                           'bg-primary text-white' => request()->routeIs($item['active']) && (! isset($item['type']) || request()->route('type') === $item['type']) && (! isset($item['collection']) || request()->route('collection') === $item['collection']),
-                           'text-white/70 hover:bg-white/10 hover:text-white' => ! (request()->routeIs($item['active']) && (! isset($item['type']) || request()->route('type') === $item['type']) && (! isset($item['collection']) || request()->route('collection') === $item['collection'])),
-                       ])>
-                        <i class="bi {{ $item['icon'] }} text-base"></i> {{ $item['label'] }}
-                    </a>
-                @else
-                    <span class="flex items-center gap-3 rounded-lg px-3 py-2.5 text-white/30 cursor-not-allowed">
-                        <i class="bi {{ $item['icon'] }} text-base"></i> {{ $item['label'] }}
-                        <span class="ml-auto rounded bg-white/10 px-1.5 text-[10px] uppercase">soon</span>
-                    </span>
+        <nav class="flex-1 space-y-1 overflow-y-auto p-3 text-sm">
+            @foreach ($menu as $group => $items)
+                @if ($group)
+                    <p class="px-3 pt-4 pb-1 text-[11px] font-semibold uppercase tracking-wider text-white/40">{{ $group }}</p>
                 @endif
+                @foreach ($items as $item)
+                    @if ($item['route'])
+                        <a href="{{ route($item['route'], $item['params'] ?? []) }}"
+                           @class([
+                               'flex items-center gap-3 rounded-lg px-3 py-2 transition',
+                               'bg-primary text-white' => $isActive($item),
+                               'text-white/70 hover:bg-white/10 hover:text-white' => ! $isActive($item),
+                           ])>
+                            <i class="bi {{ $item['icon'] }} text-base"></i> {{ $item['label'] }}
+                        </a>
+                    @else
+                        <span class="flex cursor-not-allowed items-center gap-3 rounded-lg px-3 py-2 text-white/30">
+                            <i class="bi {{ $item['icon'] }} text-base"></i> {{ $item['label'] }}
+                            <span class="ml-auto rounded bg-white/10 px-1.5 text-[10px] uppercase">soon</span>
+                        </span>
+                    @endif
+                @endforeach
             @endforeach
         </nav>
 

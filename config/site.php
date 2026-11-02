@@ -13,13 +13,13 @@ return [
 
     'name' => 'European IT Solutions Institute',
 
+    // Footer contact card shows all phones; topbar and mobile menu show header_phones (like the live site)
     'phones' => ['+880 188 99 77 950', '+880 188 99 77 951', '+880 188 99 77 952'],
+    'header_phones' => ['+880 188 99 77 951', '+880 188 99 77 952'],
 
     'emails' => ['help@europeanit-inst.com', 'admission@europeanit-inst.com'],
 
     'address' => 'Noor Mansion (3rd Floor), Plot#04, Main Road#01, Mirpur-10, Dhaka-1216',
-    'contact_url' => '/contact-us',
-    'admission_url' => '/admission-now',
     'contact_url' => '/contact-us',
     'admission_url' => '/admission-now',
 

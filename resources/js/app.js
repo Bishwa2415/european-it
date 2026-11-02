@@ -2,6 +2,7 @@
 import './slider';
 import './team';
 import './reveal';
+import './popup';
 
 // ===== Mobile menu: open / close =====
 const mobileMenu = document.getElementById('mobile-menu');

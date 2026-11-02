@@ -91,12 +91,6 @@ class Course extends Model
     // Seeded images live in public/images/..., images uploaded from the dashboard live in storage/app/public/...
     public function thumbnailUrl(): string
     {
-        if (! $this->thumbnail) {
-            return asset('images/fsv.webp');
-        }
-
-        return str_starts_with($this->thumbnail, 'images/')
-            ? asset($this->thumbnail)
-            : Storage::disk('public')->url($this->thumbnail);
+        return media_url($this->thumbnail, 'images/fsv.webp');   // app/helpers.php
     }
 }

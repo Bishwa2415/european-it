@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\CourseController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\HomeContentController;
 use App\Http\Controllers\Admin\HomePageController;
+use App\Http\Controllers\Admin\MediaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,23 +29,44 @@ Route::prefix('admin')->name('admin.')->group(function () {
     // Only for logged-in admins
     Route::middleware(['auth', 'admin'])->group(function () {
         Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+
+        // Home page: section order, hero, headings
         Route::get('home-page', [HomePageController::class, 'edit'])->name('home-page.edit');
         Route::put('home-page', [HomePageController::class, 'update'])->name('home-page.update');
-        Route::get('home-content/{collection}', [HomeContentController::class, 'index'])->name('home-content.index');
-        Route::get('home-content/{collection}/create', [HomeContentController::class, 'create'])->name('home-content.create');
-        Route::post('home-content/{collection}', [HomeContentController::class, 'store'])->name('home-content.store');
-        Route::get('home-content/{collection}/{id}/edit', [HomeContentController::class, 'edit'])->name('home-content.edit');
-        Route::put('home-content/{collection}/{id}', [HomeContentController::class, 'update'])->name('home-content.update');
-        Route::delete('home-content/{collection}/{id}', [HomeContentController::class, 'destroy'])->name('home-content.destroy');
+
+        // Home collections: features, content-blocks, success-videos, testimonials, team-members, partners
+        Route::controller(HomeContentController::class)
+            ->prefix('home-content/{collection}')->name('home-content.')
+            ->where(['collection' => '[a-z-]+', 'id' => '[0-9]+'])
+            ->group(function () {
+                Route::get('/', 'index')->name('index');
+                Route::get('create', 'create')->name('create');
+                Route::post('/', 'store')->name('store');
+                Route::get('{id}/edit', 'edit')->name('edit');
+                Route::put('{id}', 'update')->name('update');
+                Route::delete('{id}', 'destroy')->name('destroy');
+            });
+
         // One line = 7 routes: index, create, store, show, edit, update, destroy (we don't need show)
         Route::resource('courses', CourseController::class)->except('show');
 
-        Route::get('content/{type}', [ContentController::class, 'index'])->name('content.index');
-        Route::get('content/{type}/create', [ContentController::class, 'create'])->name('content.create');
-        Route::post('content/{type}', [ContentController::class, 'store'])->name('content.store');
-        Route::get('content/{type}/{item}/edit', [ContentController::class, 'edit'])->name('content.edit');
-        Route::put('content/{type}/{item}', [ContentController::class, 'update'])->name('content.update');
-        Route::delete('content/{type}/{item}', [ContentController::class, 'destroy'])->name('content.destroy');
+        // Pages, posts, reusable sections, popups, menus, site settings (site_contents table)
+        Route::controller(ContentController::class)
+            ->prefix('content/{type}')->name('content.')
+            ->where(['type' => '[a-z]+'])
+            ->group(function () {
+                Route::get('/', 'index')->name('index');
+                Route::get('create', 'create')->name('create');
+                Route::post('/', 'store')->name('store');
+                Route::get('{item}/edit', 'edit')->name('edit');
+                Route::put('{item}', 'update')->name('update');
+                Route::delete('{item}', 'destroy')->name('destroy');
+            });
+
+        // Media library
+        Route::get('media', [MediaController::class, 'index'])->name('media.index');
+        Route::post('media', [MediaController::class, 'store'])->name('media.store');
+        Route::delete('media', [MediaController::class, 'destroy'])->name('media.destroy');
 
         Route::post('logout', [AuthController::class, 'destroy'])->name('logout');
     });
