@@ -1,5 +1,6 @@
-{{-- "Want the full course outline?" box with a download button (PDF / Drive link) --}}
-@if (! empty($s['file']) || ! empty($s['title']))
+{{-- "Want the full course outline?" box with a download button (PDF / Drive link).
+     Offline design: only the button, shown at the end of the "What you learn" section (partials/learn-offline). --}}
+@if (! $offline && (! empty($s['file']) || ! empty($s['title'])))
 <section class="bg-[#F2FBFF] px-5 pb-[60px]">
     <div class="mx-auto max-w-[838px] rounded-[15px] border border-[#00ADEE] bg-[#0072AB] p-6 text-center">
         <h2 class="text-2xl leading-10 font-semibold text-white lg:text-[28px]">{{ $s['title'] }}</h2>

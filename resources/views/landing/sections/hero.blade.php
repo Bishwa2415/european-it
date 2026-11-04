@@ -30,7 +30,7 @@
                 @foreach (array_slice($icons, 0, 3) as $i => $icon)
                     <img src="{{ media_url($icon) }}" alt="" @class([
                         'pointer-events-none absolute hidden h-12 w-12 object-contain lg:block',
-                        '-left-20 top-16' => $i === 0, '-right-4 -top-6 h-9 w-9' => $i === 1, '-bottom-6 left-1/2' => $i === 2,
+                        '-left-20 top-16' => $i === 0, '-right-4 -top-6 h-9 w-9' => $i === 1, '-bottom-1.5 -left-0.5 h-10 w-10' => $i === 2,
                     ])>
                 @endforeach
             </div>
@@ -39,11 +39,20 @@
 @else
     <section class="relative overflow-hidden bg-[#F2FBFF] px-5">
         {{-- Soft rings on the left and right with tool logos in white circles --}}
-        <div class="pointer-events-none absolute top-[345px] -left-[371px] hidden h-[530px] w-[530px] rounded-full border-[15px] border-[#67D5FF]/22 xl:block"></div>
-        <div class="pointer-events-none absolute top-[345px] -right-[371px] hidden h-[530px] w-[530px] rounded-full border-[15px] border-[#67D5FF]/22 xl:block"></div>
-        @foreach (array_slice($icons, 0, 8) as $i => $icon)
-            <img src="{{ media_url($icon) }}" alt="" class="pointer-events-none absolute hidden h-[60px] w-[60px] rounded-full bg-white object-contain p-2.5 shadow-[10px_10px_25px_rgba(0,0,0,0.25)] xl:block"
-                 style="top: {{ 436 + ($i % 4) * 107 }}px; {{ $i < 4 ? 'left' : 'right' }}: {{ [78, 128, 128, 78][$i % 4] }}px">
+        <div class="pointer-events-none absolute top-[165px] -left-[371px] hidden h-[530px] w-[530px] rounded-full border-[15px] border-[#67D5FF]/22 xl:block"></div>
+        <div class="pointer-events-none absolute top-[165px] -right-[371px] hidden h-[530px] w-[530px] rounded-full border-[15px] border-[#67D5FF]/22 xl:block"></div>
+        {{-- 3 logos on each ring (positions measured on the live page): left = logos 3–5, right = logos 7, 6, 8 --}}
+        @php
+            $spots = [
+                [2, 'left', 78, 257], [3, 'left', 128, 473], [4, 'left', -10, 642],
+                [6, 'right', 48, 227], [5, 'right', 98, 442], [7, 'right', -30, 610],
+            ];
+        @endphp
+        @foreach ($spots as [$index, $side, $x, $y])
+            @isset($icons[$index])
+                <img src="{{ media_url($icons[$index]) }}" alt="" class="pointer-events-none absolute hidden h-[60px] w-[60px] rounded-full bg-white object-contain p-2.5 shadow-[10px_10px_25px_rgba(0,0,0,0.25)] xl:block"
+                     style="top: {{ $y }}px; {{ $side }}: {{ $x }}px">
+            @endisset
         @endforeach
 
         <div class="relative mx-auto max-w-[1310px] py-10 text-center">
@@ -57,7 +66,7 @@
             </a>
 
             <div class="mx-auto mt-[50px] max-w-[786px] rounded-xl border-2 border-[#07B0FF] shadow-[0_0_10px_10px_rgba(7,176,255,0.19)]">
-                @include('landing.partials.video', ['video' => $video, 'cover' => $s['video_cover'] ?? '', 'label' => $s['video_label'] ?? '', 'ratio' => 'aspect-square'])
+                @include('landing.partials.video', ['video' => $video, 'cover' => $s['video_cover'] ?? '', 'label' => $s['video_label'] ?? '', 'ratio' => 'aspect-[786/426]'])
             </div>
         </div>
     </section>

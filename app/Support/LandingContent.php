@@ -106,7 +106,8 @@ class LandingContent
         ]],
         'gifts' => ['label' => 'Early bird gifts', 'fields' => [
             'title' => 'Title (black part)',
-            'title_red' => 'Title (red part)',
+            'title_red' => 'Title (red part – several words separated by a space rotate one by one)',
+            'subtitle_red' => 'Subtitle (red start)',
             'subtitle' => 'Subtitle',
             'items' => ['label' => 'Gifts', 'type' => 'list', 'fields' => ['icon' => 'Icon', 'title' => 'Title', 'value' => 'Value line', 'text' => ['label' => 'Text', 'type' => 'textarea', 'rows' => 2, 'span' => 2]]],
             'note' => 'Note under the cards',
@@ -146,6 +147,7 @@ class LandingContent
             'title' => 'Title',
             'text' => 'Text',
             'image' => ['label' => 'Certificate picture', 'type' => 'upload'],
+            'decoration' => ['label' => 'Decoration around the frame (confetti)', 'type' => 'upload'],
         ]],
         'glance' => ['label' => 'At a glance', 'fields' => [
             'title' => 'Title',
@@ -156,6 +158,7 @@ class LandingContent
             'title' => 'Title',
             'text' => 'Text',
             'phone' => 'WhatsApp / phone number',
+            'background' => ['label' => 'Background picture (offline box)', 'type' => 'upload'],
         ]],
         'faq' => ['label' => 'FAQ', 'fields' => [
             'title' => 'Title',

@@ -11,6 +11,7 @@ use DOMElement;
 use DOMNode;
 use DOMXPath;
 use Illuminate\Console\Command;
+use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -189,7 +190,8 @@ class ImportLiveLandingPages extends Command
             'reviews_url' => $this->one(".//a[contains(.,'review')]", $s)?->getAttribute('href') ?? '',
             'intro' => $this->text($this->one(".//*[contains(@class,'elementor-icon-list-text')] | .//*[contains(@class,'elementor-widget-text-editor')]", $s)),
             'button_label' => $this->text($this->one(".//*[contains(@class,'elementor-button-text')]", $s)),
-            'video_label' => $this->text($this->one(".//*[contains(@class,'elementor-widget-html')]", $s)),
+            // The strip on the video ("এক নজরে দেখুন কোর্সের ডেমো ক্লাস") is the 2nd icon list (or an html widget)
+            'video_label' => $this->text($this->one("(.//*[contains(@class,'elementor-widget-icon-list')])[2] | .//*[contains(@class,'elementor-widget-html')]", $s)),
             'video_source' => 'youtube',
             'video_url' => $video['url'],
             'video_file' => '',
@@ -232,7 +234,7 @@ class ImportLiveLandingPages extends Command
         return [
             'title' => $this->text($this->one(".//*[contains(@class,'elementor-heading-title')]", $s)),
             'subtitle' => $this->text($this->one("./descendant::*[contains(@class,'elementor-widget-text-editor')][1]", $s)),
-            'items' => array_map(fn ($b, $i) => ['icon' => $b['icon'] ?: ($icons[$i] ?? 'bi-check-circle'), 'title' => $b['title'], 'text' => $b['text']],
+            'items' => array_map(fn ($b, $i) => ['icon' => $b['icon'] ?: $b['image'] ?: ($icons[$i] ?? 'bi-check-circle'), 'title' => $b['title'], 'text' => $b['text']],
                 $cards, array_keys($cards)),
         ];
     }
@@ -270,7 +272,23 @@ class ImportLiveLandingPages extends Command
     {
         $headings = array_map($this->text(...), $this->all(".//*[contains(@class,'elementor-heading-title')]", $s));
         $badges = array_map($this->text(...), $this->all(".//a[contains(@class,'elementor-button')][not(contains(.,'Portfolio'))]", $s));
-        $facts = array_map($this->text(...), $this->all(".//*[contains(@class,'elementor-icon-list-text')] | .//*[contains(@class,'elementor-icon-box-title')]", $s));
+        $box = $this->one(".//*[contains(@class,'elementor-widget-icon-box')]", $s);
+
+        // Offline design: name + designation are an icon-box, and the headings are the floating badges
+        if ($box) {
+            return [
+                'photo' => $this->images(".//*[contains(@class,'elementor-widget-image')]//img", $s)[0]['image'] ?? '',
+                'name' => $this->text($this->one(".//*[contains(@class,'elementor-icon-box-title')]", $box)),
+                'designation' => $this->text($this->one(".//*[contains(@class,'elementor-icon-box-description')]", $box)),
+                'company' => '',
+                'facts' => '',
+                'bio' => $this->text($this->one(".//*[contains(@class,'elementor-widget-text-editor')]", $s)),
+                'badges' => implode(', ', array_filter($headings)),
+                'url' => $this->one(".//a[contains(.,'Portfolio')]", $s)?->getAttribute('href') ?? '',
+            ];
+        }
+
+        $facts = array_map($this->text(...), $this->all(".//*[contains(@class,'elementor-icon-list-text')]", $s));
 
         return [
             'photo' => $this->images(".//*[contains(@class,'elementor-widget-image')]//img", $s)[0]['image'] ?? '',
@@ -322,18 +340,39 @@ class ImportLiveLandingPages extends Command
         $red = $this->text($this->one(".//*[contains(@class,'elementor-headline-dynamic-text') or contains(@class,'elementor-headline-text-wrapper')][last()]", $s)
             ?? ($headline ? $this->one('.//span[last()]', $headline) : null));
         $title = trim(str_replace($red, '', $this->text($headline)));
-        $texts = array_map($this->text(...), $this->all(".//*[contains(@class,'elementor-widget-text-editor')]", $s));
+        // Animated headline: every rotating word (গিফট! অফার! গিফট!) joined with a space
+        $words = array_map($this->text(...), $this->all(".//*[contains(@class,'elementor-headline-dynamic-text')]", $s));
+        if (count($words) > 1) {
+            $red = implode(' ', $words);
+            $title = $this->text($this->one(".//*[contains(@class,'elementor-headline-plain-text')]", $s));
+        }
+        $editors = $this->all(".//*[contains(@class,'elementor-widget-text-editor')]", $s);
+        $texts = array_map($this->text(...), $editors);
         $note = $this->text($this->one(".//*[contains(@class,'elementor-icon-list-text')]", $s));
+        // Subtitle that starts with a coloured <span> (যেই ১৫ জন) → that part is shown red
+        $subRed = isset($editors[0]) ? $this->text($this->one(".//span[contains(@style,'color')]", $editors[0])) : '';
+        $subtitle = $texts[0] ?? '';
+        if ($subRed !== '' && str_starts_with($subtitle, $subRed)) {
+            $subtitle = trim(substr($subtitle, strlen($subRed)));
+        } else {
+            $subRed = '';
+        }
 
         return [
             'title' => $title,
             'title_red' => $red,
-            'subtitle' => $texts[0] ?? '',
+            'subtitle_red' => $subRed,
+            'subtitle' => $subtitle,
             'items' => array_map(function ($b) {
-                // "Ready Portfolio Template Gift - 1 ⇒ Value 1,500 TK" → title + value line
+                // Offline: "Ready Portfolio Template Gift - 1 ⇒ Value 1,500 TK" in one title → split it.
+                // Online: the "Gift - 1 ⇒ Value ..." line is the first text, the description the second.
                 [$title, $value] = array_pad(preg_split('/\s*(?=Gift\s*-)/u', $b['title'], 2), 2, '');
+                $texts = $b['texts'];
+                if ($value === '' && isset($texts[0]) && preg_match('/^Gift\s*-/u', $texts[0])) {
+                    $value = array_shift($texts);
+                }
 
-                return ['icon' => $b['icon'], 'title' => trim($title), 'value' => trim($value), 'text' => $b['text']];
+                return ['icon' => $b['icon'], 'title' => trim($title), 'value' => trim($value), 'text' => $texts[0] ?? ''];
             }, $this->cards($s)),
             'note' => $note ?: ($texts[1] ?? ''),
             'button_label' => $this->text($this->one(".//*[contains(@class,'elementor-button-text')]", $s)),
@@ -346,10 +385,15 @@ class ImportLiveLandingPages extends Command
         $images = $this->images(".//*[contains(@class,'elementor-widget-image')]//img", $s);
         $regular = $texts[2] ?? null;
         $struck = $this->text($regular ? $this->one(".//*[contains(@style,'line-through')] | .//del | .//s", $regular) : null);
+        // No marked price: the crossed-out part is the last "৩০,০০০ টাকা" of the line
+        if ($struck === '' && preg_match('/(\S+\s+টাকা)\s*$/u', $this->text($regular), $m)) {
+            $struck = $m[1];
+        }
 
+        // 1st picture = the logo in the box, 2nd = the round guarantee badge sitting on the top edge
         return [
-            'badge_image' => $images[1]['image'] ?? ($images[0]['image'] ?? ''),
-            'top_image' => isset($images[1]) ? $images[0]['image'] : '',
+            'badge_image' => $images[0]['image'] ?? '',
+            'top_image' => $images[1]['image'] ?? '',
             'guarantee_text' => $this->text($texts[0] ?? null),
             'guarantee_note' => $this->text($texts[1] ?? null),
             'countdown_title' => $this->text($this->one(".//*[contains(@class,'elementor-heading-title')][contains(.,'Offer')]", $s)),
@@ -411,6 +455,7 @@ class ImportLiveLandingPages extends Command
             'title' => $this->text($this->one(".//*[contains(@class,'elementor-heading-title')]", $s)),
             'text' => $this->text($this->one(".//*[contains(@class,'elementor-widget-text-editor')]", $s)),
             'image' => $images[0]['image'] ?? '',
+            'decoration' => $images[1]['image'] ?? '',   // confetti / paper planes around the frame
         ];
     }
 
@@ -425,7 +470,14 @@ class ImportLiveLandingPages extends Command
 
     private function readConfused(DOMNode $s): array
     {
+        // Offline: the box has a blue wave picture as background (set in the page CSS)
+        $background = $this->background($s);
+        foreach ($this->all(".//*[@data-element_type='container']", $s) as $box) {
+            $background = $background ?: $this->background($box);
+        }
+
         return [
+            'background' => $background,
             'title' => $this->text($this->one(".//*[contains(@class,'elementor-heading-title')]", $s)),
             'text' => $this->text($this->one(".//*[contains(@class,'elementor-widget-text-editor')]", $s)),
             'phone' => preg_replace('/\D/', '', $this->text($this->one(".//*[contains(@class,'elementor-button-text')]", $s))),
@@ -493,7 +545,7 @@ class ImportLiveLandingPages extends Command
                 'title' => $this->text($title),
                 'text' => $texts[0] ?? '',
                 'texts' => $texts,
-                'icon' => $this->icon($this->one('.//svg', $card)),
+                'icon' => $this->icon($this->one('.//svg', $card)) ?: $this->iconFont($this->one(".//i[contains(@class,'icon-')]", $card)),
                 'image' => $images[0] ?? '',
                 'images' => $images,
             ];
@@ -540,18 +592,38 @@ class ImportLiveLandingPages extends Command
             return '';
         }
 
-        if (preg_match('/e-fa[srb]-([\w-]+)/', $svg->getAttribute('class'), $m)) {
-            return self::ICONS[$m[1]] ?? 'bi-check-circle';
-        }
-
-        // A custom drawn icon (inline <svg>): keep it as our own file → "media/live/icons/{hash}.svg"
+        // Keep the live icon exactly: save the inline <svg> as our own file.
+        //   Font Awesome icons (one colour) → "media/live/icons/fa-html5.svg": the page colours them with a CSS mask
+        //   custom drawings (many colours)  → "media/live/icons/{hash}.svg": shown as a normal picture
         $markup = $svg->ownerDocument->saveXML($svg);
-        $markup = str_replace(['viewbox=', '<svg '], ['viewBox=', '<svg xmlns="http://www.w3.org/2000/svg" '], $markup);
-        $markup = preg_replace('/(<svg[^>]*?) xmlns="http:\/\/www\.w3\.org\/2000\/svg"(.*?) xmlns="http:\/\/www\.w3\.org\/2000\/svg"/', '$1 xmlns="http://www.w3.org/2000/svg"$2', $markup, 1);
-        $path = 'media/live/icons/'.md5($markup).'.svg';
+        $markup = preg_replace('/\s(xmlns(:xlink)?="[^"]*"|aria-hidden="[^"]*"|class="[^"]*")/', '', $markup);
+        // The HTML reader writes attribute names in lower case; SVG needs some of them in camelCase
+        $markup = str_replace(
+            ['viewbox=', 'patterncontentunits=', 'patternunits=', 'preserveaspectratio=', 'gradientunits=', 'gradienttransform=', 'clippathunits=', 'maskunits=', 'maskcontentunits=', 'stddeviation='],
+            ['viewBox=', 'patternContentUnits=', 'patternUnits=', 'preserveAspectRatio=', 'gradientUnits=', 'gradientTransform=', 'clipPathUnits=', 'maskUnits=', 'maskContentUnits=', 'stdDeviation='],
+            $markup
+        );
+        $markup = preg_replace('/^<svg/', '<svg xmlns="http://www.w3.org/2000/svg"'.(str_contains($markup, 'xlink:') ? ' xmlns:xlink="http://www.w3.org/1999/xlink"' : ''), $markup);
+
+        // fa-s-user (solid) and fa-r-user (outline) are different icons
+        $name = preg_match('/e-fa([srb])-([\w-]+)/', $svg->getAttribute('class'), $m) ? "fa-{$m[1]}-{$m[2]}" : md5($markup);
+        $path = 'media/live/icons/'.$name.'.svg';
         Storage::disk('public')->put($path, $markup);
 
         return $path;
+    }
+
+    /** ElementsKit icon font (<i class="icon icon-github">) → the closest Bootstrap icon */
+    private function iconFont(?DOMNode $i): string
+    {
+        if (! $i instanceof DOMElement || ! preg_match('/\bicon-([\w-]+)/', $i->getAttribute('class'), $m)) {
+            return '';
+        }
+
+        return [
+            'github' => 'bi-github', 'speed' => 'bi-speedometer2', 'customer-support-2' => 'bi-headset', 'file' => 'bi-file-earmark',
+            'shopping-cart' => 'bi-cart3', 'shopping-cart-3' => 'bi-cart3', 'right-arrow' => 'bi-arrow-right',
+        ][$m[1]] ?? 'bi-check-circle';
     }
 
     private function guessCourse(string $title): ?Course
@@ -566,9 +638,16 @@ class ImportLiveLandingPages extends Command
 
     private function fetch(string $url): ?string
     {
-        $response = Http::withUserAgent('Mozilla/5.0')->timeout(60)
-            ->withOptions(['verify' => $this->option('ca') ?: true])   // never false: keep HTTPS checked
-            ->get($url);
+        try {
+            // The live server is sometimes slow: try 3 times before giving up on this page
+            $response = Http::withUserAgent('Mozilla/5.0')->connectTimeout(30)->timeout(90)->retry(3, 2000, throw: false)
+                ->withOptions(['verify' => $this->option('ca') ?: true])   // never false: keep HTTPS checked
+                ->get($url);
+        } catch (ConnectionException $e) {
+            $this->warn("{$url}: {$e->getMessage()}");
+
+            return null;
+        }
 
         if (! $response->ok()) {
             $this->warn("{$url}: HTTP {$response->status()}");
@@ -600,7 +679,11 @@ class ImportLiveLandingPages extends Command
             return '';
         }
         $src = $img->getAttribute('data-lazy-src') ?: $img->getAttribute('data-src') ?: $img->getAttribute('src');
+        if (str_starts_with($src, 'data:')) {
+            return '';
+        }
 
-        return str_starts_with($src, 'data:') ? '' : $src;
+        // WordPress makes small copies ("photo-300x165.jpg"); the original ("photo.jpg") is sharp → use it
+        return preg_replace('/-\d{2,4}x\d{2,4}(?=\.(?:jpe?g|png|webp|gif)$)/i', '', $src);
     }
 }

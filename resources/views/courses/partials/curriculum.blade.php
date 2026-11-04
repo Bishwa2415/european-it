@@ -18,7 +18,8 @@
 
                             @if (! empty($class['details']))
                                 <div class="px-5 pb-2.5">
-                                    @foreach (preg_split('/\R/', trim($class['details'])) as $line)
+                                    {{-- /u: work on letters, not bytes (without it Bangla text gets cut in half) --}}
+                                    @foreach (preg_split('/\R/u', trim($class['details'])) as $line)
                                         @if (str_starts_with($line, '- '))
                                             <p class="mb-2 flex gap-1.5 pl-2.5 text-sm leading-5 text-black">
                                                 <i class="bi bi-arrow-right-short text-base leading-5 text-primary"></i>{{ substr($line, 2) }}

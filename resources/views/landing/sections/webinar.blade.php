@@ -4,17 +4,17 @@
     <div @class(['mx-auto grid max-w-[1192px] items-center gap-6 rounded-2xl p-5 lg:grid-cols-[1fr_434px]', 'bg-[#04334D]' => ! $offline, 'bg-[#0090D4]' => $offline])>
         <div>
             @if (! empty($s['badge']))
-                <span class="inline-flex items-center gap-2 rounded-lg bg-white py-3 pr-3 pl-5 font-heading text-lg leading-7 font-bold text-[#DD0000] lg:text-xl">
+                <span class="inline-flex min-w-[290px] items-center gap-2 rounded-lg bg-white py-3 pr-3 pl-5 font-heading text-lg leading-7 font-bold text-[#DD0000] lg:text-xl">
                     <span class="h-3 w-3 animate-pulse rounded-full bg-[#FF0000]"></span> {{ $s['badge'] }}
                 </span>
             @endif
             <h2 class="mt-5 text-xl leading-8 font-semibold text-white lg:text-2xl">{{ $s['title'] }}</h2>
             @if (! empty($s['note']))
-                <p @class(['mt-5 inline-block rounded-lg px-3 py-2 text-base leading-5 text-white lg:text-lg', 'bg-[#00ADEE]' => ! $offline, 'bg-[#04334D]' => $offline])>{{ $s['note'] }}</p>
+                <p @class(['mt-5 inline-block rounded-lg px-3 py-2 text-base leading-5 text-white', 'lg:text-lg' => ! $offline, 'bg-[#00ADEE]' => ! $offline, 'bg-[#04334D]' => $offline])>{{ $s['note'] }}</p>
             @endif
         </div>
 
-        <form method="POST" action="{{ route('landing.lead', $landing) }}" @class(['rounded-xl px-6 py-4', 'bg-[#0090D4]' => ! $offline, 'bg-[#04334D]' => $offline])>
+        <form method="POST" action="{{ route('landing.lead', $landing) }}" @class(['rounded-xl px-6 py-4', 'bg-[#0090D4]' => ! $offline, 'bg-transparent' => $offline])>
             @csrf
             <h3 class="text-center text-xl leading-[27px] font-semibold text-white lg:text-[22px]">{{ $s['form_title'] }}</h3>
 
@@ -25,9 +25,9 @@
             @else
                 <div class="mt-4 grid grid-cols-2 gap-2.5">
                     <input name="name" value="{{ old('name') }}" required maxlength="100" placeholder="Name" autocomplete="name"
-                           class="h-11 rounded-xl bg-white px-[15px] text-sm text-black outline-none">
+                           class="h-11 rounded-xl bg-white px-[15px] text-center font-heading text-sm text-black outline-none placeholder:text-[#ADADAD]">
                     <input name="phone" value="{{ old('phone') }}" required maxlength="20" placeholder="Phone Number" autocomplete="tel" inputmode="tel"
-                           class="h-11 rounded-xl bg-white px-[15px] text-sm text-black outline-none">
+                           class="h-11 rounded-xl bg-white px-[15px] text-center font-heading text-sm text-black outline-none placeholder:text-[#ADADAD]">
                 </div>
                 {{-- Bots fill every field; people never see this one, so a filled "website" means spam --}}
                 <input name="website" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true">

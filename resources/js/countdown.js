@@ -69,3 +69,30 @@ document.querySelectorAll('[data-video-play]').forEach((button) => {
         button.replaceWith(player);
     });
 });
+
+// ============================================================
+// Rotating words: <span data-rotate='["গিফট!","অফার!","গিফট!"]'> – like the live "animated headline".
+// Every 2.5 s the word fades out, changes to the next one and fades back in.
+// ============================================================
+document.querySelectorAll('[data-rotate]').forEach((el) => {
+    let words;
+    try {
+        words = JSON.parse(el.dataset.rotate);
+    } catch {
+        return;
+    }
+    if (!Array.isArray(words) || words.length < 2) return;
+
+    let i = 0;
+    el.style.transition = 'opacity .3s, transform .3s';
+    setInterval(() => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(-6px)';
+        setTimeout(() => {
+            i = (i + 1) % words.length;
+            el.textContent = words[i];
+            el.style.opacity = '1';
+            el.style.transform = 'none';
+        }, 300);
+    }, 2500);
+});
